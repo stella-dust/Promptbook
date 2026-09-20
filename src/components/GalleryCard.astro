@@ -1,0 +1,53 @@
+---
+import { site, taxonomy } from "../lib/content";
+import type { Entry } from "../lib/validation";
+const { entry: e } = Astro.props as { entry: Entry };
+const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
+---
+
+<article
+  class="entry-card"
+  data-id={e.id}
+  data-kind={e.kind}
+  data-category={e.category}
+  data-model={e.generation.modelLabel}
+  data-date={e.createdAt}
+  data-search={[e.title, e.prompt.text, ...e.tags, e.generation.modelLabel]
+    .join(" ")
+    .toLowerCase()}
+>
+  <a class="card-image" href={`${site.base}/p/${e.id}/`}>
+    <img
+      src={`${site.mediaBaseUrl}/${o.thumbnail.key}`}
+      alt={o.alt}
+      width={o.width}
+      height={o.height}
+      loading="lazy"
+      decoding="async"
+    />
+    {(e.kind === "video" || e.outputs.length > 1) && (
+      <span class="media-tag">
+        {e.kind === "video"
+          ? `▷ ${Math.round(o.durationSeconds ?? 0)} 秒`
+          : `${e.outputs.length} 张`}
+      </span>
+    )}
+  </a>
+  <h2>
+    <a href={`${site.base}/p/${e.id}/`}>{e.title}</a>
+  </h2>
+  <p class="excerpt">{e.prompt.text}</p>
+  <div class="card-bottom">
+    <span>
+      {e.generation.modelLabel} ·{" "}
+      {taxonomy.find((t) => t.id === e.category)?.label}
+    </span>
+    <button
+      class="text-button"
+      data-copy={e.prompt.text}
+      aria-label={`复制 ${e.title} 的 Prompt`}
+    >
+      ▧ 复制
+    </button>
+  </div>
+</article>

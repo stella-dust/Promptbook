@@ -1,0 +1,33 @@
+# INACTIVE TEMPLATE. Replace every REPLACE_* with a reviewed release commit SHA.
+# Production scripts and package-lock.json must exist before activation.
+name: Deploy reviewed main
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', 'prototype/**', 'submissions/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: promptbook-production
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Configure this environment's owner approval policy in GitHub before activation.
+    environment: production
+    steps:
+      - uses: actions/checkout@REPLACE_WITH_REVIEWED_CHECKOUT_SHA
+      - uses: actions/setup-node@REPLACE_WITH_REVIEWED_SETUP_NODE_SHA
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run check && npm run check:content && npm test
+      - run: npm run build
+        env:
+          BUILD_COMMIT: ${{ github.sha }}
+      - run: npx --no-install wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

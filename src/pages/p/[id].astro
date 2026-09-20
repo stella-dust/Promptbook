@@ -1,0 +1,216 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { published, site, taxonomy } from "../../lib/content";
+export function getStaticPaths() {
+  return published.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+const { entry: e } = Astro.props;
+const media = (key: string) => `${site.mediaBaseUrl}/${key}`;
+---
+
+<SiteLayout title={e.title}>
+  <a class="back" href={`${site.base}/`}>
+    ← 返回手记
+  </a>
+  <article class="detail">
+    <div class="detail-media" data-viewer>
+      {e.outputs.map((o) => (
+        <div data-panel={o.id} hidden={o.id !== e.coverOutputId}>
+          <div class="media-panel">
+            {o.mediaType === "video" ? (
+              <video
+                controls
+                playsinline
+                preload="none"
+                poster={media(o.thumbnail.key)}
+                width={o.width}
+                height={o.height}
+              >
+                <source
+                  src={media(o.original.key)}
+                  type={o.original.mimeType}
+                />
+                浏览器不支持此视频，请下载原文件。
+              </video>
+            ) : (
+              <button
+                data-original={media(o.original.key)}
+                data-alt={o.alt}
+                aria-label="查看原始尺寸图片"
+              >
+                <img
+                  src={media((o.preview ?? o.original).key)}
+                  alt={o.alt}
+                  width={o.width}
+                  height={o.height}
+                />
+              </button>
+            )}
+          </div>
+          <div class="media-caption">
+            <span>
+              {o.width} × {o.height}
+              {o.durationSeconds ? ` · ${o.durationSeconds.toFixed(1)} 秒` : ""}
+            </span>
+            <a
+              href={media(o.original.key)}
+              download
+              target="_blank"
+              rel="noopener"
+            >
+              原文件 ↗ · {(o.original.bytes / 1024 ** 2).toFixed(1)} MiB
+            </a>
+          </div>
+          {o.notes && <p class="editor-note">{o.notes}</p>}
+        </div>
+      ))}
+      {e.outputs.length > 1 && (
+        <div class="thumbs" aria-label="切换结果">
+          {e.outputs.map((o, i) => (
+            <button
+              data-output={o.id}
+              aria-pressed={o.id === e.coverOutputId}
+              aria-label={`查看结果 ${i + 1}`}
+            >
+              <img src={media(o.thumbnail.key)} alt="" width="60" height="60" />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+    <div class="detail-copy">
+      <span class="category-label">
+        {taxonomy.find((t) => t.id === e.category)?.label}
+      </span>
+      <h1>{e.title}</h1>
+      <p class="detail-meta">
+        {e.generation.modelLabel} · {e.generation.platform || "平台未记录"} ·{" "}
+        {e.createdAt.slice(0, 10)}
+      </p>
+      <div class="prompt-heading">
+        <span>Prompt 原文</span>
+        <button class="text-button" data-copy={e.prompt.text}>
+          ▧ 复制全文
+        </button>
+      </div>
+      <div id="prompt-original" class="prompt-text prompt-collapsible">
+        {e.prompt.text}
+      </div>
+      <button
+        class="text-button"
+        id="prompt-toggle"
+        aria-expanded="false"
+        aria-controls="prompt-original"
+        hidden
+      >
+        展开全文
+      </button>
+      {(e.references?.length ?? 0) > 0 && (
+        <details>
+          <summary>公开的参考输入（{e.references?.length}）</summary>
+          <div class="reference-grid">
+            {e.references?.map((r) => (
+              <figure>
+                <a href={media(r.asset.key)} target="_blank" rel="noopener">
+                  <img
+                    src={media(r.asset.key)}
+                    alt={r.caption || "参考输入"}
+                    loading="lazy"
+                  />
+                </a>
+                <figcaption>
+                  {
+                    {
+                      "image-reference": "参考图",
+                      "first-frame": "首帧",
+                      "last-frame": "尾帧",
+                      "style-reference": "风格参考",
+                      other: "其他参考",
+                    }[r.role]
+                  }
+                  {r.caption && ` · ${r.caption}`}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </details>
+      )}
+      {e.prompt.negativeText && (
+        <details>
+          <summary>负向 Prompt</summary>
+          <p class="followup">{e.prompt.negativeText}</p>
+        </details>
+      )}
+      {(e.prompt.followups?.length ?? 0) > 0 && (
+        <details>
+          <summary>追加提示（{e.prompt.followups?.length}）</summary>
+          {e.prompt.followups?.map((p, i) => (
+            <p class="followup">
+              {i + 1}. {p}
+            </p>
+          ))}
+        </details>
+      )}
+      <details>
+        <summary>原始生成信息</summary>
+        <dl>
+          <dt>平台</dt>
+          <dd>{e.generation.platform || "未记录"}</dd>
+          <dt>模型显示名</dt>
+          <dd>{e.generation.modelLabel}</dd>
+          <dt>模型 ID</dt>
+          <dd>{e.generation.modelId || "未记录"}</dd>
+          <dt>模型证据</dt>
+          <dd>{e.generation.modelEvidence}</dd>
+          <dt>生成时间</dt>
+          <dd>{e.generation.generatedAt || "未记录"}</dd>
+          {Object.entries(e.generation.parameters).map(([k, v]) => (
+            <>
+              <dt>{k}</dt>
+              <dd>{String(v ?? "未记录")}</dd>
+            </>
+          ))}
+        </dl>
+      </details>
+      {e.notes && (
+        <section>
+          <h2 style="font-size:14px">记录一点细节</h2>
+          <p class="detail-notes">{e.notes}</p>
+        </section>
+      )}
+      <details>
+        <summary>来源与使用说明</summary>
+        <dl>
+          <dt>作者</dt>
+          <dd>{e.source.author || "未记录"}</dd>
+          <dt>贡献者</dt>
+          <dd>{e.source.contributor || "未记录"}</dd>
+          <dt>来源</dt>
+          <dd>
+            {e.source.url ? (
+              <a href={e.source.url} target="_blank" rel="noopener noreferrer">
+                查看原始来源 ↗
+              </a>
+            ) : (
+              "原创记录"
+            )}
+          </dd>
+          <dt>Prompt 许可</dt>
+          <dd>{e.rights.prompt}</dd>
+          <dt>媒体许可</dt>
+          <dd>{e.rights.media}</dd>
+        </dl>
+        <p>{e.rights.notes}</p>
+      </details>
+    </div>
+  </article>
+  <dialog id="lightbox" class="lightbox">
+    <button id="lightbox-close" class="close">
+      关闭 ×
+    </button>
+    <img alt="" />
+  </dialog>
+</SiteLayout>

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "title": "替换为案例标题",
+  "promptText": "粘贴实际使用的完整提示词。",
+  "kind": "image",
+  "category": "product",
+  "tags": [
+    "自然光"
+  ],
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "ChatGPT 图像生成（具体版本未确认）",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "mediaSources": [
+    {
+      "url": "https://example.com/temporary-download/real-result.png",
+      "description": "替换为可以下载的真实结果临时链接；该链接不会作为生产媒体地址。"
+    }
+  ],
+  "author": "原作者署名",
+  "sourceUrl": null,
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  },
+  "notes": "说明是否使用参考图、多轮修改或后期处理。维护者接收文件后重新上传 R2。"
+}

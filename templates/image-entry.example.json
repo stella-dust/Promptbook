@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "soft-window-still-life",
+  "revision": "887530d0-4b0c-4d39-977f-4fa60d4f3910",
+  "status": "published",
+  "kind": "image",
+  "title": "窗边静物 · 记录模板示例",
+  "summary": "这是结构示例，媒体键不存在；请替换为真实 Prompt 与实际上传结果。",
+  "category": "product",
+  "tags": [
+    "自然光",
+    "静物"
+  ],
+  "createdAt": "2026-09-20T00:00:00Z",
+  "updatedAt": "2026-09-20T00:00:00Z",
+  "prompt": {
+    "text": "在这里粘贴实际使用的提示词，保留换行。\n不要用自动改写后的内容替换原始 Prompt。",
+    "language": "zh",
+    "followups": []
+  },
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "ChatGPT 图像生成（具体版本未确认）",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-one",
+      "mediaType": "image",
+      "alt": "实际生成结果的简短描述",
+      "original": {
+        "key": "published/soft-window-still-life/00000000000000000000000000000001.png",
+        "mimeType": "image/png",
+        "bytes": 4200000,
+        "sha256": null
+      },
+      "thumbnail": {
+        "key": "published/soft-window-still-life/00000000000000000000000000000002.webp",
+        "mimeType": "image/webp",
+        "bytes": 180000,
+        "sha256": null
+      },
+      "preview": {
+        "key": "published/soft-window-still-life/00000000000000000000000000000003.webp",
+        "mimeType": "image/webp",
+        "bytes": 500000,
+        "sha256": null
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown",
+      "notes": "替换为实际结果；本模板不是模型效果样例。"
+    }
+  ],
+  "coverOutputId": "output-one",
+  "references": [],
+  "source": {
+    "type": "original",
+    "author": "维护者署名",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "按实际情况填写，不继承代码的 MIT 许可。"
+  },
+  "notes": "记录想保留的细节，例如：实际使用过参考图，但没有公开参考图。",
+  "derivedFrom": null
+}

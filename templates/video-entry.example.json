@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "slow-camera-scene",
+  "revision": "4482e934-c6d6-4d7c-8fe6-08c096dab51c",
+  "status": "published",
+  "kind": "video",
+  "title": "缓慢镜头 · 视频记录模板",
+  "summary": "这是结构示例，媒体键不存在；请替换为真实 Prompt 与实际上传结果。",
+  "category": "scene",
+  "tags": [
+    "长镜头"
+  ],
+  "createdAt": "2026-09-20T00:00:00Z",
+  "updatedAt": "2026-09-20T00:00:00Z",
+  "prompt": {
+    "text": "在这里粘贴实际使用的提示词，保留换行。\n不要用自动改写后的内容替换原始 Prompt。",
+    "language": "zh",
+    "followups": []
+  },
+  "generation": {
+    "platform": "实际使用的平台",
+    "modelLabel": "实际界面显示的模型名称",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {
+      "aspect_ratio": "16:9"
+    }
+  },
+  "outputs": [
+    {
+      "id": "output-one",
+      "mediaType": "video",
+      "alt": "实际视频内容描述",
+      "original": {
+        "key": "published/slow-camera-scene/00000000000000000000000000000004.mp4",
+        "mimeType": "video/mp4",
+        "bytes": 28000000,
+        "sha256": null
+      },
+      "thumbnail": {
+        "key": "published/slow-camera-scene/00000000000000000000000000000005.webp",
+        "mimeType": "image/webp",
+        "bytes": 160000,
+        "sha256": null
+      },
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 8,
+      "postProcessing": "unknown",
+      "notes": "示例尺寸/时长需由实际文件替换。"
+    }
+  ],
+  "coverOutputId": "output-one",
+  "references": [],
+  "source": {
+    "type": "original",
+    "author": "维护者署名",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "按实际情况填写，不继承代码的 MIT 许可。"
+  },
+  "notes": "记录想保留的细节，例如：实际使用过参考图，但没有公开参考图。",
+  "derivedFrom": null
+}

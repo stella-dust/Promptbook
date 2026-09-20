@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.dev.vars*
+.env*
+!.env.example
+.DS_Store
+test-results/
+playwright-report/
+docs/evidence/*.png
+*.log
+worker/generated/
+.test-build/

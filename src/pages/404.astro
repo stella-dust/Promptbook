@@ -1,0 +1,14 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { site } from "../lib/content";
+---
+
+<SiteLayout title="这一页不在这里">
+  <div class="reading">
+    <h1>这一页不在这里。</h1>
+    <p class="muted">记录可能已归档，或链接有误。</p>
+    <a class="button primary" href={`${site.base}/`}>
+      返回手记
+    </a>
+  </div>
+</SiteLayout>

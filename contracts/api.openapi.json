@@ -1,0 +1,720 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Promptbook Owner API",
+    "version": "1.0.0",
+    "description": "Design contract, not implemented endpoints. All /api/admin requests require validated Cloudflare Access. Writes require same Origin and application/json. Public site is static."
+  },
+  "servers": [
+    {
+      "url": "https://prompts.example.com"
+    }
+  ],
+  "paths": {
+    "/api/admin/session": {
+      "get": {
+        "summary": "Validate owner identity; do not expose secrets",
+        "security": [
+          {
+            "CloudflareAccess": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "authenticated"
+                  ],
+                  "properties": {
+                    "authenticated": {
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid or absent identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Not owner / invalid Origin",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request or file too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Upstream/config unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/admin/entries/{id}": {
+      "get": {
+        "summary": "Read current GitHub entry and file SHA",
+        "security": [
+          {
+            "CloudflareAccess": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "entry",
+                    "fileSha"
+                  ],
+                  "properties": {
+                    "entry": {
+                      "$ref": "#/components/schemas/Entry"
+                    },
+                    "fileSha": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid or absent identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Not owner / invalid Origin",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request or file too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Upstream/config unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No entry"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/admin/uploads/presign": {
+      "post": {
+        "summary": "Issue short-lived PUT for private staging",
+        "security": [
+          {
+            "CloudflareAccess": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "uploadUrl",
+                    "receipt",
+                    "expiresAt",
+                    "headers"
+                  ],
+                  "properties": {
+                    "uploadUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "receipt": {
+                      "type": "string"
+                    },
+                    "expiresAt": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "headers": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid or absent identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Not owner / invalid Origin",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request or file too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Upstream/config unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "entryId",
+                  "requestId",
+                  "role",
+                  "mimeType",
+                  "bytes"
+                ],
+                "properties": {
+                  "entryId": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"
+                  },
+                  "requestId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "role": {
+                    "enum": [
+                      "original",
+                      "preview",
+                      "thumbnail",
+                      "reference"
+                    ]
+                  },
+                  "mimeType": {
+                    "enum": [
+                      "image/png",
+                      "image/jpeg",
+                      "image/webp",
+                      "video/mp4",
+                      "video/webm"
+                    ]
+                  },
+                  "bytes": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 262144000
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/admin/uploads/finalize": {
+      "post": {
+        "summary": "Validate staged bytes/MIME and idempotently copy to immutable public key",
+        "security": [
+          {
+            "CloudflareAccess": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "asset"
+                  ],
+                  "properties": {
+                    "asset": {
+                      "$ref": "#/components/schemas/Asset"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid or absent identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Not owner / invalid Origin",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request or file too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Upstream/config unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "receipt"
+                ],
+                "properties": {
+                  "receipt": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/admin/entries/publish": {
+      "post": {
+        "summary": "Validate media and commit canonical entry to fixed GitHub path",
+        "security": [
+          {
+            "CloudflareAccess": []
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid or absent identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Not owner / invalid Origin",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request or file too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Upstream/config unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "202": {
+            "description": "Committed; not yet proof of deployment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "state",
+                    "id",
+                    "revision",
+                    "commitSha",
+                    "fileSha",
+                    "publicPath"
+                  ],
+                  "properties": {
+                    "state": {
+                      "const": "committed"
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"
+                    },
+                    "revision": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "commitSha": {
+                      "type": "string"
+                    },
+                    "fileSha": {
+                      "type": "string"
+                    },
+                    "publicPath": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "File changed; never silently overwrite",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "entry",
+                  "baseFileSha",
+                  "confirmPublic"
+                ],
+                "properties": {
+                  "entry": {
+                    "$ref": "#/components/schemas/Entry"
+                  },
+                  "baseFileSha": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "confirmPublic": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "CloudflareAccess": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Cf-Access-Jwt-Assertion",
+        "description": "Injected by Cloudflare Access after authentication; origin must cryptographically verify it, not trust arbitrary client headers."
+      }
+    },
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "object",
+            "required": [
+              "code",
+              "message"
+            ],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "fieldErrors": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              },
+              "retryable": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "Asset": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "mimeType",
+          "bytes"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^published/[a-z0-9][a-z0-9-]{2,79}/[a-f0-9]{32}\\.(png|jpg|webp|mp4|webm)$"
+          },
+          "mimeType": {
+            "enum": [
+              "image/png",
+              "image/jpeg",
+              "image/webp",
+              "video/mp4",
+              "video/webm"
+            ]
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 262144000
+          },
+          "sha256": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "Entry": {
+        "$ref": "./entry.schema.json"
+      }
+    }
+  }
+}

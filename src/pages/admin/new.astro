@@ -1,0 +1,8 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import RecordEditor from "../../components/RecordEditor";
+---
+
+<SiteLayout title="新建记录" admin>
+  <RecordEditor client:load mode="new" />
+</SiteLayout>

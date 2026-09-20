@@ -1,0 +1,52 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { site } from "../lib/content";
+---
+
+<SiteLayout title="共同补一页">
+  <article class="reading">
+    <h1>让一份好结果，有迹可循。</h1>
+    <p class="muted">
+      如果你愿意，把真实用过的提示词和结果分享给这本手记。
+      <br />
+      不需要新账号，通过 GitHub 留下一页就好。
+    </p>
+    <section>
+      <h2>带上这几样就够了</h2>
+      <p>
+        完整的 Prompt
+        原文、真实生成结果的临时链接、使用的平台与模型，以及你希望保留的署名。模型版本不确定，可以直接写“未知”。
+      </p>
+      <p>
+        请确认你有权分享这些内容。图片与视频的使用许可独立于代码许可，不会默认变成免费素材。
+      </p>
+      <div class="actions">
+        <a
+          class="button primary"
+          href={`${site.repository}/issues/new`}
+          target="_blank"
+          rel="noopener"
+        >
+          提交一份记录 ↗
+        </a>
+        <a
+          class="button"
+          href={`${site.base}/submission.example.json`}
+          download
+        >
+          下载投稿模板 ↓
+        </a>
+      </div>
+    </section>
+    <section>
+      <h2>整理之后，再放进手记</h2>
+      <p>
+        投稿先进入待整理区。维护者核对来源、署名与媒体，上传真实结果后发布。请不要直接把大图片或视频提交进
+        Git。
+      </p>
+      <a class="button" href={site.repository} target="_blank" rel="noopener">
+        查看 GitHub 仓库 ↗
+      </a>
+    </section>
+  </article>
+</SiteLayout>

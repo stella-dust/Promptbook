@@ -1,0 +1,54 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "promptbook",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": [
+      "/projects/promptbook/admin",
+      "/projects/promptbook/admin/*",
+      "/projects/promptbook/api/*"
+    ]
+  },
+  "vars": {
+    "SITE_ORIGIN": "https://junyiyan.com",
+    "BASE_PATH": "/projects/promptbook",
+    "GITHUB_REPOSITORY": "stella-dust/Promptbook",
+    "GITHUB_BRANCH": "main",
+    "R2_ACCOUNT_ID": "f5b3ac059cd23f67c6f19e9c71cd5332",
+    "STAGING_BUCKET_NAME": "promptbook-staging"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  },
+  "rules": [
+    {
+      "type": "Text",
+      "globs": [
+        "**/*.html"
+      ],
+      "fallthrough": true
+    }
+  ],
+  "account_id": "f5b3ac059cd23f67c6f19e9c71cd5332",
+  "r2_buckets": [
+    {
+      "binding": "STAGING",
+      "bucket_name": "promptbook-staging"
+    },
+    {
+      "binding": "MEDIA",
+      "bucket_name": "promptbook-media"
+    }
+  ]
+}

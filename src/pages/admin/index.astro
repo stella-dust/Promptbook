@@ -1,0 +1,156 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { entries, site } from "../../lib/content";
+---
+
+<SiteLayout title="管理手记" admin>
+  <section class="reading">
+    <h1>继续写这一页。</h1>
+    <p class="muted">草稿留在当前浏览器，发布的记录留在 GitHub。</p>
+    <a class="button primary" href={`${site.base}/admin/new/`}>
+      ＋ 新建记录
+    </a>
+    <section>
+      <h2>当前浏览器草稿</h2>
+      <div id="drafts">
+        <p>正在读取草稿…</p>
+      </div>
+    </section>
+    <section>
+      <h2>已提交的记录</h2>
+      {entries.length === 0 ? (
+        <p class="muted">还没有公开记录。</p>
+      ) : (
+        entries.map((e) => (
+          <div class="draft-row">
+            <div>
+              {e.title}
+              <small>
+                {e.status === "archived" ? "已归档" : "已发布"} ·{" "}
+                {e.updatedAt.slice(0, 10)}
+              </small>
+            </div>
+            <a class="button" href={`${site.base}/admin/edit/?id=${e.id}`}>
+              编辑
+            </a>
+          </div>
+        ))
+      )}
+    </section>
+    <section>
+      <h2>从贡献模板开始</h2>
+      <p>导入投稿 JSON 后确认署名、来源和许可，再手动选择真实结果文件。</p>
+      <label class="button">
+        导入投稿 JSON
+        <input
+          id="submission"
+          type="file"
+          accept="application/json,.json"
+          class="sr-only"
+        />
+      </label>
+      <p id="import-status" role="status"></p>
+    </section>
+  </section>
+</SiteLayout>
+<script>
+  import validateSubmission from "../../generated/submission-validator.js";
+  import { listDrafts, removeDraft, saveDraft } from "../../lib/drafts";
+  import site from "../../../content/site.json";
+  async function render() {
+    const el = document.querySelector("#drafts")!;
+    el.replaceChildren();
+    try {
+      const drafts = (await listDrafts()).sort((a, b) =>
+        b.savedAt.localeCompare(a.savedAt),
+      );
+      if (!drafts.length) {
+        el.textContent = "还没有本地草稿。";
+        return;
+      }
+      for (const d of drafts) {
+        const row = document.createElement("div");
+        row.className = "draft-row";
+        const text = document.createElement("span");
+        text.textContent = d.entry.title || "未命名草稿";
+        const small = document.createElement("small");
+        small.textContent = new Date(d.savedAt).toLocaleString();
+        text.append(small);
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        const link = document.createElement("a");
+        link.className = "button";
+        link.href = `${site.base}/admin/${d.baseFileSha ? "edit" : "new"}/?draft=${d.id}`;
+        link.textContent = "继续编辑";
+        const button = document.createElement("button");
+        button.textContent = "删除草稿";
+        button.onclick = async () => {
+          if (
+            confirm(
+              "删除当前浏览器中的这份草稿及本地媒体？已发布记录不会改变。",
+            )
+          ) {
+            await removeDraft(d.id);
+            await render();
+          }
+        };
+        actions.append(link, button);
+        row.append(text, actions);
+        el.append(row);
+      }
+    } catch {
+      el.textContent = "无法读取浏览器草稿，请检查隐私或存储设置。";
+    }
+  }
+  void render();
+  document.querySelector<HTMLInputElement>("#submission")!.onchange = async (
+    e,
+  ) => {
+    const status = document.querySelector("#import-status")!;
+    try {
+      const file = (e.target as HTMLInputElement).files?.[0];
+      if (!file) return;
+      if (file.size > 512 * 1024) throw new Error("投稿文件超过 512 KiB");
+      const s = JSON.parse(await file.text());
+      if(!validateSubmission(s)) throw new Error('投稿格式不符合模板，请检查必填字段与来源链接');
+      const now = new Date().toISOString();
+      const id = "note-" + crypto.randomUUID();
+      await saveDraft({
+        id,
+        savedAt: now,
+        files: [],
+        baseFileSha: null,
+        entry: {
+          schemaVersion: 1,
+          id,
+          revision: crypto.randomUUID(),
+          status: "published",
+          kind: s.kind === "video" ? "video" : "image",
+          title: s.title,
+          category: s.category ?? "other",
+          tags: s.tags ?? [],
+          createdAt: now,
+          updatedAt: now,
+          prompt: { text: s.promptText },
+          generation: s.generation ?? {
+            platform: "",
+            modelLabel: "未知模型",
+            modelId: null,
+            modelEvidence: "unknown",
+            generatedAt: null,
+            parameters: {},
+          },
+          outputs: [],
+          coverOutputId: "",
+          references: [],
+          source: { type: s.sourceUrl ? "collected" : "original", author: s.author, url: s.sourceUrl, contributor: s.author },
+          rights: s.rights ?? { prompt: "unspecified", media: "unspecified" },
+          notes: s.notes ?? "",
+        },
+      });
+      location.href = `${site.base}/admin/new/?draft=${id}`;
+    } catch (error) {
+      status.textContent = (error as Error).message;
+    }
+  };
+</script>

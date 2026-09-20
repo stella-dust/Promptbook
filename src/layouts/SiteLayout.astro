@@ -1,0 +1,76 @@
+---
+import "../styles/global.css";
+import { site } from "../lib/content";
+const { title = site.title, admin = false } = Astro.props;
+const base = site.base;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={site.description} />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>{title} · {site.name}</title>
+    <link rel="icon" href={`${base}/favicon.svg`} />
+    {admin && <meta name="robots" content="noindex,nofollow" />}
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      跳到主要内容
+    </a>
+    <header class="masthead">
+      <a class="brand" href={`${base}/`} aria-label="Promptbook 首页">
+        <svg viewBox="0 0 28 32" width="24" height="28" aria-hidden="true">
+          <path
+            d="M4 3h17v23H4zM8 7h17v23H8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.2"
+          />
+        </svg>
+        <span>
+          {site.name}
+          <i>.</i>
+        </span>
+      </a>
+      <span class="site-subtitle">一本提示词手记</span>
+      <nav aria-label="主导航">
+        <a
+          href={`${base}/`}
+          aria-current={Astro.url.pathname === `${base}/` ? "page" : undefined}
+        >
+          手记
+        </a>
+        <a href={`${base}/contribute/`}>
+          共同补一页 <span aria-hidden="true">↗</span>
+        </a>
+        {admin && (
+          <a class="button primary" href={`${base}/admin/new/`}>
+            ＋ 新建记录
+          </a>
+        )}
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <div>
+        <a class="footer-brand" href={`${base}/`}>
+          {site.name}.
+        </a>
+        <span>留住结果，也留住来路。</span>
+      </div>
+      <div>
+        <a href="https://junyiyan.com/">Junyi 的主页 ↗</a>
+        <a href={`${base}/admin/`}>管理手记</a>
+      </div>
+    </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script>
+      import "../lib/public-client";
+    </script>
+  </body>
+</html>
