@@ -95,3 +95,8 @@
 - 增加 `junyiyan.com public site callback` 根域 Access 应用，策略为 Everyone Bypass；更具体的 `Promptbook admin` 路径应用继续优先且只允许维护者。回调裸路径由 404 变成 Access 自己的 400，过期回调由 404 变成“token expired”。从正式 `/projects/promptbook/admin/new/` 重新进入后，浏览器实际打开“新建记录”编辑器，未再停在回调。公开博客与 Promptbook 首页 `curl` 200，未登录管理页与管理 API 各 302；没有将博客设为登录可见。
 - 以 Wrangler 4.135.0 向 Worker 写入 `PUBLISH_ENABLED=true`，命令成功；Secret 列表仍包含 Access、GitHub、R2、维护者邮箱和回执密钥等 8 项配置名称。刷新后的维护者编辑器不再显示“发布服务尚未接通”，发布按钮可用。公开 `build-info.json` 的 `commitSha=ea3a4b4a4b493c2b6d08031fe25c3a3f8eeef2d5` 与仓库 HEAD 一致。
 - 本地 `npm run check` 成功（0 error、0 warning、1 个 `returnValue` 弃用提示）；`npm test` 36/36 通过。未用真实生成结果完成 R2 直传、GitHub 内容提交及内容自动上线；这部分仍是**未联调**，不伪造作品或用测试记录冒充真实作品。应用浏览器直接打开会话 JSON 端点被客户端拦截，编辑器状态是当前维护者会话可发布的实际证据。
+
+## 2026-09-21 01:50 T2P 测试素材整理
+
+- 用户指定其 T2P ChatGPT 项目作为 Promptbook 的测试素材来源。通过已连接的项目与对话读取接口定位 7 段对话：6 段图片提示词测试，1 段为 Promptbook 开发材料。6 段中有一段重复提交，同一 Prompt 只保留一次。
+- 在 `submissions/t2p-pending-prompts.jsonl` 原文记录 6 组 Prompt（保留换行与尾随空格）、来源对话 ID 和待补结果状态；同目录 Markdown 提供索引。读取结果没有生成媒体附件或明确模型版本；未推断模型、生成时间、许可，也没有把提示词单独写入 `content/entries/` 或公开画廊。应用浏览器访问项目链接需要单独登录，但对话文本已由已连接的项目接口读取。
