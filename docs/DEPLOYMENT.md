@@ -1,6 +1,6 @@
 # 部署与运维
 
-当前工程已实现并部署公开页面，未完成全部外部联调。实际证据见 `PROGRESS.md`。根目录 `wrangler.jsonc` 与 `.github/workflows/` 是生效配置；`infra/*.example` 仅保留作设计参考。
+当前工程已实现并部署公开页面；管理者登录、浏览器直传和真实内容发布仍需最终联调。实际证据见 `PROGRESS.md`。根目录 `wrangler.jsonc` 与 `.github/workflows/` 是生效配置；`infra/*.example` 仅保留作设计参考。
 
 ## 本项目当前接入
 
@@ -10,8 +10,9 @@
 - 媒体域名：`https://promptbook-media.junyiyan.com` 已绑定 R2 media 桶；所有权与 SSL 状态均为 active。临时对象 HTTPS GET 200、Range 206、删除后 404 已实测。
 - 两个 Standard R2 桶已创建；staging CORS 与 7 天清理已配置；media 不自动删除。
 - Access 同一应用覆盖 `junyiyan.com/projects/promptbook/admin`、`junyiyan.com/projects/promptbook/admin/*`、`junyiyan.com/projects/promptbook/api/admin`、`junyiyan.com/projects/promptbook/api/admin/*`。只允许当前 Cloudflare 登录邮箱（只存服务器配置），使用一致的应用 AUD。未登录请求已实测跳转 Access；维护者登录后的写入尚未联调。
-- `.dev.vars` 是忽略的本机配置文件。填写后运行 `node scripts/set-secrets.mjs`；脚本拒绝模板占位值。`PUBLISH_ENABLED=false` 保持关闭，直到 Access、媒体域名与自动部署都验证完成。
-- GitHub Actions 需要 Secret `CLOUDFLARE_API_TOKEN`（仅目标账号中现有 `promptbook` Worker 的编辑/部署权限；部署已有 R2 binding 不需要直接读取 R2 对象的权限），Variable `CLOUDFLARE_DEPLOY_ENABLED=true`；通过 stdin 或 GitHub Secrets 设置，不写进仓库。不要把 Wrangler OAuth 或全局 GitHub CLI Token 当持久生产密钥。
+- `.dev.vars` 是忽略的本机配置文件。填写后运行 `node scripts/set-secrets.mjs`；脚本拒绝模板占位值。生产 `PUBLISH_ENABLED` 尚保持关闭；维护者登录成功后开启，再完成上传与写入联调，失败时立即关闭并保留草稿。
+- GitHub Actions Secret `CLOUDFLARE_API_TOKEN`（仅目标账号中现有 `promptbook` Worker 的编辑/部署权限；部署已有 R2 binding 不需要直接读取 R2 对象的权限）与 Variable `CLOUDFLARE_DEPLOY_ENABLED=true` 已配置。手动 Actions 部署运行 `35522627351` attempt 3 成功。不要把 Wrangler OAuth 或全局 GitHub CLI Token 当持久生产密钥。
+- Worker Secrets `GITHUB_TOKEN`（仅目标仓库 Contents 读写）、`R2_ACCESS_KEY_ID` 与 `R2_SECRET_ACCESS_KEY`（仅两只桶对象读写）已配置；两组令牌均于 2027-09-20 到期，届时需轮换。`PUBLISH_ENABLED` 继续作为管理写入的独立开关。
 
 当前博客路径代理会产生 Pages Functions 请求，并非所有公共请求都享受纯静态零 Worker 调用。现阶段未升级付费计划。
 

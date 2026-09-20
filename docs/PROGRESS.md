@@ -1,6 +1,6 @@
 # 实施记录
 
-所有时间为 2026-09-20，Asia/Shanghai。外部状态以最近一次实际验证为准。
+未单独标注日期的时间为 2026-09-20，Asia/Shanghai。外部状态以最近一次实际验证为准。
 
 ## 初始核查
 
@@ -73,3 +73,18 @@
 - 迁移后公网直连：博客根路径 200，Promptbook 200，未登录管理页 302，`www` 301，`stockeros` 200。博客 Pages 自定义域名状态保持 active。
 - 通过 MCP 将 `promptbook-media.junyiyan.com` 绑定到 media 桶；所有权与 SSL 状态最终回读均为 active。公网 HTTPS 证书校验成功；临时 `_health` 对象 GET 200、Range 206 且内容字节一致，随后删除并复查 404。未上传演示作品到公开记录。
 - 当前剩余：仅目标仓库的 GitHub 写入凭据、仅两桶的 R2 S3 凭据、GitHub 自动部署专用 Cloudflare token；`PUBLISH_ENABLED=false`，真实登录后直传、GitHub 提交与自动上线尚未联调。Cloudflare MCP 的 API Token 列表接口返回 9109，不能当作已具备令牌管理权限。
+
+## 23:02 受限凭据续接
+
+- 用户明确同意创建并配置仅两桶 R2 S3、仅 `stella-dust/Promptbook` Contents 和仅当前账号 Worker 部署的三组凭据。尚未创建或写入生产 Secret；不以已授权代替完成状态。
+- Cloudflare MCP 已连接，但 Account API Token、User API Token、权限组接口均返回 `9109 Unauthorized`；不能通过当前 OAuth 创建所需令牌。电脑浏览器控制暂时无法读取 Cloudflare/GitHub 令牌页（浏览器连接错误、Chrome 页面仅返回窗口标题），已请求用户保持 Cloudflare 控制台前台以便续接。没有复用广权限的 GitHub CLI Token。
+- 官方 Cloudflare Worker 权限文档确认：部署已有 R2 binding 只需目标 Worker 的 Editor 权限，不需直接读取 R2 对象。已同步更正 `docs/DEPLOYMENT.md`，提交 `35e9265` 推送 main；GitHub Validate `35518247818` 成功，Deploy `35518247826` 因开关尚未启用而跳过。
+- 用户在应用浏览器完成 Cloudflare 登录。控制台已创建名称为 `promptbook-github-deploy` 的账号 API 令牌；创建前审核显示资源只含 `promptbook` Worker、权限为 `Individual Workers Editor`、有效期 1 年，创建成功对话框已出现。一次性令牌尚未写入 GitHub Secret，因此自动部署仍未启用；继续等候应用浏览器中的 GitHub 登录。
+
+## 2026-09-21 00:26 生产凭据与部署续接
+
+- Cloudflare 控制台创建 `promptbook-media-upload` R2 Account API Token：对象读写，仅 `promptbook-staging`、`promptbook-media`，到期 2027-09-20；S3 access key ID 和 secret 已作为 `R2_ACCESS_KEY_ID`、`R2_SECRET_ACCESS_KEY` 两项 Worker Secrets 写入，设置页回读为“值已加密”。未复用账号中既有全桶管理员令牌。
+- GitHub 控制台创建 `promptbook-worker-publisher` fine-grained PAT：资源所有者 `stella-dust`、仅 `Promptbook` 仓库、Contents read/write、必需的 Metadata read-only，到期 2027-09-20。一次性值已作为 Worker `GITHUB_TOKEN` Secret 写入并在设置页回读为加密；不在仓库和文档保存值。
+- 已把仅 `promptbook` Worker Editor 的 `promptbook-github-deploy` Cloudflare 令牌存为仓库 Actions Secret `CLOUDFLARE_API_TOKEN`，仓库设置页回读确认；设置 `CLOUDFLARE_DEPLOY_ENABLED=true`。手动触发 Deploy 运行 `35522627351`，构建/检查/测试通过，但首轮 Wrangler 因控制台最后部署的远端配置元数据读取失败。检查固定 Wrangler 4.135.0 代码可知：当最后部署来源为 Dashboard，Wrangler 会额外读取 bindings、routes、domains、subdomain、service 和 cron 元数据以做配置 diff；Cloudflare 文档仍规定部署既有 Worker 只需该 Worker Editor。
+- 使用本机已授权 Wrangler OAuth 执行 `GITHUB_SHA=35e9265 npm run deploy`，构建及部署通过，Worker 版本 `9b7f3b16-0d86-45b5-8c14-1096ce50efa5`。随后重试 Actions 部署（同一运行 attempt 3）。`PUBLISH_ENABLED` 仍为 false，尚未把配置完成等同于真实发布链路通过。
+- Actions 运行 `35522627351` attempt 3 最终 `success`，部署后的 Worker 设置页回读确认 `GITHUB_TOKEN`、两项 R2 S3 Secrets 和 `PUBLISH_ENABLED` 均仍为加密值。公网 `curl` 实测博客根路径及 Promptbook 首页 200，`build-info.json` 的 `commitSha=35e9265a0fd12733331369df85dc301d5fe0a76e`，未登录 `/admin/new/` 302 到 Access。登录码已发送维护者邮箱；维护者会话及写入仍待联调。
