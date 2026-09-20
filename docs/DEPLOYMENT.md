@@ -6,16 +6,16 @@
 
 - 页面：`https://junyiyan.com/projects/promptbook/`，Worker：`promptbook`。
 - 仓库：`stella-dust/Promptbook`，固定分支 `main`。
-- 现有博客 Pages：`junyiyan-blog`，生产分支 `master`。仅新增 `functions/projects/promptbook/[[path]].js`，production service binding `PROMPTBOOK → promptbook`；DNS 仍在阿里云。API 配置字段为 `deployment_configs.production.services`。
-- 媒体目标：`https://promptbook-media.junyiyan.com`，**尚未绑定**。当前账号无该 zone，迁移 DNS 前须导出全部旧记录并逐项核对博客、邮箱和验证记录，不能只复制网页记录。
+- 现有博客 Pages：`junyiyan-blog`，生产分支 `master`。仅新增 `functions/projects/promptbook/[[path]].js`，production service binding `PROMPTBOOK → promptbook`。域名仍在阿里云注册；权威 DNS 已迁至 Cloudflare 免费 zone，原阿里云解析保留作回退。API 配置字段为 `deployment_configs.production.services`。
+- 媒体域名：`https://promptbook-media.junyiyan.com` 已绑定 R2 media 桶；所有权与 SSL 状态均为 active。临时对象 HTTPS GET 200、Range 206、删除后 404 已实测。
 - 两个 Standard R2 桶已创建；staging CORS 与 7 天清理已配置；media 不自动删除。
-- Access 同一应用覆盖 `junyiyan.com/projects/promptbook/admin`、`junyiyan.com/projects/promptbook/admin/*`、`junyiyan.com/projects/promptbook/api/*`。只允许当前 Cloudflare 登录邮箱（只存服务器配置），使用一致的应用 AUD。
+- Access 同一应用覆盖 `junyiyan.com/projects/promptbook/admin`、`junyiyan.com/projects/promptbook/admin/*`、`junyiyan.com/projects/promptbook/api/admin`、`junyiyan.com/projects/promptbook/api/admin/*`。只允许当前 Cloudflare 登录邮箱（只存服务器配置），使用一致的应用 AUD。未登录请求已实测跳转 Access；维护者登录后的写入尚未联调。
 - `.dev.vars` 是忽略的本机配置文件。填写后运行 `node scripts/set-secrets.mjs`；脚本拒绝模板占位值。`PUBLISH_ENABLED=false` 保持关闭，直到 Access、媒体域名与自动部署都验证完成。
 - GitHub Actions 需要 Secret `CLOUDFLARE_API_TOKEN`（目标账号 Worker Scripts 编辑及部署需要的 R2 读取权限），Variable `CLOUDFLARE_DEPLOY_ENABLED=true`；通过 stdin 或 GitHub Secrets 设置，不写进仓库。不要把 Wrangler OAuth 或全局 GitHub CLI Token 当持久生产密钥。
 
-当前保留 DNS 的路径代理会产生 Pages Functions 请求，并非所有公共请求都享受纯静态零 Worker 调用。现阶段未升级付费计划。
+当前博客路径代理会产生 Pages Functions 请求，并非所有公共请求都享受纯静态零 Worker 调用。现阶段未升级付费计划。
 
-回滚博客接入可 revert 提交 `0b8dd41679e771eef97aee7b74d5e4a60652c3f7`，或回滚 Pages 到 `850c0ae3-459f-42c3-b9a5-3f48bfd726e3`；Promptbook Worker 可独立回滚其版本，不恢复/删除 R2 媒体。
+回滚 DNS 委派可在阿里云注册商把 NS 改回 `dns3.hichina.com`、`dns4.hichina.com`；原三条解析仍保留。回滚博客接入可 revert 提交 `0b8dd41679e771eef97aee7b74d5e4a60652c3f7`，或回滚 Pages 到 `850c0ae3-459f-42c3-b9a5-3f48bfd726e3`；Promptbook Worker 可独立回滚其版本，不恢复/删除 R2 媒体。
 
 ## 1. 一次性资源
 

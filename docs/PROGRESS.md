@@ -32,7 +32,7 @@
 - 博客提交 0b8dd41679e771eef97aee7b74d5e4a60652c3f7 已推送 master；生产部署 7f4a57d4-2d9b-4363-9f31-aef489730a46 状态 success。改动前回滚点为 850c0ae3-459f-42c3-b9a5-3f48bfd726e3 / 79193f91e36d9f5fce8b6dfcb16124e8f7d341ff。
 - 21:53–21:54 curl 实测：博客首页 200，Promptbook 200，管理页 503（管理登录尚未配置），build-info 返回空 entries。Python urllib 在当前网络返回403，curl独立请求成功；不把该网络差异写成产品错误。
 
-## 尚未完成的真实联调
+## 22:00 时尚未完成的真实联调（历史快照）
 
 - Cloudflare Access 应用/唯一邮箱策略，以及 ACCESS_TEAM_DOMAIN、ACCESS_AUD；现有 Wrangler OAuth 无 Access 管理权限。
 - 单仓库 GitHub Contents 读写 Token、两桶 R2 S3 凭据；不能复用广权限 gh CLI Token。
@@ -57,3 +57,19 @@
 - `GITHUB_SHA=$(git rev-parse HEAD) npm run deploy` 通过。最新 Worker 版本 `e0e891f6-64d4-458e-9479-ce882766bff6`；静态资源上传完成，启动 2 ms。没有 workers.dev/route target，现有 Pages service binding 已实际访问到此版本。
 - curl 线上复核：`/` 200（标题 Junyi Yan）；`/projects/promptbook` 307；尾斜线首页与 contribute 200；build-info 200 且 commitSha 等于上述源码提交；不存在页面404；admin、admin/new、api/admin/session 503；编码路径 `%61dmin/new/` 跟随规范化重定向后503，没有泄漏管理HTML。
 - Cloudflare 仍使用原免费 Workers 计划；R2 两桶为 Standard。未迁移 DNS，未更改博客内容，未上传真实或演示媒体到公网。
+
+## MCP 接入续接
+
+- 2026-09-20 22:16：用户确认已授权后执行连接检查。原终端 CLI 0.147.0 的 OAuth 回调超时；App 自带 CLI 为 0.155.0-alpha.9.2，MCP 握手报告凭据缺少 authorization server issuer。没有将配置存在等同于连接成功。
+- 使用 App 自带 CLI 重新发起官方 Cloudflare API MCP 登录；本段记录当时等待用户确认的状态，后续成功连接见下文。
+- Wrangler 实际写入 3 项 Worker Secrets：OWNER_EMAIL、UPLOAD_RECEIPT_SECRET、PUBLISH_ENABLED=false。Access 与生产发布仍保持未接通；不在文档记录密钥值。
+
+## 22:49 Cloudflare MCP、Access 与 DNS 实际联调
+
+- 用户完成官方 Cloudflare API MCP OAuth；通过 MCP 回读确认账号内的两只 R2 桶。创建 Zero Trust 组织 `junyi-promptbook.cloudflareaccess.com`、邮箱一次性验证码身份源、仅允许唯一维护者邮箱的可复用策略和 `Promptbook admin` Access 应用。应用覆盖 `/projects/promptbook/admin`、`/admin/*`、`/api/admin`、`/api/admin/*` 四个路径；服务端 `ACCESS_TEAM_DOMAIN`、`ACCESS_AUD` 已写入 Worker Secrets，邮箱值不入库。回读确认策略与 IdP 关联。
+- 外网直连 `curl`：博客首页和 Promptbook 首页各 200，未登录管理页及 API 各 302 到 Cloudflare Access；尚未用维护者会话完成登录后操作，不能把跳转等同于完整鉴权联调。
+- 个人阿里云账号登录后，控制台与独立 `aliyun --profile promptbook-personal alidns DescribeDomainRecords` 一致确认仅有 3 条启用 CNAME：`@`、`www` → `junyiyan-blog.pages.dev`，`stockeros` → `stocker-os.pages.dev`，TTL 600；`dig DS` 无结果。两套 Pages 项目的对应自定义域名均为 active。
+- 在 Cloudflare 免费计划建立 `junyiyan.com` full zone，预置同样 3 条 CNAME，向新 NS 直查成功。使用阿里云个人账号提交 NS 任务；注册商 API 回读已为 `ashton.ns.cloudflare.com` / `isla.ns.cloudflare.com`，`.com` 父区委派也已更新。Cloudflare zone 状态 active；未变更阿里云的原解析记录，旧 NS 可用于回退。
+- 迁移后公网直连：博客根路径 200，Promptbook 200，未登录管理页 302，`www` 301，`stockeros` 200。博客 Pages 自定义域名状态保持 active。
+- 通过 MCP 将 `promptbook-media.junyiyan.com` 绑定到 media 桶；所有权与 SSL 状态最终回读均为 active。公网 HTTPS 证书校验成功；临时 `_health` 对象 GET 200、Range 206 且内容字节一致，随后删除并复查 404。未上传演示作品到公开记录。
+- 当前剩余：仅目标仓库的 GitHub 写入凭据、仅两桶的 R2 S3 凭据、GitHub 自动部署专用 Cloudflare token；`PUBLISH_ENABLED=false`，真实登录后直传、GitHub 提交与自动上线尚未联调。Cloudflare MCP 的 API Token 列表接口返回 9109，不能当作已具备令牌管理权限。
