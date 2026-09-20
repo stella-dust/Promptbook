@@ -107,3 +107,4 @@
 - 原始 PNG 附带非图像 `caBX` 块；发布前用 Sharp 重新编码移除附带元数据，七张图片解码后的像素与输入逐一比对相同。每张另外生成 800px WebP 缩略图及最多 1800px WebP 预览图，均不裁切。七组共 21 个对象写入 Cloudflare Standard R2 媒体桶；从公开媒体域名下载 21 个对象，字节长度与 SHA-256 全部匹配。
 - 导入使用本机已授权 Wrangler 直接上传 R2，未经过管理页的暂存回执流程。为让这些对象后续仍可在管理页编辑，Worker 对没有上传回执元数据的对象要求记录 SHA-256 与实际 R2 内容匹配；原回执路径继续按 `entryId` 验证。该行为新增测试，不能把直接上传视作管理页完整发布链路已联调。
 - 本地运行 `npm run check:content`：7 条；`npm run check`：0 错误、0 警告、1 个既有 `returnValue` 弃用提示；`npm test`：37/37 通过；`npm run build`：生成 7 条详情页。Impeccable 检测指出既有灯箱空 `img src`，已改用当前封面实图。浏览器可视化工具连接超时，截图验收待补。
+- 提交 `01973d20bb5efa062358952cf048a1dea2b9b1d1` 后，GitHub Validate `35529547537` 与 Deploy Cloudflare `35529547606` 均为 success。公网 `build-info.json` 回读到该 commit 且含 7 条记录；首页含 7 张作品卡片，7 个详情 URL 逐一返回 HTTP 200。浏览器 DOM/截图连接仍超时，因此不把 HTTP 检查写成视觉截图验收。
