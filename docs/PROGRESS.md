@@ -88,3 +88,10 @@
 - 已把仅 `promptbook` Worker Editor 的 `promptbook-github-deploy` Cloudflare 令牌存为仓库 Actions Secret `CLOUDFLARE_API_TOKEN`，仓库设置页回读确认；设置 `CLOUDFLARE_DEPLOY_ENABLED=true`。手动触发 Deploy 运行 `35522627351`，构建/检查/测试通过，但首轮 Wrangler 因控制台最后部署的远端配置元数据读取失败。检查固定 Wrangler 4.135.0 代码可知：当最后部署来源为 Dashboard，Wrangler 会额外读取 bindings、routes、domains、subdomain、service 和 cron 元数据以做配置 diff；Cloudflare 文档仍规定部署既有 Worker 只需该 Worker Editor。
 - 使用本机已授权 Wrangler OAuth 执行 `GITHUB_SHA=35e9265 npm run deploy`，构建及部署通过，Worker 版本 `9b7f3b16-0d86-45b5-8c14-1096ce50efa5`。随后重试 Actions 部署（同一运行 attempt 3）。`PUBLISH_ENABLED` 仍为 false，尚未把配置完成等同于真实发布链路通过。
 - Actions 运行 `35522627351` attempt 3 最终 `success`，部署后的 Worker 设置页回读确认 `GITHUB_TOKEN`、两项 R2 S3 Secrets 和 `PUBLISH_ENABLED` 均仍为加密值。公网 `curl` 实测博客根路径及 Promptbook 首页 200，`build-info.json` 的 `commitSha=35e9265a0fd12733331369df85dc301d5fe0a76e`，未登录 `/admin/new/` 302 到 Access。登录码已发送维护者邮箱；维护者会话及写入仍待联调。
+
+## 2026-09-21 01:19 Access 回调与发布开关
+
+- 维护者在应用浏览器完成邮箱验证码；Cloudflare Access 认证日志两次显示 `Promptbook admin` 登录 `allowed=true`。原登录回到 `junyiyan.com/cdn-cgi/access/authorized` 时出现 404。Cloudflare Pages 的自定义域名 Access 已知问题要求为自定义域名配置应用：https://developers.cloudflare.com/pages/platform/known-issues/ 。
+- 增加 `junyiyan.com public site callback` 根域 Access 应用，策略为 Everyone Bypass；更具体的 `Promptbook admin` 路径应用继续优先且只允许维护者。回调裸路径由 404 变成 Access 自己的 400，过期回调由 404 变成“token expired”。从正式 `/projects/promptbook/admin/new/` 重新进入后，浏览器实际打开“新建记录”编辑器，未再停在回调。公开博客与 Promptbook 首页 `curl` 200，未登录管理页与管理 API 各 302；没有将博客设为登录可见。
+- 以 Wrangler 4.135.0 向 Worker 写入 `PUBLISH_ENABLED=true`，命令成功；Secret 列表仍包含 Access、GitHub、R2、维护者邮箱和回执密钥等 8 项配置名称。刷新后的维护者编辑器不再显示“发布服务尚未接通”，发布按钮可用。公开 `build-info.json` 的 `commitSha=ea3a4b4a4b493c2b6d08031fe25c3a3f8eeef2d5` 与仓库 HEAD 一致。
+- 本地 `npm run check` 成功（0 error、0 warning、1 个 `returnValue` 弃用提示）；`npm test` 36/36 通过。未用真实生成结果完成 R2 直传、GitHub 内容提交及内容自动上线；这部分仍是**未联调**，不伪造作品或用测试记录冒充真实作品。应用浏览器直接打开会话 JSON 端点被客户端拦截，编辑器状态是当前维护者会话可发布的实际证据。
