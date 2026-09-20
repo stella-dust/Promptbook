@@ -11,7 +11,7 @@
 - 两个 Standard R2 桶已创建；staging CORS 与 7 天清理已配置；media 不自动删除。
 - Access 同一应用覆盖 `junyiyan.com/projects/promptbook/admin`、`junyiyan.com/projects/promptbook/admin/*`、`junyiyan.com/projects/promptbook/api/admin`、`junyiyan.com/projects/promptbook/api/admin/*`。只允许当前 Cloudflare 登录邮箱（只存服务器配置），使用一致的应用 AUD。未登录请求已实测跳转 Access；维护者登录后的写入尚未联调。
 - `.dev.vars` 是忽略的本机配置文件。填写后运行 `node scripts/set-secrets.mjs`；脚本拒绝模板占位值。`PUBLISH_ENABLED=false` 保持关闭，直到 Access、媒体域名与自动部署都验证完成。
-- GitHub Actions 需要 Secret `CLOUDFLARE_API_TOKEN`（目标账号 Worker Scripts 编辑及部署需要的 R2 读取权限），Variable `CLOUDFLARE_DEPLOY_ENABLED=true`；通过 stdin 或 GitHub Secrets 设置，不写进仓库。不要把 Wrangler OAuth 或全局 GitHub CLI Token 当持久生产密钥。
+- GitHub Actions 需要 Secret `CLOUDFLARE_API_TOKEN`（仅目标账号中现有 `promptbook` Worker 的编辑/部署权限；部署已有 R2 binding 不需要直接读取 R2 对象的权限），Variable `CLOUDFLARE_DEPLOY_ENABLED=true`；通过 stdin 或 GitHub Secrets 设置，不写进仓库。不要把 Wrangler OAuth 或全局 GitHub CLI Token 当持久生产密钥。
 
 当前博客路径代理会产生 Pages Functions 请求，并非所有公共请求都享受纯静态零 Worker 调用。现阶段未升级付费计划。
 
@@ -56,9 +56,9 @@ Contents API 更新必须传读取时的文件 SHA；前端收到 409 保留本�
 | UPLOAD_RECEIPT_SECRET | Worker Secret | 足够随机，用于上传 receipt HMAC |
 | ACCESS_TEAM_DOMAIN / ACCESS_AUD / OWNER_EMAIL | Worker Secrets 或受控 Vars | 不发送到公开客户端 bundle；邮箱按个人信息处理 |
 | GITHUB_REPOSITORY / GITHUB_BRANCH | Worker Vars | 固定目标，不接受客户端覆盖 |
-| R2_ACCOUNT_ID / STAGING_BUCKET / MEDIA_BUCKET | Worker Vars | 非授权凭证 |
+| R2_ACCOUNT_ID / STAGING_BUCKET_NAME | Worker Vars | 非授权凭证；R2 bucket binding 在 `wrangler.jsonc` 中固定 |
 | SITE_ORIGIN / MEDIA_BASE_URL | Worker Vars、必要的公开站点配置 | 实际部署域名 |
-| CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID | GitHub Actions Secrets | 最小部署权限，勿混用 R2 S3 token |
+| CLOUDFLARE_API_TOKEN | GitHub Actions Secret | 仅用于部署；账号 ID 已固定在 `wrangler.jsonc`，勿混用 R2 S3 token |
 
 在正式工程具备 Wrangler 后使用 `npx wrangler secret put NAME` 逐个配置，输入值不写在文档/命令历史里。原型不需要这些配置。
 
