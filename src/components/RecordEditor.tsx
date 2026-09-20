@@ -521,7 +521,7 @@ export default function RecordEditor({
       <header className="editor-heading">
         <div>
           <h1>{mode === "edit" ? "再记下一个细节。" : "留下一次好结果。"}</h1>
-          <p>粘贴提示词，放入实际结果。其他细节可以慢慢补。</p>
+          <p>写下 Prompt，放入结果，选好分类与标签。</p>
         </div>
         <span className="status" role="status">
           {status}
@@ -556,7 +556,7 @@ export default function RecordEditor({
             )}
             <label className="field">
               <span>
-                Prompt <small>保留原始文字与换行</small>
+                Prompt <small>可分段排版</small>
               </span>
               <textarea
                 className="prompt-input"
@@ -565,9 +565,9 @@ export default function RecordEditor({
                 onChange={(e) =>
                   patch({ prompt: { ...entry.prompt, text: e.target.value } })
                 }
-                placeholder="粘贴真实使用的完整提示词…"
+                placeholder="粘贴实际使用的提示词，可用空行分段…"
               />
-              <small>这里保存的是实际用过的版本。</small>
+              <small>整理排版时保留实际使用的画面要求。</small>
             </label>
             <div className="field-row">
               <label className="field">
@@ -585,29 +585,29 @@ export default function RecordEditor({
                 </select>
               </label>
               {field(
-                "平台",
-                entry.generation.platform,
-                (platform) =>
-                  patch({ generation: { ...entry.generation, platform } }),
-                "例如 ChatGPT",
+                "标签",
+                entry.tags.join("，"),
+                (text) => patch({ tags: text.split(/[,，]/).slice(0, 8) }),
+                "如：人像写真，室内摄影",
               )}
             </div>
             {field(
-              "模型显示名",
+              "使用的模型",
               entry.generation.modelLabel,
               (modelLabel) =>
                 patch({ generation: { ...entry.generation, modelLabel } }),
               "版本不确定可填写“未知模型”",
               true,
             )}
-            {field(
-              "标签",
-              entry.tags.join("，"),
-              (text) => patch({ tags: text.split(/[,，]/).slice(0, 8) }),
-              "自然光，静物",
-            )}
             <details>
-              <summary>原始生成信息与更多细节</summary>
+              <summary>更多信息（平台、参数、备注与参考图）</summary>
+              {field(
+                "平台",
+                entry.generation.platform,
+                (platform) =>
+                  patch({ generation: { ...entry.generation, platform } }),
+                "例如 ChatGPT",
+              )}
               {field(
                 "明确的模型 ID",
                 entry.generation.modelId ?? "",

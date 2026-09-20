@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "t2p-004-day-in-nine",
+  "revision": "2fadb776-cfe1-44b4-90c2-961aad1a9f15",
+  "status": "published",
+  "kind": "image",
+  "title": "九格里的日常",
+  "category": "character",
+  "tags": [
+    "九宫格",
+    "日常",
+    "角色连贯"
+  ],
+  "createdAt": "2026-09-20T18:28:37.297156Z",
+  "updatedAt": "2026-09-20T18:28:37.297156Z",
+  "prompt": {
+    "text": "生成一张 3:4 竖幅的 3×3 九宫格，把一位日本女性一天的生活浓缩在九个画面中。所有场景都不直视镜头；可结合人物参考图。九格依次为：\n① 起床，从床上坐起来的样子，睡眼惺忪的表情，凌乱的睡衣\n② 洗手台，从背后的构图，通过镜子反射出脸，正在刷牙，睡眼惺忪的表情，凌乱的睡衣\n③ 准备便服，在全身镜前拿着衣服，全身镜中反射出脸，全身镜中反射的衣服和手上拿的衣服相同，穿着为桃色约翰（Peach John）\n④ 穿着③中拿着的便服走在住宅区\n⑤ 穿着④的服装在咖啡店放松\n⑥ 穿着⑤的服装回到家中，在玄关脱鞋的样子\n⑦ 与③相同的服装，洗手间，从侧面的构图，正在准备洗澡，将穿过的衣服扔进洗衣篮\n⑧ 浴室，浸泡在浴缸中，正面稍稍从上方的拉远构图，清澈的热水\n⑨ 与①不同的睡衣，在沙发上放松",
+    "language": "zh"
+  },
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "GPT Image 2.5",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-004",
+      "mediaType": "image",
+      "alt": "九宫格图片记录同一位女性从起床、出门到夜晚休息的场景。",
+      "original": {
+        "key": "published/t2p-004-day-in-nine/c644573f908e49fd831c79969b0f95c4.png",
+        "mimeType": "image/png",
+        "bytes": 3580913,
+        "sha256": "f6e278f323c4ade86e13adf5f2b8945afda75515e55683d5d59e11a9fa7c1a08"
+      },
+      "thumbnail": {
+        "key": "published/t2p-004-day-in-nine/e1cb74d85fdb49dc887dd77b1bfc7e0c.webp",
+        "mimeType": "image/webp",
+        "bytes": 69714,
+        "sha256": "437e4fb3dfabed6f12e17149a08df6f6a6bb3c13d3d0df8453a8d1faefb3f03a"
+      },
+      "preview": {
+        "key": "published/t2p-004-day-in-nine/fb72c705e3374f058a25b94708d8d770.webp",
+        "mimeType": "image/webp",
+        "bytes": 211814,
+        "sha256": "4f1e0e611c30987ebf71d7426b23ec973794cc50ae53895616beb3017e5b0b6b"
+      },
+      "width": 1086,
+      "height": 1448,
+      "durationSeconds": null,
+      "postProcessing": "non-generative"
+    }
+  ],
+  "coverOutputId": "output-004",
+  "source": {
+    "type": "original",
+    "author": "",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  }
+}

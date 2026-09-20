@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "t2p-002-teacher-gallery",
+  "revision": "1d1a7cea-5af2-4e4b-83e0-f27095381590",
+  "status": "published",
+  "kind": "image",
+  "title": "班主任的一天与夜晚",
+  "category": "character",
+  "tags": [
+    "角色设定",
+    "手机相册",
+    "生活切片"
+  ],
+  "createdAt": "2026-09-20T18:28:35.297156Z",
+  "updatedAt": "2026-09-20T18:28:35.297156Z",
+  "prompt": {
+    "text": "生成一张高度写实的 iPhone“照片”应用截图。展示完整手机屏幕，仅一页相册，包含 35–50 张缩略图，保留真实的 iOS 相册界面。\n\n所有照片都表现同一位成年东亚女性班主任：白衬衫、黑色半身裙、眼镜，教师工牌始终挂在颈间。课堂与办公室里，她严肃、权威、自律，在黑板前授课、批改作业、使用红笔记录。\n\n相册还穿插她下班后的深夜私人片段：端着酒杯、拿着卡拉 OK 麦克风，头发微乱、略带醉意与疲惫的笑容、轻微晕开的眼线；在便利店吃面、午夜乘出租车、靠着车窗、参加生日晚餐或经过夜晚的城市灯光。工牌在这些片段中仍然可见。\n\n每张缩略图都同时保留她的纪律感与放松的一面。整体像真实的 iPhone 随手相册：自然皮肤纹理、手机直闪、轻微运动模糊和不完美的抓拍。",
+    "language": "zh"
+  },
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "GPT Image 2.5",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-002",
+      "mediaType": "image",
+      "alt": "手机照片相册截图，同一位戴眼镜的班主任出现在课堂和夜晚生活的多张照片里。",
+      "original": {
+        "key": "published/t2p-002-teacher-gallery/8be32ac240db42b2b444140d4082eff9.png",
+        "mimeType": "image/png",
+        "bytes": 3176363,
+        "sha256": "55643fa749fb2f470b9d86a344039da3ec0b4d2e4504082f1d1c160d73fc8a44"
+      },
+      "thumbnail": {
+        "key": "published/t2p-002-teacher-gallery/4f4249a385824809ad0730c0e72e4e2b.webp",
+        "mimeType": "image/webp",
+        "bytes": 60016,
+        "sha256": "590ea3ef794bf32ff4c0cb96eb70ff87d9c940176b06c325bdb0e57ececfda17"
+      },
+      "preview": {
+        "key": "published/t2p-002-teacher-gallery/91f707b67be94a7dbf3ea8776a088d62.webp",
+        "mimeType": "image/webp",
+        "bytes": 231068,
+        "sha256": "51bd40e62c2be9cc11b7f4e9a752bd3c9b2b4600e5814cebbd983d69705e2683"
+      },
+      "width": 863,
+      "height": 1822,
+      "durationSeconds": null,
+      "postProcessing": "non-generative"
+    }
+  ],
+  "coverOutputId": "output-002",
+  "source": {
+    "type": "original",
+    "author": "",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  }
+}

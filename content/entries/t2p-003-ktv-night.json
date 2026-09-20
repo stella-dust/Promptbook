@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "t2p-003-ktv-night",
+  "revision": "5c5beb37-11c1-4d69-bd38-3d3913cac98e",
+  "status": "published",
+  "kind": "image",
+  "title": "商务 KTV 的夜晚",
+  "category": "character",
+  "tags": [
+    "夜生活",
+    "直闪抓拍",
+    "KTV"
+  ],
+  "createdAt": "2026-09-20T18:28:36.297156Z",
+  "updatedAt": "2026-09-20T18:28:36.297156Z",
+  "prompt": {
+    "text": "写实夜生活摄影，9:16 竖幅，豪华商务 KTV 私人包厢，深色皮质沙发，黑金大理石桌面，暖金灯带混合蓝紫霓虹，手机直闪抓拍质感，轻微颗粒，真实皮肤纹理，轻微过曝，高 ISO 夜间摄影，28mm 近距离镜头，私人相册感，随机抓拍，不看起来像棚拍。\n\n画面主体为 20 多岁成年东亚女性，精致自然妆，深色长发，穿精致夜店连衣裙，身材自然，表情放松微醺。包厢内同时存在来消费的成年男性客人，约 30 到 45 岁，普通办公室体型到微胖，商务休闲或衬衫穿搭，作为陪衬人物，不抢主体。\n\n桌上有威士忌、玻璃杯、冰桶、水果盘、零食、麦克风、纸巾和杂乱酒局用品。背景有 KTV 屏幕、沙发和其他朋友，真实中国高端商务 KTV 夜生活氛围。人物脸型全部不同，避免复制脸，避免所有人同年龄同体型。",
+    "language": "zh"
+  },
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "GPT Image 2.5",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-003",
+      "mediaType": "image",
+      "alt": "KTV 包厢里，一位穿黑色连衣裙的女性坐在前景，周围有人唱歌、聊天。",
+      "original": {
+        "key": "published/t2p-003-ktv-night/0b85978934cb461ab140051205fedd27.png",
+        "mimeType": "image/png",
+        "bytes": 3550649,
+        "sha256": "27c43c7c027a0f387e9b2b68fb95d09198330b904303d58ae8fde680a734a268"
+      },
+      "thumbnail": {
+        "key": "published/t2p-003-ktv-night/dfea1fab0ba34cd3b10619d6890676f3.webp",
+        "mimeType": "image/webp",
+        "bytes": 53894,
+        "sha256": "2c4b5a40c3b1296dc2d48d4b87781b6237d7d1e24905cb9e8349fc0459c6518c"
+      },
+      "preview": {
+        "key": "published/t2p-003-ktv-night/7a1ef5c3466f490b9078aebd7f4907b1.webp",
+        "mimeType": "image/webp",
+        "bytes": 199360,
+        "sha256": "fc6ec7ff8a7bb70d24fe41c736e128c7deca8a11cee7d1adfd6c7bb2e6605b30"
+      },
+      "width": 941,
+      "height": 1672,
+      "durationSeconds": null,
+      "postProcessing": "non-generative"
+    }
+  ],
+  "coverOutputId": "output-003",
+  "source": {
+    "type": "original",
+    "author": "",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  }
+}

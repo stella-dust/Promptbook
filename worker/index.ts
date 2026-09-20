@@ -6,7 +6,8 @@ import type { Env } from "./env";
 import { HttpError, fail, readJSON, exact } from "./errors";
 import { readEntry, publishEntry } from "./github";
 import { presign, finalize } from "./upload";
-import { validateEntry, assets } from "../src/lib/validation";
+import { validateEntry } from "../src/lib/validation";
+import { verifyPublishedAssets } from "./media";
 const json = (value: unknown, status = 200) =>
   Response.json(value, {
     status,
@@ -101,16 +102,7 @@ export default {
           fail(400, (error as Error).message);
         }
         if (!env.MEDIA) fail(503, "媒体存储尚未配置");
-        for (const a of assets(body.entry)) {
-          const object = await env.MEDIA.head(a.key);
-          if (
-            !object ||
-            object.size !== a.bytes ||
-            object.httpMetadata?.contentType !== a.mimeType ||
-            object.customMetadata?.entryId !== body.entry.id
-          )
-            fail(400, "媒体未确认或已改变，请重新上传");
-        }
+        await verifyPublishedAssets(env.MEDIA, body.entry);
         const result = await publishEntry(
           env,
           body.entry,

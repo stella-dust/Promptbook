@@ -38,9 +38,9 @@ const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
   </h2>
   <p class="excerpt">{e.prompt.text}</p>
   <div class="card-bottom">
-    <span>
-      {e.generation.modelLabel} ·{" "}
+    <span class="card-categories">
       {taxonomy.find((t) => t.id === e.category)?.label}
+      {e.tags.slice(0, 2).map((tag) => <span> · {tag}</span>)}
     </span>
     <button
       class="text-button"

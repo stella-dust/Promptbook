@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "t2p-001-hotel-portrait",
+  "revision": "f7f2eec9-b31f-4e0f-ab72-f457b0ed97fc",
+  "status": "published",
+  "kind": "image",
+  "title": "酒店窗边的胶片写真",
+  "category": "character",
+  "tags": [
+    "人像写真",
+    "酒店",
+    "胶片感"
+  ],
+  "createdAt": "2026-09-20T18:28:34.297156Z",
+  "updatedAt": "2026-09-20T18:28:34.297156Z",
+  "prompt": {
+    "text": "竖版9:16，韩国Instagram风格女偶像酒店私密写真拍摄。明显是成年女性，23–27岁，夸张身材，柔顺的长黑发，冷艳白皙自然肤色，清新粉色闪光妆容。\n\n她穿着浅米色轻薄衬衫，袖子随意卷起，深灰色高腰修身铅笔裙，以及透明肉色丝袜。一件黑色西装外套滑落下来，堆在床边。整体造型是成熟、干净的都市办公室女郎装扮。\n\n她侧跪在凌乱的白色酒店床上，身体转向远离镜头约四分之三，上身轻轻扭回，自然地看着镜头。双手放在腰间，调整衬衫下摆。强调肩颈线条、腰背轮廓、腿部比例，以及衬衫和裙子上的自然布料褶皱。姿势放松自然，仿佛摄影师偶然捕捉到的瞬间。\n\n柔和CCD风格，黑扩散滤镜，轻微柔焦，35–40mm，低角度，从身后和侧面近距离抓拍。自然构图，不刻意强调孤立的肢体部位。\n\n35mm胶片质感，柔和高光溢出，温暖绽放，轻微雾气和眩光，低对比度，低饱和度，细腻颗粒，富士负片空灵色调，保留真实皮肤纹理。\n\n整体氛围：私密、安静、成熟、自然，带有韩国杂志写真和生活化编辑感的风格。\n\n避免湿发、毛巾、暴露造型、过于性感姿势、正面对坐姿势、商业工作室灯光、HDR、塑料皮肤、CG效果、过度修图、生硬姿势，以及不正确的解剖结构。",
+    "language": "zh"
+  },
+  "generation": {
+    "platform": "ChatGPT",
+    "modelLabel": "GPT Image 2.5",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-001",
+      "mediaType": "image",
+      "alt": "酒店房间里，一位长发女性穿浅色衬衫和深灰裙，侧跪在床上回望镜头。",
+      "original": {
+        "key": "published/t2p-001-hotel-portrait/a40469b25e534d05b92d28bd25bd3bad.png",
+        "mimeType": "image/png",
+        "bytes": 2898595,
+        "sha256": "3d5f48a0caf8999deb02be8a3f3f5fb0b2dd223fac9cb79fd97623f7ca011390"
+      },
+      "thumbnail": {
+        "key": "published/t2p-001-hotel-portrait/c1aebe457ea34409bf44f8519da9e7b1.webp",
+        "mimeType": "image/webp",
+        "bytes": 23416,
+        "sha256": "5600ba215ef8b680efb91c5e429526bff731e20b4293fa5f8380a0bf99014111"
+      },
+      "preview": {
+        "key": "published/t2p-001-hotel-portrait/d4602ee5697546499f7c52f11c43432c.webp",
+        "mimeType": "image/webp",
+        "bytes": 87794,
+        "sha256": "cecc1497a81da76e650a30696901ca56c9ab4a9f0480e64d8ce31dde8edeed6b"
+      },
+      "width": 941,
+      "height": 1672,
+      "durationSeconds": null,
+      "postProcessing": "non-generative"
+    }
+  ],
+  "coverOutputId": "output-001",
+  "source": {
+    "type": "original",
+    "author": "",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  }
+}

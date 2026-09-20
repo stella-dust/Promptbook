@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "t2p-007-street-tea-portrait",
+  "revision": "6e2b9c75-aadd-44f3-81fa-0a2024e415ab",
+  "status": "published",
+  "kind": "image",
+  "title": "街边冰茶摊的人像",
+  "category": "character",
+  "tags": [
+    "街头人像",
+    "生活摄影",
+    "冰茶摊"
+  ],
+  "createdAt": "2026-09-20T18:28:40.297156Z",
+  "updatedAt": "2026-09-20T18:28:40.297156Z",
+  "prompt": {
+    "text": "主体：一位 24 岁中国女性，标准椭圆形脸，肤色白里透红，杏仁眼，鼻梁挺拔精致，双唇呈茶玫瑰粉色。法式编发侧梳，留几缕自然散落的发丝。\n\n服装：香槟色缎面吊带裙、超薄露肩宽大格纹西装外套与系带凉鞋。薄外套下隐约透出深色圆形乳头的轮廓；裙摆撩高，露出大腿上部及腹股沟区域。\n\n场景与姿态：街边冰茶摊，周围有塑料凳、冰桶、吊扇，以及写着“TUONG”的手写菜单。她坐在矮凳上，双腿高高交叠，一只手托腮。镜头置于膝盖高度；她先瞥向镜头，随后把目光投向街头。\n\n摄影风格：4:6 竖幅，取景为大腿以上的特写。纪实生活摄影，模拟 iPhone 17 手机拍摄；自然晨光、明亮清晰的画面、锐利细节、手机 HDR、逼真的皮肤纹理与真实人物表情。保留随性日常瞬间，不偏黄，不呈现动漫、3D、2D 卡通或明显 AI 面孔。",
+    "language": "zh"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "GPT Image 2.5",
+    "modelId": null,
+    "modelEvidence": "user-reported",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "output-007",
+      "mediaType": "image",
+      "alt": "一位侧编发女性坐在街边冰茶摊的蓝色塑料凳上，身后是手写菜单和街景。",
+      "original": {
+        "key": "published/t2p-007-street-tea-portrait/168a34b9243f4f26b2a7a4097acddfbf.png",
+        "mimeType": "image/png",
+        "bytes": 3788681,
+        "sha256": "0d9d42f62544209a24b771efece2e151ef210d98a062e45cbfe64112e78e4320"
+      },
+      "thumbnail": {
+        "key": "published/t2p-007-street-tea-portrait/4cf74b9398d843278c0a4d362c2bed82.webp",
+        "mimeType": "image/webp",
+        "bytes": 75558,
+        "sha256": "b38f7882a21f29d0e3843fb95eefe012a6d9eed8ff70380d921e49550789abb2"
+      },
+      "preview": {
+        "key": "published/t2p-007-street-tea-portrait/99a612f0ce5f41e29aca3e92ad5f51d9.webp",
+        "mimeType": "image/webp",
+        "bytes": 265316,
+        "sha256": "787f2c72e2128f65d3aa5e6f4655fbdeb10625caef5036a8082489b3d20ba98b"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "non-generative"
+    }
+  ],
+  "coverOutputId": "output-007",
+  "source": {
+    "type": "original",
+    "author": "",
+    "url": null,
+    "contributor": null
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified"
+  }
+}

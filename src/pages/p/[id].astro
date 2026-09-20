@@ -9,6 +9,7 @@ export function getStaticPaths() {
 }
 const { entry: e } = Astro.props;
 const media = (key: string) => `${site.mediaBaseUrl}/${key}`;
+const cover = e.outputs.find((o) => o.id === e.coverOutputId)!;
 ---
 
 <SiteLayout title={e.title}>
@@ -82,16 +83,16 @@ const media = (key: string) => `${site.mediaBaseUrl}/${key}`;
       )}
     </div>
     <div class="detail-copy">
-      <span class="category-label">
+      <div class="detail-categories category-label">
         {taxonomy.find((t) => t.id === e.category)?.label}
-      </span>
+        {e.tags.map((tag) => <span> · {tag}</span>)}
+      </div>
       <h1>{e.title}</h1>
       <p class="detail-meta">
-        {e.generation.modelLabel} · {e.generation.platform || "平台未记录"} ·{" "}
-        {e.createdAt.slice(0, 10)}
+        {e.generation.modelLabel}
       </p>
       <div class="prompt-heading">
-        <span>Prompt 原文</span>
+        <span>Prompt</span>
         <button class="text-button" data-copy={e.prompt.text}>
           ▧ 复制全文
         </button>
@@ -211,6 +212,6 @@ const media = (key: string) => `${site.mediaBaseUrl}/${key}`;
     <button id="lightbox-close" class="close">
       关闭 ×
     </button>
-    <img alt="" />
+    <img src={media(cover.original.key)} alt={cover.alt} loading="lazy" />
   </dialog>
 </SiteLayout>
