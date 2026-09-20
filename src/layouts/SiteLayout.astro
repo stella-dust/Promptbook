@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { site } from "../lib/content";
+import Icon from "../components/Icon.astro";
 const { title = site.title, admin = false } = Astro.props;
 const base = site.base;
 ---
@@ -11,7 +12,7 @@ const base = site.base;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={site.description} />
-    <meta name="theme-color" content="#f8f7f3" />
+    <meta name="theme-color" content="#111512" />
     <title>{title} · {site.name}</title>
     <link rel="icon" href={`${base}/favicon.svg`} />
     {admin && <meta name="robots" content="noindex,nofollow" />}
@@ -35,7 +36,6 @@ const base = site.base;
           <i>.</i>
         </span>
       </a>
-      <span class="site-subtitle">一本提示词手记</span>
       <nav aria-label="主导航">
         <a
           href={`${base}/`}
@@ -44,11 +44,11 @@ const base = site.base;
           手记
         </a>
         <a href={`${base}/contribute/`}>
-          共同补一页 <span aria-hidden="true">↗</span>
+          投稿 <Icon name="arrow-up-right" />
         </a>
         {admin && (
           <a class="button primary" href={`${base}/admin/new/`}>
-            ＋ 新建记录
+            <Icon name="plus" /> 新建记录
           </a>
         )}
       </nav>
@@ -61,10 +61,12 @@ const base = site.base;
         <a class="footer-brand" href={`${base}/`}>
           {site.name}.
         </a>
-        <span>留住结果，也留住来路。</span>
+        <span>Prompt 与真实结果。</span>
       </div>
       <div>
-        <a href="https://junyiyan.com/">Junyi 的主页 ↗</a>
+        <a href="https://junyiyan.com/">
+          Junyi 的主页 <Icon name="arrow-up-right" />
+        </a>
         <a href={`${base}/admin/`}>管理手记</a>
       </div>
     </footer>

@@ -10,9 +10,12 @@ document.querySelectorAll<HTMLButtonElement>("[data-copy]").forEach((button) =>
     try {
       await navigator.clipboard.writeText(button.dataset.copy ?? "");
       toast("Prompt 已完整复制");
-      const old = button.textContent;
-      button.textContent = "已复制";
-      setTimeout(() => (button.textContent = old), 1600);
+      const label = button.querySelector<HTMLElement>("[data-copy-label]");
+      const old = label?.textContent;
+      if (label) label.textContent = "已复制";
+      setTimeout(() => {
+        if (label) label.textContent = old ?? "复制";
+      }, 1600);
     } catch {
       toast("复制失败，请选择 Prompt 原文后手动复制");
     }

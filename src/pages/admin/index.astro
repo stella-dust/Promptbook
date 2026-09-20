@@ -1,14 +1,15 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import { entries, site } from "../../lib/content";
+import Icon from "../../components/Icon.astro";
 ---
 
 <SiteLayout title="管理手记" admin>
   <section class="reading">
-    <h1>继续写这一页。</h1>
+    <h1>管理记录</h1>
     <p class="muted">草稿留在当前浏览器，发布的记录留在 GitHub。</p>
     <a class="button primary" href={`${site.base}/admin/new/`}>
-      ＋ 新建记录
+      <Icon name="plus" /> 新建记录
     </a>
     <section>
       <h2>当前浏览器草稿</h2>
@@ -112,7 +113,8 @@ import { entries, site } from "../../lib/content";
       if (!file) return;
       if (file.size > 512 * 1024) throw new Error("投稿文件超过 512 KiB");
       const s = JSON.parse(await file.text());
-      if(!validateSubmission(s)) throw new Error('投稿格式不符合模板，请检查必填字段与来源链接');
+      if (!validateSubmission(s))
+        throw new Error("投稿格式不符合模板，请检查必填字段与来源链接");
       const now = new Date().toISOString();
       const id = "note-" + crypto.randomUUID();
       await saveDraft({
@@ -143,7 +145,12 @@ import { entries, site } from "../../lib/content";
           outputs: [],
           coverOutputId: "",
           references: [],
-          source: { type: s.sourceUrl ? "collected" : "original", author: s.author, url: s.sourceUrl, contributor: s.author },
+          source: {
+            type: s.sourceUrl ? "collected" : "original",
+            author: s.author,
+            url: s.sourceUrl,
+            contributor: s.author,
+          },
           rights: s.rights ?? { prompt: "unspecified", media: "unspecified" },
           notes: s.notes ?? "",
         },

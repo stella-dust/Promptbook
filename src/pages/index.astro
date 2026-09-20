@@ -1,6 +1,7 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
 import GalleryCard from "../components/GalleryCard.astro";
+import Icon from "../components/Icon.astro";
 import { published, site, taxonomy } from "../lib/content";
 const models = [...new Set(published.map((e) => e.generation.modelLabel))];
 ---
@@ -8,13 +9,8 @@ const models = [...new Set(published.map((e) => e.generation.modelLabel))];
 <SiteLayout>
   <section class="intro">
     <div>
-      <h1>好结果，值得留一份。</h1>
-      <p>提示词、生成结果，还有那些刚刚好的细节。</p>
-    </div>
-    <div class="intro-note">
-      A place for the
-      <br />
-      ideas worth keeping.
+      <h1>提示词与结果</h1>
+      <p>存下每次生成，也方便下次再用。</p>
     </div>
   </section>
   <section aria-label="筛选记录" id="filters" hidden={published.length === 0}>
@@ -32,14 +28,11 @@ const models = [...new Set(published.map((e) => e.generation.modelLabel))];
       </div>
       <div class="filter-tools">
         <label class="search">
-          <span class="sr-only">搜索标题、Prompt 或模型</span>
-          <input
-            id="search"
-            type="search"
-            placeholder="搜索标题、Prompt 或模型…"
-          />
+          <span class="sr-only">搜索提示词、标题或模型</span>
+          <Icon name="search" />
+          <input id="search" type="search" placeholder="搜索提示词或标题" />
         </label>
-        <label>
+        <label class="select-wrap">
           <span class="sr-only">模型</span>
           <select id="model">
             <option value="">所有模型</option>
@@ -48,11 +41,11 @@ const models = [...new Set(published.map((e) => e.generation.modelLabel))];
             ))}
           </select>
         </label>
-        <label>
+        <label class="select-wrap sort-wrap">
           <span class="sr-only">排序</span>
           <select id="sort" class="sort">
-            <option value="latest">↓ 最新</option>
-            <option value="oldest">↑ 最早</option>
+            <option value="latest">最新</option>
+            <option value="oldest">最早</option>
           </select>
         </label>
       </div>
@@ -97,7 +90,7 @@ const models = [...new Set(published.map((e) => e.generation.modelLabel))];
           从这一页开始，慢慢收集值得再试一次的灵感。
         </p>
         <a class="button primary" href={`${site.base}/admin/new/`}>
-          新建第一条记录 <span aria-hidden="true">↗</span>
+          新建第一条记录 <Icon name="arrow-up-right" />
         </a>
         <p>
           <small>

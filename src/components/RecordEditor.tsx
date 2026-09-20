@@ -5,6 +5,13 @@ import { api, prepareFile, uploadFile, upload } from "../lib/media-client";
 import { validateBeforeUpload } from "../lib/prepare-entry";
 import site from "../../content/site.json";
 import taxonomy from "../../content/taxonomy.json";
+function Icon({ name }: { name: string }) {
+  return (
+    <svg className="icon" aria-hidden="true" focusable="false">
+      <use href={`${site.base}/icons.svg#${name}`} />
+    </svg>
+  );
+}
 function blank(): Entry {
   const now = new Date().toISOString();
   return {
@@ -520,8 +527,8 @@ export default function RecordEditor({
     <>
       <header className="editor-heading">
         <div>
-          <h1>{mode === "edit" ? "再记下一个细节。" : "留下一次好结果。"}</h1>
-          <p>写下 Prompt，放入结果，选好分类与标签。</p>
+          <h1>{mode === "edit" ? "编辑记录" : "新建记录"}</h1>
+          <p>写下提示词，放入结果，选好分类。</p>
         </div>
         <span className="status" role="status">
           {status}
@@ -537,7 +544,7 @@ export default function RecordEditor({
                 target="_blank"
                 rel="noopener"
               >
-                查看远端版本 ↗
+                查看远端版本 <Icon name="arrow-up-right" />
               </a>{" "}
               · <button onClick={exportJSON}>导出本地内容</button>
             </p>
@@ -556,7 +563,7 @@ export default function RecordEditor({
             )}
             <label className="field">
               <span>
-                Prompt <small>可分段排版</small>
+                提示词 <small>可分段排版</small>
               </span>
               <textarea
                 className="prompt-input"
@@ -669,7 +676,7 @@ export default function RecordEditor({
                 />
               </label>
               <label className="field">
-                <span>负向 Prompt</span>
+                <span>负向提示词</span>
                 <textarea
                   value={entry.prompt.negativeText ?? ""}
                   onChange={(e) =>
@@ -894,7 +901,9 @@ export default function RecordEditor({
               }}
             >
               <div>
-                <span aria-hidden="true">↥</span>
+                <span aria-hidden="true">
+                  <Icon name="upload" />
+                </span>
                 <p>把结果拖到这里</p>
                 <small>
                   也可以点击选择，或直接粘贴图片
@@ -997,7 +1006,12 @@ export default function RecordEditor({
       <div className="editor-footer">
         <div className="status" aria-live="polite">
           {status}
-          {online && <a href={`${site.base}/p/${entry.id}/`}> · 查看记录 ↗</a>}
+          {online && (
+            <a href={`${site.base}/p/${entry.id}/`}>
+              {" "}
+              · 查看记录 <Icon name="arrow-up-right" />
+            </a>
+          )}
           {pending && (
             <a
               href={`${site.repository}/actions`}
@@ -1005,7 +1019,7 @@ export default function RecordEditor({
               rel="noopener"
             >
               {" "}
-              · 查看构建 ↗
+              · 查看构建 <Icon name="arrow-up-right" />
             </a>
           )}
         </div>
@@ -1039,7 +1053,7 @@ export default function RecordEditor({
                 }
               }}
             >
-              {sha ? "发布更新" : "发布记录"} ↗
+              {sha ? "发布更新" : "发布记录"}
             </button>
           )}
         </div>
@@ -1101,7 +1115,7 @@ export default function RecordEditor({
       </dialog>
       <dialog ref={preview}>
         <button className="close" onClick={() => preview.current?.close()}>
-          关闭 ×
+          关闭 <Icon name="close" />
         </button>
         <h2>{entry.title || "未命名记录"}</h2>
         {files[0] && (
@@ -1109,7 +1123,7 @@ export default function RecordEditor({
             file={files.find((f) => f.id === entry.coverOutputId) ?? files[0]}
           />
         )}
-        <p className="prompt-text">{entry.prompt.text || "还没有 Prompt"}</p>
+        <p className="prompt-text">{entry.prompt.text || "还没有提示词"}</p>
         <p className="muted">
           {entry.generation.modelLabel || "模型未记录"} · 仅本地预览
         </p>

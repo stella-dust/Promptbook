@@ -1,6 +1,7 @@
 ---
 import { site, taxonomy } from "../lib/content";
 import type { Entry } from "../lib/validation";
+import Icon from "./Icon.astro";
 const { entry: e } = Astro.props as { entry: Entry };
 const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
 ---
@@ -28,7 +29,7 @@ const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
     {(e.kind === "video" || e.outputs.length > 1) && (
       <span class="media-tag">
         {e.kind === "video"
-          ? `▷ ${Math.round(o.durationSeconds ?? 0)} 秒`
+          ? `${Math.round(o.durationSeconds ?? 0)} 秒`
           : `${e.outputs.length} 张`}
       </span>
     )}
@@ -40,14 +41,16 @@ const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
   <div class="card-bottom">
     <span class="card-categories">
       {taxonomy.find((t) => t.id === e.category)?.label}
-      {e.tags.slice(0, 2).map((tag) => <span> · {tag}</span>)}
+      {e.tags.slice(0, 2).map((tag) => (
+        <span> · {tag}</span>
+      ))}
     </span>
     <button
       class="text-button"
       data-copy={e.prompt.text}
       aria-label={`复制 ${e.title} 的 Prompt`}
     >
-      ▧ 复制
+      <Icon name="copy" /> <span data-copy-label>复制</span>
     </button>
   </div>
 </article>
