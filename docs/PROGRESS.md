@@ -49,3 +49,11 @@
 - 21:58 `npm run build && npm run check` 再次通过（24 个检查文件，0 errors / 0 warnings / 1 hint）。
 - 提交前审计：91 个暂存文件，无凭据特征与真实管理员邮箱；.dev.vars、.test-build、dist、node_modules、.wrangler 均未暂存。
 - 后续浏览器连接连续超时，不能声称新增参考图与长 Prompt 交互已完成浏览器回归；此前本地草稿/布局截图与 HTTP 部署检查仍分别有效。
+
+## 22:00 生产与 GitHub CI 复核
+
+- 正式源码提交 `712229674a4e57c4ffeb8e840deeb729371d4a17` 已推送 GitHub main。
+- GitHub Validate 运行 `35515115984` 完成 success：https://github.com/stella-dust/Promptbook/actions/runs/35515115984 。自动部署运行 `35515115976` 按尚未启用的变量跳过，未冒充部署成功。
+- `GITHUB_SHA=$(git rev-parse HEAD) npm run deploy` 通过。最新 Worker 版本 `e0e891f6-64d4-458e-9479-ce882766bff6`；静态资源上传完成，启动 2 ms。没有 workers.dev/route target，现有 Pages service binding 已实际访问到此版本。
+- curl 线上复核：`/` 200（标题 Junyi Yan）；`/projects/promptbook` 307；尾斜线首页与 contribute 200；build-info 200 且 commitSha 等于上述源码提交；不存在页面404；admin、admin/new、api/admin/session 503；编码路径 `%61dmin/new/` 跟随规范化重定向后503，没有泄漏管理HTML。
+- Cloudflare 仍使用原免费 Workers 计划；R2 两桶为 Standard。未迁移 DNS，未更改博客内容，未上传真实或演示媒体到公网。
