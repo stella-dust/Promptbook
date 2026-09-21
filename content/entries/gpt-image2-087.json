@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-087",
+  "revision": "bf832403-817d-499f-bd1e-6eb010f97a97",
+  "status": "published",
+  "kind": "image",
+  "title": "预训练数据流向图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:45.855Z",
+  "updatedAt": "2026-09-21T02:55:45.855Z",
+  "prompt": {
+    "text": "横向 16:9 桑基图，展示预训练数据混合，三阶段带透明色带。\n\n左侧（8 个源块，高度按标记数比例）：\"Common Crawl (web) 540B\"（柔和海军蓝，最大）、\"arXiv papers 180B\"（尘土绿松石）、\"GitHub code 160B\"（石板灰）、\"Wikipedia 40B\"（柔和陶土色）、\"StackExchange QA 30B\"（暖铜色）、\"Books (public domain) 25B\"（浅橄榄色）、\"Patents 18B\"（浅海军蓝）、\"Curated news & forums 15B\"（尘土绿松石）。\n\n中间（3 个处理块，堆叠）：\"Deduplicated (MinHash + exact)\"、\"Quality-filtered (classifier + heuristics)\"、\"PII-scrubbed (regex + NER)\"。\n\n右侧（3 个最终拆分）：\"Pretraining set 1.4T tokens\"（最大）、\"Instruction-tune pool 12B tokens\"、\"RLHF preference pool 3B tokens\"。\n\n流动色带继承源颜色，中间标签显示令牌数（\"85B\"、\"320B\"、\"44B\"）。底部带图例条。\n\n标题：\"LLM pretraining data mixture and downstream splits\"。副标题：\"去重及质量过滤后的标记数；色带厚度 ∝ 标记流量\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "预训练数据流向图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-087/1572e966f868646c129d862d98cd335e.png",
+        "mimeType": "image/png",
+        "bytes": 1269100,
+        "sha256": "1572e966f868646c129d862d98cd335ef785ae4be7c35c7d0b4fff80cd204e04"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-087/a1d313b0ed1a165d2e6ee0c42f3f4c59.webp",
+        "mimeType": "image/webp",
+        "bytes": 24162,
+        "sha256": "a1d313b0ed1a165d2e6ee0c42f3f4c59ebe0809598dc609813102b1e3aae4554"
+      },
+      "preview": {
+        "key": "published/gpt-image2-087/c8b02a744bc2b2a47c0a43dc813f149a.webp",
+        "mimeType": "image/webp",
+        "bytes": 83402,
+        "sha256": "c8b02a744bc2b2a47c0a43dc813f149aabfa55e9bc298678b58ff57068391fb6"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 87）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

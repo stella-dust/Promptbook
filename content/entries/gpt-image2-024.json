@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-024",
+  "revision": "7fabb655-ffca-4442-a5f8-5c692abbb3fb",
+  "status": "published",
+  "kind": "image",
+  "title": "Neon Orchid District 赛博朋克设定板",
+  "category": "story",
+  "tags": [
+    "复古赛博",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:51.855Z",
+  "updatedAt": "2026-09-21T02:56:51.855Z",
+  "prompt": {
+    "text": "Create a cyberpunk character-and-city design board in a premium magazine-layout format, landscape 16:9. Title text: \"NEON ORCHID DISTRICT\". The board is divided into five asymmetric panels: one large cinematic street scene of a rain-soaked elevated night market, two close-up portrait panels of original adult cyberpunk couriers with glowing orchid tattoos, one small isometric map panel showing alleys and drone routes, and one artifact panel showing encrypted transit passes, cybernetic gloves, and vending-machine stickers. Use layered neon magenta, cyan, acid green, wet asphalt reflections, holographic signage, dense but readable composition, editorial margins, small labels, and a cohesive retro-future anime/cyberpunk style. Original characters only, no existing IP, no explicit content.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Neon Orchid District 赛博朋克设定板，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-024/d404866696a70c15db072c45acd86928.png",
+        "mimeType": "image/png",
+        "bytes": 2622926,
+        "sha256": "d404866696a70c15db072c45acd86928c9985418561f4816036dace78998b676"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-024/6f595ac117930b381e4a2206a7b8d6cf.webp",
+        "mimeType": "image/webp",
+        "bytes": 56468,
+        "sha256": "6f595ac117930b381e4a2206a7b8d6cf7936c6c91f589715ad72fcb92801dbd5"
+      },
+      "preview": {
+        "key": "published/gpt-image2-024/568313790d3307bfc318c63c462ffe96.webp",
+        "mimeType": "image/webp",
+        "bytes": 284626,
+        "sha256": "568313790d3307bfc318c63c462ffe964a79c7a9311812fe9c24fc9d974df69c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-retro-and-cyberpunk.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 24）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-retro-and-cyberpunk.md"
+  }
+}

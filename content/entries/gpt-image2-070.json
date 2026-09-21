@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-070",
+  "revision": "b209e2c3-0f3f-4a9b-a375-5030ea988eb7",
+  "status": "published",
+  "kind": "image",
+  "title": "百科实地指南（大熊猫）",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:02.855Z",
+  "updatedAt": "2026-09-21T02:56:02.855Z",
+  "prompt": {
+    "text": "生成高质量纵向百科风格信息图，主题为[topic]。\n\n应避免普通海报或简单插画的感觉，更应像一个模块化教育信息图，结合实地指南的清晰度、百科页面的结构、生活方式知识卡的精致感，以及强社交媒体解析图的分享度。\n\n图片应包含：\n- 主题的清晰吸引主视觉\n- 多个放大细节标注\n- 多个圆角模块信息区\n- 强烈的标题层级和重点标签\n- 简洁却信息丰富的教育内容\n- 视觉评分、快速要点或Top 5模块\n\n内容区根据主题自动适配。可用类别包括：基本资料、分类、外观、习性或生态、形成机制或结构、生长或使用条件、护理或维护建议、风险和注意事项、适用用户或用例、优缺点、快速评分卡。\n\n视觉要求：干净明亮背景、柔和色彩、细腻阴影、精致图标、圆角信息卡、整洁布局。信息密度高但不拥挤，最终图像应可发布、收藏，并且可重复作为知识卡格式而非广告。\n\n避免商业宣传海报感。强调知识组织、模块化信息和实地指南展示。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "百科实地指南（大熊猫），源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-070/268963a08c2aa5182886f5c0ba27bc95.png",
+        "mimeType": "image/png",
+        "bytes": 3205465,
+        "sha256": "268963a08c2aa5182886f5c0ba27bc95b10f83ff38f4dd443094ce98f2c03a17"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-070/141d183d0746614760f27eb8d395fe36.webp",
+        "mimeType": "image/webp",
+        "bytes": 58830,
+        "sha256": "141d183d0746614760f27eb8d395fe36a0c3da15c50096e357779c89ad65a197"
+      },
+      "preview": {
+        "key": "published/gpt-image2-070/1c7c49b8082c14152862d23f269f6b1e.webp",
+        "mimeType": "image/webp",
+        "bytes": 307678,
+        "sha256": "1c7c49b8082c14152862d23f269f6b1e1975f04d8c8c24057cc22e28875dbed4"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@MrLarus",
+    "url": "https://x.com/MrLarus",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 70）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

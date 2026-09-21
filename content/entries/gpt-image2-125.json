@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-125",
+  "revision": "b449ac84-7edc-4ba0-a0aa-e46cf153b5a9",
+  "status": "published",
+  "kind": "image",
+  "title": "人体循环系统海报",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:05.855Z",
+  "updatedAt": "2026-09-21T02:55:05.855Z",
+  "prompt": {
+    "text": "Create a clean educational anatomy poster showing the human circulatory system in anterior and posterior views on a pale cream background. Use an academic but visually refined medical-wall-chart style with precise vascular linework, muted crimson and deep blue vessels, soft ivory body silhouettes, and thin charcoal labels. Include a centered title with crisp in-image text \"Human Circulatory System\" and subtitle \"Major Arteries and Veins\". Label key structures such as \"Heart\", \"Aorta\", \"Carotid Artery\", \"Vena Cava\", \"Pulmonary Artery\", \"Radial Artery\", \"Femoral Artery\", \"Saphenous Vein\", and \"Capillary Beds\". Add a compact legend with \"Arteries\" and \"Veins\" plus a note reading \"Educational schematic\". Keep the composition symmetrical, scientifically accurate in appearance, classroom-safe, non-gory, highly legible, and publication-quality.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "人体循环系统海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-125/49ac0b8c4e9f8fac0a9c28a4c2f7e260.png",
+        "mimeType": "image/png",
+        "bytes": 7153680,
+        "sha256": "49ac0b8c4e9f8fac0a9c28a4c2f7e260c47c11f994dc55cec75037ebd32934a3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-125/c4ab37d9c2803197e486b361ad27ef7e.webp",
+        "mimeType": "image/webp",
+        "bytes": 40138,
+        "sha256": "c4ab37d9c2803197e486b361ad27ef7eac829b2640424577d8f4e1f3ec0520af"
+      },
+      "preview": {
+        "key": "published/gpt-image2-125/2c292aa17ee59fabe0de0c3cda4787fe.webp",
+        "mimeType": "image/webp",
+        "bytes": 205682,
+        "sha256": "2c292aa17ee59fabe0de0c3cda4787fed76a3b82a024b06421a7e29002a5c4ec"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 125）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

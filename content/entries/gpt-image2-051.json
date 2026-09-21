@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-051",
+  "revision": "44ac020d-b448-4165-b4c6-59df5f5c93fa",
+  "status": "published",
+  "kind": "image",
+  "title": "宋代河畔夜市手卷",
+  "category": "design",
+  "tags": [
+    "水墨",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:23.855Z",
+  "updatedAt": "2026-09-21T02:56:23.855Z",
+  "prompt": {
+    "text": "Create a horizontal Chinese ink-and-wash handscroll scene of a Song dynasty riverside night market. Use gongbi-level architectural detail combined with loose ink atmosphere: arched stone bridge, lantern boats, teahouse balconies, book stalls, noodle steam, scholars reading under lamps, children chasing paper rabbits, and distant city walls fading into mist. Add small readable Chinese shop signs in brush style: \"茶\", \"书\", \"面\", \"灯市\". Palette: black ink, warm lantern ochre, muted cinnabar seals, and pale blue-gray moonlight. Composition should read as a continuous scroll with rhythmic clusters of people and negative-space water. Avoid modern objects, anime faces, fake calligraphy clutter, and overly saturated poster lighting.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "宋代河畔夜市手卷，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-051/e49f987648435a5262235450b0d5a01d.png",
+        "mimeType": "image/png",
+        "bytes": 2830687,
+        "sha256": "e49f987648435a5262235450b0d5a01d4f56eae385f2cd1263d4c797a3552b3e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-051/ffd53ef03d0d550be930eae541621198.webp",
+        "mimeType": "image/webp",
+        "bytes": 50302,
+        "sha256": "ffd53ef03d0d550be930eae5416211985e28138d66bcdfc9cb0d474cb4beab85"
+      },
+      "preview": {
+        "key": "published/gpt-image2-051/c47a48ee338d5ceed0cc2dc4d988fff1.webp",
+        "mimeType": "image/webp",
+        "bytes": 301802,
+        "sha256": "c47a48ee338d5ceed0cc2dc4d988fff1bcf3c7b42752c58a3527f90a91f503c0"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ink-and-chinese.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 51）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ink-and-chinese.md"
+  }
+}

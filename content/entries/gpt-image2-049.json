@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-049",
+  "revision": "6b62b24a-f033-494e-86c1-efb482442c46",
+  "status": "published",
+  "kind": "image",
+  "title": "雨中植物温室水彩",
+  "category": "design",
+  "tags": [
+    "水彩",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:25.855Z",
+  "updatedAt": "2026-09-21T02:56:25.855Z",
+  "prompt": {
+    "text": "Create a delicate watercolor illustration of a rainy botanical greenhouse in early morning. Landscape composition, transparent washes, granulating pigments, soft wet-on-wet blooms, visible cold-pressed paper texture. Scene: arched glass greenhouse ribs, raindrops streaming down panes, hanging ferns, orchids, clay pots, a narrow stone path, a wooden bench with an open gardening notebook, and diffused silver daylight. Palette: sage green, eucalyptus gray, pale lavender, warm terracotta, and tiny yellow flower accents. Keep the image airy and poetic, with preserved white paper highlights, no hard digital gradients, no photorealistic lens effects, and no heavy outlines.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "雨中植物温室水彩，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-049/9c898400c0561fe244615af426a28991.png",
+        "mimeType": "image/png",
+        "bytes": 3917844,
+        "sha256": "9c898400c0561fe244615af426a289912e19a7ffc8b47f66cc49deb1dda3c9e5"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-049/7bcf2dd287d08ce98ef80fd6a1f33741.webp",
+        "mimeType": "image/webp",
+        "bytes": 88506,
+        "sha256": "7bcf2dd287d08ce98ef80fd6a1f337412d996a6a9b5272976955af31cc58772a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-049/4ba6fde7bd5ef45b0b5deff979a2e227.webp",
+        "mimeType": "image/webp",
+        "bytes": 465776,
+        "sha256": "4ba6fde7bd5ef45b0b5deff979a2e2271e1582afa9587d2ceb0fd09e920ac539"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-watercolor.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 49）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-watercolor.md"
+  }
+}

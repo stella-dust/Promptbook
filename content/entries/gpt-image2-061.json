@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-061",
+  "revision": "98a719f9-a876-456c-b963-35161332ea6b",
+  "status": "published",
+  "kind": "image",
+  "title": "PS1 怀旧品牌系统板",
+  "category": "design",
+  "tags": [
+    "品牌视觉",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:11.855Z",
+  "updatedAt": "2026-09-21T02:56:11.855Z",
+  "prompt": {
+    "text": "Create a clean brand kit presented as one square modular board for a fictional revival of the PlayStation One era called \"PS1 1998 Reboot\". The identity should merge Japanese editorial design, Y2K nostalgia, acid green accents, VHS texture, silver plastics, disc-menu UI motifs, retail stickers, controller packaging, startup-screen typography, and memory-card iconography. Show multiple coordinated tiles including posters, packaging, interface snippets, collectible cards, typography studies, icons, and branded mockups. Keep it polished, cohesive, art-directed, and emotionally nostalgic, like a real top-tier design studio case study rather than generic merch.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "PS1 怀旧品牌系统板，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-061/417f35a3ec991c2fcb029d3ecde91337.png",
+        "mimeType": "image/png",
+        "bytes": 1564707,
+        "sha256": "417f35a3ec991c2fcb029d3ecde9133763c5a5d20b1bc3115000eaf8a01bf41c"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-061/6a6d26bdd69ceab0cf97bed381cf437d.webp",
+        "mimeType": "image/webp",
+        "bytes": 52860,
+        "sha256": "6a6d26bdd69ceab0cf97bed381cf437d1e926c264d556a77c7fc18b6daf37489"
+      },
+      "preview": {
+        "key": "published/gpt-image2-061/b2a7a3570bf2b81a851aea73d95d9238.webp",
+        "mimeType": "image/webp",
+        "bytes": 115284,
+        "sha256": "b2a7a3570bf2b81a851aea73d95d92380f146da1eeb107d78ee98a9021c107f0"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@den_turbin",
+    "url": "https://x.com/den_turbin/status/2046863385791467773",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 61）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-brand-systems-and-identity.md"
+  }
+}

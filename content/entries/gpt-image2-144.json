@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-144",
+  "revision": "84a3a923-818e-42e0-8642-3e120370ba05",
+  "status": "published",
+  "kind": "image",
+  "title": "阿尔卑斯山低多边形日落",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:46.855Z",
+  "updatedAt": "2026-09-21T02:54:46.855Z",
+  "prompt": {
+    "text": "A stylized landscape illustration composed entirely of sharp, flat-shaded geometric polygons. The subject is a range of snow-capped mountains at sunset. Every surface is a triangle or quadrilateral, with no curves or gradients. The lighting is calculated by the angle of the polygons, creating distinct facets of light and shadow. The color palette transitions from 'Deep Indigo' in the valleys to 'Fiery Crimson' and 'Gold' on the mountain peaks. In the foreground, a low-poly pine forest is represented by simple green tetrahedrons. The sky is a series of horizontal bands of color, with a low-poly sun made of concentric yellow circles. The overall look is reminiscent of early 3D video game aesthetics but with a modern, high-resolution finish. The mood is clean, digital, and strangely peaceful in its mathematical simplicity.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "阿尔卑斯山低多边形日落，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-144/260ed2031e00eac1e034822289d5e61c.png",
+        "mimeType": "image/png",
+        "bytes": 1668234,
+        "sha256": "260ed2031e00eac1e034822289d5e61c0858d683b91ef84e21ad311f49e52fff"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-144/80ec6160fbb387752519ae1a39efe580.webp",
+        "mimeType": "image/webp",
+        "bytes": 16962,
+        "sha256": "80ec6160fbb387752519ae1a39efe5801dccfa2020cb983c826a0e15913c5e65"
+      },
+      "preview": {
+        "key": "published/gpt-image2-144/fdfe6cdffc4514fd597f1ebd6ab9ff84.webp",
+        "mimeType": "image/webp",
+        "bytes": 60384,
+        "sha256": "fdfe6cdffc4514fd597f1ebd6ab9ff84789412f282f27297ec3dc202e5f23a21"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 144）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

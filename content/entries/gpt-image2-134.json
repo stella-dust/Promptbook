@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-134",
+  "revision": "ff21fd10-d53e-4b3e-b9db-fe3ce728d48c",
+  "status": "published",
+  "kind": "image",
+  "title": "先锋时装：有机超现实主义",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:56.855Z",
+  "updatedAt": "2026-09-21T02:54:56.855Z",
+  "prompt": {
+    "text": "A high-fashion editorial shot in a surreal desert landscape where the sand is white and the sky is a deep, dark indigo. The model wears an avant-garde garment that appears to be grown from bioluminescent fungi and dried desert vines, featuring intricate organic textures and glowing veins of 'Acid Green'. The silhouette is exaggerated and asymmetrical, blending into the surrounding rock formations. The lighting is otherworldly, with the model illuminated by a soft internal glow from the dress and a faint lunar backlight. The composition is a low-angle shot to make the model appear monumental and god-like. The camera uses a wide-angle lens to capture the vast, empty horizon. The color palette is strictly limited to white, indigo, and bioluminescent green, creating a haunting and futuristic aesthetic that challenges the boundaries of clothing.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "先锋时装：有机超现实主义，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-134/91380091a9ef453da55453114880e40a.png",
+        "mimeType": "image/png",
+        "bytes": 2626900,
+        "sha256": "91380091a9ef453da55453114880e40ad33d5480536649e4495604b34b4962cc"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-134/e5c59378016c2aef4f156e5698e9528b.webp",
+        "mimeType": "image/webp",
+        "bytes": 47320,
+        "sha256": "e5c59378016c2aef4f156e5698e9528b5ff94e41481e78a2d373125cd4328ac5"
+      },
+      "preview": {
+        "key": "published/gpt-image2-134/6eb43904ef42af3f3e400ae49957c8bf.webp",
+        "mimeType": "image/webp",
+        "bytes": 231504,
+        "sha256": "6eb43904ef42af3f3e400ae49957c8bff0ded0e1233fb8e2b3c42fbfc9792f46"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 134）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

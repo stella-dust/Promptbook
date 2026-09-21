@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-042",
+  "revision": "5cd9983b-5783-4f75-9533-65e088ffe009",
+  "status": "published",
+  "kind": "image",
+  "title": "日式弹珠机彩虹传单",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:32.855Z",
+  "updatedAt": "2026-09-21T02:56:32.855Z",
+  "prompt": {
+    "text": "パチンコ屋のギラギラチラシを3:4で作って。リアルで精密な今どきの可愛い日本人女性を1人配置。ギラギラで立体感のあるリッチな装飾のレインボーフォントなどを駆使し、とにかく豪華に。実在しない架空の新台の紹介をいくつか並べて。価格・特典・煽り文句・小さな注意書きまで入れて、日本の量販広告らしい情報量と熱量で仕上げて。",
+    "language": "other"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "日式弹珠机彩虹传单，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-042/4ed0084d4d85cd29daa066d17064ae14.png",
+        "mimeType": "image/png",
+        "bytes": 3337611,
+        "sha256": "4ed0084d4d85cd29daa066d17064ae14b7dd9ec2103033ec3f31136be3e116a4"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-042/4d4a1b1ffc620a1e103c4c2114c703d9.webp",
+        "mimeType": "image/webp",
+        "bytes": 121944,
+        "sha256": "4d4a1b1ffc620a1e103c4c2114c703d9d52bb1d9a7a1abc64bed06db2c0f778f"
+      },
+      "preview": {
+        "key": "published/gpt-image2-042/0f49ddc04621da18196182879374919a.webp",
+        "mimeType": "image/webp",
+        "bytes": 536770,
+        "sha256": "0f49ddc04621da18196182879374919a72de388525d090984f341443ccc3fc7b"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@midori_tatsuta",
+    "url": "https://x.com/midori_tatsuta/status/2045441358530498797",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 42）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-081",
+  "revision": "9f181157-ac02-41a4-ad9f-d741af45b703",
+  "status": "published",
+  "kind": "image",
+  "title": "检索增强生成流程图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:51.855Z",
+  "updatedAt": "2026-09-21T02:55:51.855Z",
+  "prompt": {
+    "text": "Landscape 16:9 academic systems diagram of a RAG pipeline, 6-stage left-to-right flow.\n\n(1) \"User query\" box with placeholder text \"What are the side effects of drug X?\" and a small user silhouette.\n(2) Hexagonal \"Embedding encoder (BERT-style)\", caption \"dense vector d=768\".\n(3) Stylised database cylinder \"Vector store\" with \"Index: 1.2M chunks\"; arrow from (2) labeled \"kNN, k=5\".\n(4) \"Retrieved passages\" — stack of 5 doc thumbnails; caption \"top-k chunks + metadata\".\n(5) Hexagonal hub \"Frozen LLM\"; long curved arrow from (1) labeled \"original query\" also lands here; arrow from (4) labeled \"retrieved context\".\n(6) \"Grounded answer\" with inline marker \"[cite: doc#47]\"; caption \"with source citations\".\n\nDashed outline around (2)-(3) labeled \"OFFLINE — built once\". Dashed outline around (4)-(5) labeled \"ONLINE — per query\".\n\nTitle: \"Retrieval-Augmented Generation pipeline\". Subtitle: \"Lewis et al., 2020\".",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "检索增强生成流程图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-081/f14acbcac56b40c27a8cde47d4b1e6e5.png",
+        "mimeType": "image/png",
+        "bytes": 555526,
+        "sha256": "f14acbcac56b40c27a8cde47d4b1e6e5a27072c68f3dc1eeeab547122d8238fe"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-081/4c042899d2ae2c4329168c171ee1ba26.webp",
+        "mimeType": "image/webp",
+        "bytes": 23244,
+        "sha256": "4c042899d2ae2c4329168c171ee1ba26b62b8e9feb7cd3804524ccab15f64df3"
+      },
+      "preview": {
+        "key": "published/gpt-image2-081/f0d80ebffbc7d069e6f6b1c2248b8bfe.webp",
+        "mimeType": "image/webp",
+        "bytes": 75152,
+        "sha256": "f0d80ebffbc7d069e6f6b1c2248b8bfee56f973269c30a4673e09935908e3d6f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 81）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-145",
+  "revision": "1fe88f29-c826-4b79-9a81-66ed8e00a2ce",
+  "status": "published",
+  "kind": "image",
+  "title": "贴纸设计：赛博探索者俱乐部",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:45.855Z",
+  "updatedAt": "2026-09-21T02:54:45.855Z",
+  "prompt": {
+    "text": "A collection of five high-quality die-cut sticker designs arranged on a dark carbon-fiber background. The central sticker is a circular badge featuring a stylized astronaut helmet with the text 'EXPLORE' in a bold, futuristic font. The other stickers include a retro-style rocket, a planet with rings, and a lightning bolt. The art style is 'Neo-Traditional Sticker,' with thick white borders and vibrant, saturated colors. A 'holographic' texture overlay is applied to certain areas, creating a rainbow-sheen effect that shifts with the light. The lighting features bright specular highlights to give the stickers a 3D, plastic, and slightly glossy feel. The colors are 'Electric Purple', 'Cyan', and 'Neon Yellow'. Each sticker has a subtle drop shadow to make it appear as if it's peeling slightly off the surface.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "贴纸设计：赛博探索者俱乐部，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-145/e5d619b5d6caafe220d74e17a74636b5.png",
+        "mimeType": "image/png",
+        "bytes": 1985341,
+        "sha256": "e5d619b5d6caafe220d74e17a74636b58880693ac1f412e34900d1b49d578a0d"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-145/c3c3e15402ba64f19de44b13d904dde9.webp",
+        "mimeType": "image/webp",
+        "bytes": 106924,
+        "sha256": "c3c3e15402ba64f19de44b13d904dde9f04b9bbfd1735360a12a810e73d2ac60"
+      },
+      "preview": {
+        "key": "published/gpt-image2-145/80dc570a3106d7bd138c5e890b464d66.webp",
+        "mimeType": "image/webp",
+        "bytes": 234736,
+        "sha256": "80dc570a3106d7bd138c5e890b464d66e78e8ad1bb9d2c7f89df437c2cbaae83"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 145）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

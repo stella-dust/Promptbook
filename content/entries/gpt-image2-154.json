@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-154",
+  "revision": "9ecf35ac-4eb9-4ec0-a1c9-0bcad454cdd0",
+  "status": "published",
+  "kind": "image",
+  "title": "静奢护肤晨间托盘",
+  "category": "product",
+  "tags": [
+    "美妆生活",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:36.855Z",
+  "updatedAt": "2026-09-21T02:54:36.855Z",
+  "prompt": {
+    "text": "Create a 3:4 vertical beauty lifestyle photograph for a premium skincare morning routine. Scene: a travertine bathroom counter beside a soft frosted window, with a minimal glass serum bottle, ceramic cleanser tube, cream jar, folded linen towel, jade roller, small dish of pearl hair clips, and a single dewy white camellia flower. Lighting: natural morning side light, gentle reflections, realistic glass thickness, soft shadows, clean negative space. Aesthetic: quiet luxury, Japanese minimalism meets modern spa editorial, cream / warm stone / translucent pale green palette. No visible brand logos, no readable fake labels except a tiny generic mark \"AM ROUTINE\", no human face, no clutter, no overdone CGI shine.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "静奢护肤晨间托盘，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-154/a354ee96b750a6dd63566485022f0518.png",
+        "mimeType": "image/png",
+        "bytes": 2088337,
+        "sha256": "a354ee96b750a6dd63566485022f05180ffa71781f309a2ad1529dcf82062259"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-154/c6601e1d0318549b892b70a4f3a11404.webp",
+        "mimeType": "image/webp",
+        "bytes": 20444,
+        "sha256": "c6601e1d0318549b892b70a4f3a11404d4afa549405e49cbf5318b195a46bc6c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-154/8128c663b6c8f08d6ff8bda7b22b2e66.webp",
+        "mimeType": "image/webp",
+        "bytes": 96486,
+        "sha256": "8128c663b6c8f08d6ff8bda7b22b2e66268a7d597dde54cbc358c93e98ea9f6d"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-beauty-and-lifestyle.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 154）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-beauty-and-lifestyle.md"
+  }
+}

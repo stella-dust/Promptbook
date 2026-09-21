@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-052",
+  "revision": "60fe50d0-ef4b-4a01-b42b-eddfa134b179",
+  "status": "published",
+  "kind": "image",
+  "title": "像素艺术汽车精灵图集",
+  "category": "design",
+  "tags": [
+    "像素画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:22.855Z",
+  "updatedAt": "2026-09-21T02:56:22.855Z",
+  "prompt": {
+    "text": "一个10x10的像素艺术复古电子游戏汽车精灵图集，16位时代美学。十行十列的小型车辆精灵，背景为干净的浅灰色网格，每个格子64x64像素。精灵种类多样：轿车、跑车、肌肉车、SUV、皮卡、面包车、出租车、警车、敞篷车和改装跑车，色彩丰富，涵盖整个彩虹色谱。所有精灵均采用一致的3/4俯视角度渲染，阴影一致，像素边缘清晰，无抗锯齿，每个精灵调色板限制约16色，采用SNES / 超级任天堂卡丁车游戏传统风格。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "像素艺术汽车精灵图集，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-052/ce917cd53d98b086c6d92f4e5b3223a8.png",
+        "mimeType": "image/png",
+        "bytes": 1857681,
+        "sha256": "ce917cd53d98b086c6d92f4e5b3223a8c1747e4ac7edadf0068be656a1173b62"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-052/8da673c4beaa2957a0a3d1a19b2386d8.webp",
+        "mimeType": "image/webp",
+        "bytes": 102606,
+        "sha256": "8da673c4beaa2957a0a3d1a19b2386d8349b53bcde2887a42d5bf4026f743cd2"
+      },
+      "preview": {
+        "key": "published/gpt-image2-052/fa201507ea51ae109c68a5360b504289.webp",
+        "mimeType": "image/webp",
+        "bytes": 233702,
+        "sha256": "fa201507ea51ae109c68a5360b5042899e31dc5823f854cc9d774c540cc8becc"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@RoundtableSpace",
+    "url": "https://x.com/RoundtableSpace",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 52）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-pixel-art.md"
+  }
+}

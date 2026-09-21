@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-149",
+  "revision": "903c7489-a2fb-4d4b-9784-2705ab0bb8e1",
+  "status": "published",
+  "kind": "image",
+  "title": "巨石科幻：黑曜石之门",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:41.855Z",
+  "updatedAt": "2026-09-21T02:54:41.855Z",
+  "prompt": {
+    "text": "一幅令人惊叹的电影广角镜头，继承丹尼斯·维伦纽瓦巨石科幻风格。一名孤独微小的人物站在一块巨大的、无特征的黑曜石岩板前，这块岩板高耸入尘土飞扬的橙色天空，极其巨大以致人物犹如一粒沙尘。环境是一片辽阔平坦的盐碱地，日光暗淡朦胧。光线低对比且富有氛围感，巨石表面反射着暗淡油亮的光泽。色彩调色板为“工业单色”：深黑、板岩灰和柔和的沙黄色。传达出一种巨大重量感和古老的沉寂。镜头采用广角镜头和深景深，强调构筑物的震撼规模。氛围充满敬畏、恐惧，以及高级外星智慧的崇高神秘。设计极简且粗犷。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "巨石科幻：黑曜石之门，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-149/3fff5c730ebb7f995d2d6b4f20ba1dad.png",
+        "mimeType": "image/png",
+        "bytes": 3187864,
+        "sha256": "3fff5c730ebb7f995d2d6b4f20ba1dad4854a47664bf0c74afa4a7321aef5f5e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-149/66e718178580e7942dee4993c2d73f76.webp",
+        "mimeType": "image/webp",
+        "bytes": 8994,
+        "sha256": "66e718178580e7942dee4993c2d73f76e565a238ad98dcec1dc86383055760cd"
+      },
+      "preview": {
+        "key": "published/gpt-image2-149/8a2703aacadc05e3c0b94caf5c5b361c.webp",
+        "mimeType": "image/webp",
+        "bytes": 70218,
+        "sha256": "8a2703aacadc05e3c0b94caf5c5b361c2a7357a5b56b5fde5a05b9b40d6f6ad1"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 149）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

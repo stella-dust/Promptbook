@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-018",
+  "revision": "1e41f1e6-085a-4d64-a0e2-83ca29505ed5",
+  "status": "published",
+  "kind": "image",
+  "title": "赛博朋克欧洲动作 HUD",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:57.855Z",
+  "updatedAt": "2026-09-21T02:56:57.855Z",
+  "prompt": {
+    "text": "创作一张第三人称赛博朋克动作游戏截图，设定在一个霓虹灯照耀的欧洲首都夜晚。主角拥有发光的赛博义体，站在雨水打湿的街道上，靠近著名地标。全景中有全息投影、无人机和飞行交通。添加一个精致的游戏 HUD，包含生命条、弹药数、雷达、潜行/能量仪表和任务叠加。鲜艳的青品红调色板，湿润反射，电影级强度，16:9。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "赛博朋克欧洲动作 HUD，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-018/ba9d1661f398a0f011c855dce2be8a7c.png",
+        "mimeType": "image/png",
+        "bytes": 2605753,
+        "sha256": "ba9d1661f398a0f011c855dce2be8a7c0ec8956761e31c8fbec796cf7c36fdd1"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-018/b0074b50a2024d46d66aa7d64d1f0695.webp",
+        "mimeType": "image/webp",
+        "bytes": 35800,
+        "sha256": "b0074b50a2024d46d66aa7d64d1f06952382ef8082684fdf7230f63a4a88eaf4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-018/0cf930c55e0814535236baf27eecabce.webp",
+        "mimeType": "image/webp",
+        "bytes": 184826,
+        "sha256": "0cf930c55e0814535236baf27eecabce85d4b2fdf9615a186113d44fd8212dcf"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/midjourney/comments/1kzzy77/cyberpunk_video_games_in_european_cities_prompts/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 18）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

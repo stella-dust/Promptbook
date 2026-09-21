@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-013",
+  "revision": "01e3a035-100b-4168-8aa4-3ce6057705a7",
+  "status": "published",
+  "kind": "image",
+  "title": "Hitman 游戏演示: OpenAI 总部",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:02.855Z",
+  "updatedAt": "2026-09-21T02:57:02.855Z",
+  "prompt": {
+    "text": "一个 Hitman 关卡，你在 OpenAI 总部，你的任务是在不被发现的情况下盗取 GPT-6",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Hitman 游戏演示: OpenAI 总部，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-013/183804528d8b75bb3a0a35cbb2b955f4.png",
+        "mimeType": "image/png",
+        "bytes": 1801848,
+        "sha256": "183804528d8b75bb3a0a35cbb2b955f4cd673e6113970d6919b6cb62c398c7aa"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-013/78e3bd3fbe86ca23e69f0836bd8c41fa.webp",
+        "mimeType": "image/webp",
+        "bytes": 19908,
+        "sha256": "78e3bd3fbe86ca23e69f0836bd8c41fa90a8decd07ecde630d51b9f1bb424753"
+      },
+      "preview": {
+        "key": "published/gpt-image2-013/a729b26a5f440cf4b4e8105c0f704586.webp",
+        "mimeType": "image/webp",
+        "bytes": 76448,
+        "sha256": "a729b26a5f440cf4b4e8105c0f7045862a84f8869619d795a4f59e68c021d446"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@flowersslop",
+    "url": "https://x.com/flowersslop",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 13）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

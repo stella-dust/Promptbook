@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-007",
+  "revision": "d67a7c4c-c1d7-4988-9efc-657870c29067",
+  "status": "published",
+  "kind": "image",
+  "title": "霓虹街机时尚写真",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:08.855Z",
+  "updatedAt": "2026-09-21T02:57:08.855Z",
+  "prompt": {
+    "text": "Create a portrait-oriented anime fashion illustration of an adult woman, age 25, in a neon arcade district at night. She has a cute confident smile and looks directly at the viewer while standing beside glowing claw machines and retro game cabinets. Outfit: black turtleneck, red satin bomber jacket, high-waisted skirt, patterned dark stockings, platform shoes, small crossbody bag, star earrings. Composition: full-body fashion portrait with strong silhouette, neon reflections on wet pavement, vending machines, sticker-covered walls, colorful signage, and cinematic rim light. Keep the pose playful but non-explicit, no nudity, no lingerie, no fetish framing, adult character only. Use high-end anime key visual rendering, crisp line art, saturated magenta-cyan lighting, clean readable background details, and glossy cyber-pop atmosphere.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "霓虹街机时尚写真，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-007/6c849ce881afb73e01dc67556c0c6934.png",
+        "mimeType": "image/png",
+        "bytes": 2540668,
+        "sha256": "6c849ce881afb73e01dc67556c0c6934cdcf879cfd3dc7b2e5040c936874e444"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-007/926e4da3ed89fa5e6b31d53cafcd4ab7.webp",
+        "mimeType": "image/webp",
+        "bytes": 57156,
+        "sha256": "926e4da3ed89fa5e6b31d53cafcd4ab7180d7183664ccc259707a2de765e6b63"
+      },
+      "preview": {
+        "key": "published/gpt-image2-007/87e02b38ee2d5909dd926a672f09accb.webp",
+        "mimeType": "image/webp",
+        "bytes": 227664,
+        "sha256": "87e02b38ee2d5909dd926a672f09accb83ca61b5f4fdbfea737f6575e9a525ab"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 7）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

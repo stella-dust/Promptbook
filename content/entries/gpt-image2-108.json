@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-108",
+  "revision": "4724750f-0a21-437e-ac8b-1cf1a95dca23",
+  "status": "published",
+  "kind": "image",
+  "title": "小多重气候网格",
+  "category": "design",
+  "tags": [
+    "数据可视化",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:23.855Z",
+  "updatedAt": "2026-09-21T02:55:23.855Z",
+  "prompt": {
+    "text": "Produce a clean editorial data visualization poster showing a 4x3 small-multiples grid of monthly climate charts for 12 fictional cities. Use a white background, generous margins, and a restrained palette of navy, rust, sky blue, olive, and charcoal. Each mini-panel should contain a temperature line and precipitation bars with consistent axes and ultra-legible labels. Include a title block with the in-image text \"Annual Climate Profiles\" and subtitle \"12 Cities, 2025\". Label panels \"Northport\", \"Solmere\", \"Aster Bay\", \"Ridgefall\", \"Halcyon\", \"Verdin\", \"Glass Harbor\", \"Red Mesa\", \"Moonfield\", \"Lake Arden\", \"Cinder Point\", and \"Juniper\". Use month labels \"J F M A M J J A S O N D\" and axis labels \"Temp °C\" and \"Rain mm\". Add numeric legend values \"0\", \"10\", \"20\", \"30\", and \"100\". Keep the composition highly structured, scientifically clear, and visually elegant, with crisp typography, aligned scales, and publication-grade chart rendering.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "小多重气候网格，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-108/6aa1d1df4f4f470a767b0fff4967a2b1.png",
+        "mimeType": "image/png",
+        "bytes": 827169,
+        "sha256": "6aa1d1df4f4f470a767b0fff4967a2b1727f820a925b03795ed3e2f6081e8af3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-108/601c1de487926e6c763e95791ca5e79a.webp",
+        "mimeType": "image/webp",
+        "bytes": 35036,
+        "sha256": "601c1de487926e6c763e95791ca5e79a5d713da6ded99c5c5afa4ee37c89c488"
+      },
+      "preview": {
+        "key": "published/gpt-image2-108/818c183458004fc5e214d3a2b601a271.webp",
+        "mimeType": "image/webp",
+        "bytes": 123382,
+        "sha256": "818c183458004fc5e214d3a2b601a2712a71131cd867f269e02c646bfb98f892"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 108）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md"
+  }
+}

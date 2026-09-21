@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-065",
+  "revision": "1602c3a1-8c91-49b1-b76d-1a47774079bf",
+  "status": "published",
+  "kind": "image",
+  "title": "棋盘中盘比赛",
+  "category": "story",
+  "tags": [
+    "写实摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:07.855Z",
+  "updatedAt": "2026-09-21T02:56:07.855Z",
+  "prompt": {
+    "text": "生成一张严肃棋赛中盘时期棋盘的写实照片。俯视三分之三角度视图，浅景深。所有棋子清晰可辨且形状正确：兵、车、马（带马头轮廓）、象（主教帽顶）、后、王（带十字饰顶）。棋局处于中盘阶段：若干棋子已被吃掉，放置在棋盘右侧，一些兵已前进，棋子聚集在中央d4-e5-f4列周围。\n\n材质：抛光木质斯汤顿式棋子——黑方为紫檀木，白方为枫木。棋盘由拼嵌的枫木和胡桃木方块组成。一块数字象棋时钟位于左侧，显示“00:14:28 / 00:08:47”。柔和的头顶比赛用光，背景为模糊的比赛大厅。所有棋子准确无误，无变异体，无额外棋子。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "棋盘中盘比赛，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-065/1c47574bb18141492be730ae1b5d3386.png",
+        "mimeType": "image/png",
+        "bytes": 2058174,
+        "sha256": "1c47574bb18141492be730ae1b5d338623c0143994dbbfacaa93bdf083d68147"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-065/5a8e5d76c5ac8c700d6019c5aae009d7.webp",
+        "mimeType": "image/webp",
+        "bytes": 20794,
+        "sha256": "5a8e5d76c5ac8c700d6019c5aae009d780b8609b62727bd2cca823918bef976a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-065/8cf417ee46bec12b79783384d32d893a.webp",
+        "mimeType": "image/webp",
+        "bytes": 83346,
+        "sha256": "8cf417ee46bec12b79783384d32d893af60d35353e694c83fb61a8375a4da15e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@EddGorenstein",
+    "url": "https://x.com/EddGorenstein",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 65）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-photography.md"
+  }
+}

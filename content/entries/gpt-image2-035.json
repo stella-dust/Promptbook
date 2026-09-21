@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-035",
+  "revision": "646d4559-f027-4fe3-ade2-6939ea1defed",
+  "status": "published",
+  "kind": "image",
+  "title": "悬疑电影剪影海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:40.855Z",
+  "updatedAt": "2026-09-21T02:56:40.855Z",
+  "prompt": {
+    "text": "A Saul-Bass-style minimalist thriller movie poster, 3:4 portrait. Off-white paper background with subtle vintage grain. Large flat-color cut-paper shapes, bold geometry, negative-space illusion.\n\nComposition: a single stylised human silhouette in crimson running across centre; the shadow warps into a knife blade pointing up into the title. Black ink-brush splatter across the lower third. A single yellow eye motif in the upper-left negative space.\n\nExact typography:\n- Title (large hand-lettered serif, black): \"THE LAST HEIR\"\n- Tagline (small caps sans-serif, dark red): \"EVERY FAMILY KEEPS A SECRET. HIS WILL BURY THEM ALL.\"\n- Bottom credit block: \"PRODUCERS JANE NORRIS  LEWIS HAHN    DIRECTED BY MAYA ALVAREZ    A CINERA RELEASE    IN CINEMAS OCTOBER 31\"\n\nPalette: cream, charcoal black, crimson red, mustard-yellow accent. Pure flat graphic design, no photo elements, no gradients, no 3D — in the lineage of Bass's \"Anatomy of a Murder\", \"Vertigo\", and \"The Man with the Golden Arm\".",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "悬疑电影剪影海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-035/78ecd767e5a61927582235b393ca78e3.png",
+        "mimeType": "image/png",
+        "bytes": 2787673,
+        "sha256": "78ecd767e5a61927582235b393ca78e3850958ca6749061018b1c19d6b56d03f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-035/3fd45ec53a42d0e99dec1963abc07442.webp",
+        "mimeType": "image/webp",
+        "bytes": 28086,
+        "sha256": "3fd45ec53a42d0e99dec1963abc07442beee5120898157612b126815f7e906a6"
+      },
+      "preview": {
+        "key": "published/gpt-image2-035/074f976446e02bbfc53138b6b123ad72.webp",
+        "mimeType": "image/webp",
+        "bytes": 160094,
+        "sha256": "074f976446e02bbfc53138b6b123ad729fb730f5e625e2806bd09206b8f2bd4a"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 35）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-012",
+  "revision": "7bf73bd9-ae99-44b2-bda4-2ca78487dafc",
+  "status": "published",
+  "kind": "image",
+  "title": "雨天站牌镜中人像",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:03.855Z",
+  "updatedAt": "2026-09-21T02:57:03.855Z",
+  "prompt": {
+    "text": "Create a portrait anime key visual of an adult woman, age 25, posing cutely in a convex traffic safety mirror beside a rainy roadside bus stop at blue hour. The image should show both the round mirror reflection and a bit of the real street around it: wet asphalt, umbrellas, blurred bus headlights, a small timetable sign, and glowing convenience-store windows. She wears a camel duffle coat, short plaid skirt, sheer black stockings, ankle boots, knitted scarf, and a tiny charm bracelet; her expression is playful and bashful, looking at the viewer through the mirror reflection. Keep the styling tasteful and wholesome: no nudity, no lingerie, no explicit pose, no school-uniform framing, adult character only. Use high-end anime rendering, delicate rain highlights, crisp line art, luminous eyes, soft cel shading, realistic mirror distortion, and a cozy rainy-city atmosphere.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "雨天站牌镜中人像，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-012/eec326853d3999fcf3e7dd8f7ad50df2.png",
+        "mimeType": "image/png",
+        "bytes": 2305674,
+        "sha256": "eec326853d3999fcf3e7dd8f7ad50df2c6a9e3ab3e5d011714a79be233525ea7"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-012/742dceb6c9c99105c0b2e2342ac29a14.webp",
+        "mimeType": "image/webp",
+        "bytes": 39538,
+        "sha256": "742dceb6c9c99105c0b2e2342ac29a14b44332e243a141a7fddcad7409bf2964"
+      },
+      "preview": {
+        "key": "published/gpt-image2-012/d8ed0b6a6c8b7713964659d1c0d1588e.webp",
+        "mimeType": "image/webp",
+        "bytes": 161776,
+        "sha256": "d8ed0b6a6c8b7713964659d1c0d1588ea0f624c3914946673523355130fc01cb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 12）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

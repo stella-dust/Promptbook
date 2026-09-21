@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-124",
+  "revision": "7010457e-7507-4fe1-a788-f717605dd3a9",
+  "status": "published",
+  "kind": "image",
+  "title": "人体骨骼系统海报",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:06.855Z",
+  "updatedAt": "2026-09-21T02:55:06.855Z",
+  "prompt": {
+    "text": "Create a clean educational anatomy poster showing the human skeletal system in anterior and posterior views on a pale cream background. Use a refined academic wall-chart style with precise bone linework, cool gray and ivory bone shading, charcoal labels, and subtle blue accent rules. Include a centered title with crisp in-image text \"Human Skeletal System\" and subtitle \"Anterior and Posterior Views\". Label key structures such as \"Skull\", \"Clavicle\", \"Sternum\", \"Humerus\", \"Radius\", \"Ulna\", \"Pelvis\", \"Femur\", \"Tibia\", and \"Fibula\". Add a compact scale note reading \"Adult height reference 175 cm\" and a small legend with \"Axial\" and \"Appendicular\". Keep the composition symmetrical, scientifically accurate in appearance, suitable for a classroom wall chart, non-gory, clean, precise, and publication-quality.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "人体骨骼系统海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-124/82c9e3153534ab25e8bc189a3d798ca0.png",
+        "mimeType": "image/png",
+        "bytes": 5271043,
+        "sha256": "82c9e3153534ab25e8bc189a3d798ca06bf2c50198edfad70c53670343f0ed3b"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-124/5c4445b6b355df5798781373cd218805.webp",
+        "mimeType": "image/webp",
+        "bytes": 32798,
+        "sha256": "5c4445b6b355df5798781373cd218805e8fcba4abc586d5251c22091635f0f7b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-124/2cb3270cd094511ccabcb1201758bf53.webp",
+        "mimeType": "image/webp",
+        "bytes": 153404,
+        "sha256": "2cb3270cd094511ccabcb1201758bf531baa89ac2a4fdc39c902a920f76a3474"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 124）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-161",
+  "revision": "cd5452c5-cf28-4ddd-ad70-4ae402f6fcd3",
+  "status": "published",
+  "kind": "image",
+  "title": "暗黑超现实飞蛾教堂纹身",
+  "category": "design",
+  "tags": [
+    "纹身设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:29.855Z",
+  "updatedAt": "2026-09-21T02:54:29.855Z",
+  "prompt": {
+    "text": "Create a dark surrealist tattoo design sheet in portrait format. Subject: a giant lunar moth with eye-like wing markings, its body transforming into a tiny gothic cathedral, black roses, thorn halos, melting moon phases, and a staircase fading into mist. Style: dark surrealism meets fine-line tattoo and blackwork, with selective muted color accents in bruised violet, cold blue, and oxidized gold. Composition: vertical sternum-or-back tattoo concept with clean stencil-ready silhouette, ornamental framing, and clear negative-space breaks. Include small readable labels: \"DARK SURREAL\" / \"MOTH CATHEDRAL\". Mood: mysterious and elegant, not gore. Avoid horror splatter, avoid excessive tiny details that cannot tattoo, no real human body, no brand logos.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "暗黑超现实飞蛾教堂纹身，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-161/509f56b82c782a345b90ca88545884e9.png",
+        "mimeType": "image/png",
+        "bytes": 2583199,
+        "sha256": "509f56b82c782a345b90ca88545884e92907e532bdd833cef7d70520fc4b537e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-161/6dab96856619373c0fa25ef170dea978.webp",
+        "mimeType": "image/webp",
+        "bytes": 38792,
+        "sha256": "6dab96856619373c0fa25ef170dea978da0249198cb0e39b93aa456f55c698cd"
+      },
+      "preview": {
+        "key": "published/gpt-image2-161/63fe87e7cdfc1c13d4eaf88cc21a0bd5.webp",
+        "mimeType": "image/webp",
+        "bytes": 189302,
+        "sha256": "63fe87e7cdfc1c13d4eaf88cc21a0bd5f53d82a7865a023ff4f5c65cc1ca69c0"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 161）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md"
+  }
+}

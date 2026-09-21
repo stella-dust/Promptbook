@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-027",
+  "revision": "bc7afbe4-794d-4538-8e23-7b4d6e7c77ad",
+  "status": "published",
+  "kind": "image",
+  "title": "1940年代黑色电影静帧",
+  "category": "story",
+  "tags": [
+    "电影动画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:48.855Z",
+  "updatedAt": "2026-09-21T02:56:48.855Z",
+  "prompt": {
+    "text": "一张1940年代黑色电影黑白电影静帧，横向16:9，高对比度。用35毫米胶片拍摄，带有可见颗粒。\n\n场景：凌晨2点，穿着风衣和软呢帽的侦探独自站在雨湿的街角，手里拿着香烟，烟雾盘旋上升。湿润的鹅卵石反射着一盏嗡嗡作响的街灯光。砖墙上的“HOTEL”霓虹灯招牌中，字母“L”闪烁熄灭，变成了“HOTE_”。路边停着一辆1946年老式轿车，尾灯透过细雨闪烁。\n\n灯光：经典明暗对比法——单个强硬的主光源从右上方照射，后墙投下百叶窗阴影。浓重的黑色，银色高光，完整的色调范围从纯白到纯黑。无色彩。画面感觉应当像《马耳他之鹰》《双重赔偿》或《第三人》的片段。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "1940年代黑色电影静帧，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-027/652ca971042476032b51c1926d2e1bf6.png",
+        "mimeType": "image/png",
+        "bytes": 2432845,
+        "sha256": "652ca971042476032b51c1926d2e1bf6e6a7a1e6754fdc65aa346016c8326265"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-027/a1b333553b7e7d49d43583b258dca85a.webp",
+        "mimeType": "image/webp",
+        "bytes": 29376,
+        "sha256": "a1b333553b7e7d49d43583b258dca85ad692e7a51bfaedd79659b0a2f623cd9b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-027/5db5363bb4fa1b55de72bbe5df17d419.webp",
+        "mimeType": "image/webp",
+        "bytes": 125524,
+        "sha256": "5db5363bb4fa1b55de72bbe5df17d4196c95b0ad250f56c5348dda963ec3e850"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 27）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md"
+  }
+}

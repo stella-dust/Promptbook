@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-088",
+  "revision": "f565f538-b516-4079-b240-45c582aed967",
+  "status": "published",
+  "kind": "image",
+  "title": "多头注意力热图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:44.855Z",
+  "updatedAt": "2026-09-21T02:55:44.855Z",
+  "prompt": {
+    "text": "横向 16:9 图示，4 个注意力热图（2×2 网格），共享 12 标记输入。\n\nX 轴和 Y 轴的标记标签（X 轴旋转 45°）：“The”、“quick”、“brown”、“fox”、“jumped”、“over”、“the”、“lazy”、“dog”、“near”、“the”、“river”。\n\n四个 12×12 单元格面板，各自标题：\n“Layer 6, Head 3 — subject-verb”（突出显示“fox” / “jumped”之间的单元格）\n“Layer 9, Head 7 — coreference”（突出显示“the”(×2) / “river”之间的单元格）\n“Layer 11, Head 2 — prepositional”（突出显示“over” / “dog”, “near” / “river”之间的单元格）\n“Layer 14, Head 1 — sentence-final”（活动集中在最右侧列）\n\n单元格颜色：尘土绿松石渐变，颜色越深表示权重越高。峰值单元格用 1px 柔和陶土色描边。最右侧有共享的垂直色条，标注刻度“0.0”、“0.25”、“0.5”、“0.75”、“1.0”，标签“attention weight”。\n\n标题：“Representative multi-head attention patterns in a 16-layer Transformer”。副标题：“4 个头中的示例，精心挑选以展示不同头部功能；灵感来自 Clark et al., 2019。”",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "多头注意力热图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-088/ef117b7f075a073d0c27c193e704e9e3.png",
+        "mimeType": "image/png",
+        "bytes": 1188853,
+        "sha256": "ef117b7f075a073d0c27c193e704e9e38389815d2382a498f98248f39ea688d0"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-088/b210785d43de18a51c95a420f7bd4cb8.webp",
+        "mimeType": "image/webp",
+        "bytes": 26530,
+        "sha256": "b210785d43de18a51c95a420f7bd4cb8622e7fc8551d497e14ea1edc4881593c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-088/cc8501ab8315a41d1aa77dc9157ae339.webp",
+        "mimeType": "image/webp",
+        "bytes": 85200,
+        "sha256": "cc8501ab8315a41d1aa77dc9157ae339a716517319ba2809916b1e8c8ee0a0e8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 88）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

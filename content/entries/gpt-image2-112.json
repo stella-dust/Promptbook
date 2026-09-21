@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-112",
+  "revision": "de353d09-9402-41f7-877f-b7a2e917b1c8",
+  "status": "published",
+  "kind": "image",
+  "title": "地理分级统计产量地图",
+  "category": "design",
+  "tags": [
+    "数据可视化",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:19.855Z",
+  "updatedAt": "2026-09-21T02:55:19.855Z",
+  "prompt": {
+    "text": "Produce a polished geographic choropleth map infographic of a fictional agricultural region called the Solterra Basin, showing harvest yield by district. Use a minimalist cartographic style on an off-white background with muted terrain hints and a sequential palette from pale sand to deep green. The map should include 14 clearly separated districts with clean borders, crisp labels, and a right-side legend. Include in-image text: \"Solterra Basin Harvest Yield\", \"2025\", and legend title \"tons / hectare\". Label districts with names such as \"North Vale\", \"Riverbend\", \"Copper Plain\", \"East Orchard\", and \"Cinder Ridge\". Include legend values \"1.2\", \"2.4\", \"3.6\", \"4.8\", and \"6.0\". Add a compact annotation box reading \"Highest yield: East Orchard 5.8\" and \"Lowest yield: Dry Steppe 1.4\". Prioritize clean typography, accurate map-like geometry, balanced composition, subtle cartographic detail, and publication-grade infographic clarity.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "地理分级统计产量地图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-112/7c8eb2ea139ab2d35289bb8adbc484e6.png",
+        "mimeType": "image/png",
+        "bytes": 3840970,
+        "sha256": "7c8eb2ea139ab2d35289bb8adbc484e675e33f13b0f89dfcb43d84c6728a9fb0"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-112/b7f4d9b588d6d76f67d0c44295b33c17.webp",
+        "mimeType": "image/webp",
+        "bytes": 32054,
+        "sha256": "b7f4d9b588d6d76f67d0c44295b33c17e435d65df5cb1647e094d5bfe0038a6a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-112/4d90df63f7de55d2a61ea77c34ab0d47.webp",
+        "mimeType": "image/webp",
+        "bytes": 152806,
+        "sha256": "4d90df63f7de55d2a61ea77c34ab0d47ff2575cda5082ee3777b5bd74237ce43"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 112）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md"
+  }
+}

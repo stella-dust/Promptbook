@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-071",
+  "revision": "b78257cd-5314-41c4-a961-ca2caada0906",
+  "status": "published",
+  "kind": "image",
+  "title": "首尔周末旅行指南",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:01.855Z",
+  "updatedAt": "2026-09-21T02:56:01.855Z",
+  "prompt": {
+    "text": "Generate a polished one-page Chinese travel guide poster for a fast weekend trip from Nanjing to Seoul in May. Use LARGE highly legible Chinese text, short phrases only, and no paragraph blocks. Focus on shopping, skincare, and a stylish Seongsu-dong route. Layout: big title, 4 modules only (行程 / 区域推荐 / 购物清单 / 美妆护肤), each with 2 to 4 short bullet points, plus a small cute route map with icons. Clean editorial infographic style, soft pastel colors, neat spacing, high readability, modern Xiaohongshu travel card aesthetic. Avoid tiny text, avoid dense explanations, avoid garbled characters.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "首尔周末旅行指南，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-071/9573ae690d26153467a45bd021cfb80a.png",
+        "mimeType": "image/png",
+        "bytes": 2331845,
+        "sha256": "9573ae690d26153467a45bd021cfb80a90391e4a7f85f8114a2b33219c2298e5"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-071/63b797e6ce32477f23183350d0025815.webp",
+        "mimeType": "image/webp",
+        "bytes": 29006,
+        "sha256": "63b797e6ce32477f23183350d0025815fb506a3d5621677c32aae86d5a66813d"
+      },
+      "preview": {
+        "key": "published/gpt-image2-071/9d874d4b6153a11c6bd7ede16e50fc2d.webp",
+        "mimeType": "image/webp",
+        "bytes": 94408,
+        "sha256": "9d874d4b6153a11c6bd7ede16e50fc2d1b9dc8c65ca006e37b7ad75143cef2d6"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e8cd0d0000000023007215",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 71）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

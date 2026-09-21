@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-076",
+  "revision": "8deb9665-5ae4-4472-98cd-abdb4a45aca6",
+  "status": "published",
+  "kind": "image",
+  "title": "患者队列与多模态生物标志物流程",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:56.855Z",
+  "updatedAt": "2026-09-21T02:55:56.855Z",
+  "prompt": {
+    "text": "Create a Nature Medicine / Science Translational Medicine style research paper figure, landscape 3:2 (1536×1024), soft literature-science palette, minimal and elegant.\n\nFigure title: \"Patient cohort and multimodal biomarker workflow\".\n\nLayout: a clean 4-panel academic figure labeled A–D with small bold panel letters.\nA. CONSORT-style patient cohort flow diagram: \"Screened n=1,248\" → \"Eligible n=612\" → branch into \"Training cohort n=428\" and \"External validation n=184\". Include exclusion side boxes: \"missing imaging n=81\", \"insufficient follow-up n=43\", \"quality-control fail n=32\".\nB. Multimodal sample-processing flow: icons for \"CT imaging\", \"blood proteomics\", \"EHR timeline\", \"outcome labels\" flowing into a pale-blue fusion box \"feature harmonization\".\nC. Small Kaplan–Meier survival plot with two clean curves labeled \"low-risk\" and \"high-risk\", muted teal vs soft rose, x-axis \"Months\", y-axis \"Event-free survival\".\nD. Compact table-style performance summary with three rows: \"AUROC\", \"C-index\", \"Calibration slope\" and two columns \"Internal\" / \"External\".\n\nStyle requirements: white background, light gray axes, thin lines, ample margins, muted teal, dusty blue, soft coral, pale sand, no neon, no dark background, Nature journal figure aesthetics, readable labels, precise arrows, subtle gridlines, no decorative clutter, no fake logos, no watermark.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "患者队列与多模态生物标志物流程，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-076/dde607e48d25d1da58ce1f37ff1d00f1.png",
+        "mimeType": "image/png",
+        "bytes": 585692,
+        "sha256": "dde607e48d25d1da58ce1f37ff1d00f137cc561e00912ef6101023a45f882fb6"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-076/864aa33b842967ef5a9748abe1900cab.webp",
+        "mimeType": "image/webp",
+        "bytes": 25584,
+        "sha256": "864aa33b842967ef5a9748abe1900cab05a0f6382a7a548d8a037693378c58b1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-076/f0f5092d9d8767d5c5875e78c6faa89c.webp",
+        "mimeType": "image/webp",
+        "bytes": 86806,
+        "sha256": "f0f5092d9d8767d5c5875e78c6faa89cf6c1982d407446fbfac4674036b4818c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 76）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

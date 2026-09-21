@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-089",
+  "revision": "75e160d3-541f-4efb-94b3-ed65009c07e2",
+  "status": "published",
+  "kind": "image",
+  "title": "前沿语言模型家族树",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:43.855Z",
+  "updatedAt": "2026-09-21T02:55:43.855Z",
+  "prompt": {
+    "text": "横向 16:9 时间线 / 家族树，展示 2018–2026 年前沿 LLM，三条竖直堆叠的车道，横向时间轴。\n\n时间轴刻度：\"2018\"、\"2019\"、\"2020\"、\"2021\"、\"2022\"、\"2023\"、\"2024\"、\"2025\"、\"2026\"。\n\n车道 1（顶部，柔和海军蓝）：\"OpenAI 线\"：芯片 \"GPT-2\"、\"GPT-3\"、\"Codex\"、\"InstructGPT\"、\"GPT-3.5\"、\"GPT-4\"、\"GPT-4o\"、\"gpt-image-2\"。\n车道 2（中间，尘土绿松石）：\"Anthropic 线\"：芯片 \"Claude 1\"、\"Claude 2\"、\"Claude 3 Opus\"、\"Claude 3.5 Sonnet\"、\"Claude 4 Opus\"、\"Claude 4.7 Opus\"。\n车道 3（底部，柔和陶土色）：\"开源权重线\"：芯片 \"GPT-Neo\"、\"LLaMA 1\"、\"LLaMA 2\"、\"Mistral\"、\"Mixtral\"、\"LLaMA 3\"、\"DeepSeek-V2\"、\"Llama 4 405B\"、\"Qwen3-Next\"、\"DeepSeek-V3.1\"。\n\n实线石板灰弧线表示家族内的后继关系；暖铜色虚线弧线表示跨家族蒸馏。2020 年 (\"scaling laws paper\")、2022 年 (\"InstructGPT / RLHF\")、2024 年 (\"multimodal goes mainstream\") 处有柔和的垂直高亮带。\n\n标题：\"Frontier LLM lineage, 2018 – 2026\"。副标题：\"芯片 = 模型发布；实线弧线 = 家族内后继；虚线弧线 = 跨家族蒸馏\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "前沿语言模型家族树，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-089/f4afbf22576e0fcde61e263ba78ae1eb.png",
+        "mimeType": "image/png",
+        "bytes": 777669,
+        "sha256": "f4afbf22576e0fcde61e263ba78ae1ebad80daff61385906f398f79a5e12323b"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-089/075c055d9fcc3a27002387b8099c9701.webp",
+        "mimeType": "image/webp",
+        "bytes": 26586,
+        "sha256": "075c055d9fcc3a27002387b8099c9701df6fe96f61bcd84766f07e942260ef45"
+      },
+      "preview": {
+        "key": "published/gpt-image2-089/b1dd1cd46eab5844845bdcac6acf1d4b.webp",
+        "mimeType": "image/webp",
+        "bytes": 89634,
+        "sha256": "b1dd1cd46eab5844845bdcac6acf1d4bd3cde3c5b65fc8906e7f798a7d54f89a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 89）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

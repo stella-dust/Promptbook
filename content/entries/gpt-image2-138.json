@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-138",
+  "revision": "1f5567d9-bb9e-4699-85bb-65a2e61f838e",
+  "status": "published",
+  "kind": "image",
+  "title": "印象派脉络：黄昏河流",
+  "category": "design",
+  "tags": [
+    "绘画艺术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:52.855Z",
+  "updatedAt": "2026-09-21T02:54:52.855Z",
+  "prompt": {
+    "text": "A serene landscape painting in the lineage of late 19th-century Impressionism, depicting a wide river reflecting a hazy violet and gold sunset. The water is rendered with short, horizontal dabs of color—'Lavender', 'Pale Peach', and 'Sage Green'—that suggest the gentle ripple of the surface. On the banks, weeping willows are suggested by soft, blurred strokes of dark emerald and charcoal. The atmosphere is thick with moisture and light, where the sky and water seem to merge at the horizon. There are no sharp lines or defined edges; the entire scene is a study of light, color, and atmospheric perspective. The lighting is the fleeting 'blue hour,' where the last rays of sun catch the tips of the waves. The mood is tranquil and meditative, capturing a fleeting moment of natural beauty through a soft, atmospheric lens.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "印象派脉络：黄昏河流，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-138/2d74f8ced0127e3b1394256951e97877.png",
+        "mimeType": "image/png",
+        "bytes": 4288707,
+        "sha256": "2d74f8ced0127e3b1394256951e97877de3a042d9cd5cfa7d71941e0db1eced2"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-138/0213a98556a71ef49e854a851d233179.webp",
+        "mimeType": "image/webp",
+        "bytes": 26998,
+        "sha256": "0213a98556a71ef49e854a851d233179a1911ad207f1494281fd40a9a000f231"
+      },
+      "preview": {
+        "key": "published/gpt-image2-138/8aec0ef901d98f202115d17d13093f0f.webp",
+        "mimeType": "image/webp",
+        "bytes": 203334,
+        "sha256": "8aec0ef901d98f202115d17d13093f0f43f97386bcec60827c6253d9da2ad25d"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 138）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md"
+  }
+}

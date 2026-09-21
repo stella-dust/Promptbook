@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-031",
+  "revision": "66d22ae1-a162-4c7d-8ed4-b7beeb56bef6",
+  "status": "published",
+  "kind": "image",
+  "title": "官方角色参考图",
+  "category": "character",
+  "tags": [
+    "角色设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:44.855Z",
+  "updatedAt": "2026-09-21T02:56:44.855Z",
+  "prompt": {
+    "text": "基于此角色和背景，请创建一份类似官方设定资料的角色参考图。\n- 包含三视图绘制：正面、侧面和背面\n- 添加角色面部表情的多样变化\n- 细分并展示服装和装备的详细部件\n- 添加调色板\n- 包含世界观设定的简要说明\n- 整体采用有条理的布局（白色背景，插画风格）",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "官方角色参考图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-031/80a6aad453e18e1d8d2477c25a4deae7.png",
+        "mimeType": "image/png",
+        "bytes": 2296237,
+        "sha256": "80a6aad453e18e1d8d2477c25a4deae7df75fa5119421e25bc2f0726044aa9c3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-031/8742bff8efad13937b2812ea01d5ffaa.webp",
+        "mimeType": "image/webp",
+        "bytes": 48902,
+        "sha256": "8742bff8efad13937b2812ea01d5ffaa4f338c3f2b458921e1fbbe76d73da487"
+      },
+      "preview": {
+        "key": "published/gpt-image2-031/8a78469635c006051faf09dc21490070.webp",
+        "mimeType": "image/webp",
+        "bytes": 218198,
+        "sha256": "8a78469635c006051faf09dc21490070b6bb7dfc3e44945932fc6d74cb1807ff"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@MANISH1027512",
+    "url": "https://x.com/MANISH1027512",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 31）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-character-design.md"
+  }
+}

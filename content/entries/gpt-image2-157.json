@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-157",
+  "revision": "4fa64d5a-5eb3-400f-a6b1-d4e00f0ed5b8",
+  "status": "published",
+  "kind": "image",
+  "title": "华山 5A 景区游览导览图",
+  "category": "design",
+  "tags": [
+    "活动体验",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:33.855Z",
+  "updatedAt": "2026-09-21T02:54:33.855Z",
+  "prompt": {
+    "text": "Design a polished Chinese 5A scenic-area visitor navigation map for Huashan, titled with crisp Chinese text \"华山游览导览图\" and subtitle \"国家5A级旅游景区\". Landscape 3:2 orientation (1536×1024), premium illustrated map style for a visitor center brochure. Show dramatic mountain ridges, cable car routes, trail paths, scenic nodes, and safety icons. Include readable labels: \"北峰\", \"西峰\", \"南峰\", \"东峰\", \"中峰\", \"游客中心\", \"索道\", \"栈道\", \"观景台\", \"卫生间\", \"急救点\". Add a small legend, route colors, elevation hints, north arrow, and a compact note \"请量力而行 注意安全\". Palette: ink-wash mountain gray, pine green, sunrise gold, cinnabar red route marks, and clean black Chinese typography. Make it practical, beautiful, culturally Chinese, and suitable for a tourism wayfinding panel; no fake official seals, no sponsor logos.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "华山 5A 景区游览导览图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-157/a745352b3e3fc36e80eadf85560a7701.png",
+        "mimeType": "image/png",
+        "bytes": 3403590,
+        "sha256": "a745352b3e3fc36e80eadf85560a7701b12b90f560ec8ed7f89c4348104e9d94"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-157/4549671d43870cb8f155a7f5b5ca5990.webp",
+        "mimeType": "image/webp",
+        "bytes": 83950,
+        "sha256": "4549671d43870cb8f155a7f5b5ca59904213a5c22667015686741cbdde1dda0d"
+      },
+      "preview": {
+        "key": "published/gpt-image2-157/b3b7ec0178f1f98eafa993b43bd474b1.webp",
+        "mimeType": "image/webp",
+        "bytes": 396564,
+        "sha256": "b3b7ec0178f1f98eafa993b43bd474b12f6470a9d68cbb70d396f4ef75b5fee5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-events-and-experience.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 157）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-events-and-experience.md"
+  }
+}

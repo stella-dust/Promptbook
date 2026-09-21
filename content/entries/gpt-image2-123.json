@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-123",
+  "revision": "55322c0c-e48c-4f38-9a75-799dbf862387",
+  "status": "published",
+  "kind": "image",
+  "title": "人体肌肉系统海报",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:07.855Z",
+  "updatedAt": "2026-09-21T02:55:07.855Z",
+  "prompt": {
+    "text": "Create a clean educational anatomy poster showing the human muscular system in anterior and posterior views on a pale cream background. Use an academic but visually refined style with precise linework, muted reds and umbers for muscle groups, cool gray bones, and thin charcoal labels. Include a centered title with crisp in-image text \"Human Muscular System\" and a subtitle \"Anterior and Posterior Views\". Label key structures such as \"Deltoid\", \"Pectoralis Major\", \"Rectus Abdominis\", \"Biceps Femoris\", \"Gastrocnemius\", and \"Trapezius\". Add a compact scale note reading \"Adult height reference 175 cm\" and a small legend with \"Superficial\" and \"Deep\". Keep the composition symmetrical, scientifically accurate in appearance, and suitable for a classroom wall chart. Prioritize correct labels, crisp typography, clean hierarchy, subtle shading, and publication-quality educational clarity without gore or excessive realism.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "人体肌肉系统海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-123/9555c39d12cbe3d02598b722535b137e.png",
+        "mimeType": "image/png",
+        "bytes": 6372409,
+        "sha256": "9555c39d12cbe3d02598b722535b137ee4cd5da3019fddc23b30448bca888674"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-123/060dfb02a3ad2af15c7783b8562ca2b0.webp",
+        "mimeType": "image/webp",
+        "bytes": 36912,
+        "sha256": "060dfb02a3ad2af15c7783b8562ca2b00fa5eeb7c14ad5236881d0c253301a6a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-123/85823cd08bb6c4a1ccdca507535d0875.webp",
+        "mimeType": "image/webp",
+        "bytes": 188240,
+        "sha256": "85823cd08bb6c4a1ccdca507535d0875be40999c03e51bb44f259416c42cc7c7"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 123）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

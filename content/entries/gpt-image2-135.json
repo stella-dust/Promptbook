@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-135",
+  "revision": "ed5f3e92-1750-4a25-8526-3d035d980083",
+  "status": "published",
+  "kind": "image",
+  "title": "低饱和街头风棚拍时装肖像",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:55.855Z",
+  "updatedAt": "2026-09-21T02:54:55.855Z",
+  "prompt": {
+    "text": "A high-end studio photoshoot featuring a half-body portrait of a person in their mid-30s to early 40s with a naturally fit build. The subject stands in a relaxed yet confident pose, with a calm, neutral, self-assured expression. They are dressed in modern, minimal casual streetwear, such as a well-fitted t-shirt or a light jacket, using neutral, muted tones. Shot at eye level using an 85mm portrait lens with an aperture of f/2.8, keeping the subject tack sharp while creating a soft, shallow depth of field that gently blurs the background. The lighting is professional studio quality: a softbox key light from the front, subtle fill lighting to balance shadows, and a gentle rim light to separate the subject from the background. Shadows are soft and natural, with accurate, realistic skin tones. The background is a clean studio backdrop with a smooth, minimal texture and a soft neutral gradient, completely distraction-free. The overall style is highly realistic with an editorial fashion portrait look. Color grading is natural and balanced, with no filters or overprocessing. Rendered in ultra-high detail.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "低饱和街头风棚拍时装肖像，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-135/afda69399f3e481fa5a639a8dcf02ca3.png",
+        "mimeType": "image/png",
+        "bytes": 2243404,
+        "sha256": "afda69399f3e481fa5a639a8dcf02ca3a8b811de598b8037060e1fa1aa17a876"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-135/f8e7ee2dd9d17aeae3e6ab38de5fde9a.webp",
+        "mimeType": "image/webp",
+        "bytes": 16420,
+        "sha256": "f8e7ee2dd9d17aeae3e6ab38de5fde9a29a3b315500f34d079e3d910c7c004fe"
+      },
+      "preview": {
+        "key": "published/gpt-image2-135/9680edca69d8c0b288b38641ae19d8c6.webp",
+        "mimeType": "image/webp",
+        "bytes": 135198,
+        "sha256": "9680edca69d8c0b288b38641ae19d8c66994d124059f81e89e4b255fd8b6877c"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@john_my07",
+    "url": "https://x.com/john_my07/status/2047182640760140198",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 135）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

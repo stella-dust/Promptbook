@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-041",
+  "revision": "e08ae8db-c397-47d8-9b5d-12fac720d1d8",
+  "status": "published",
+  "kind": "image",
+  "title": "西游记剪影史诗海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:33.855Z",
+  "updatedAt": "2026-09-21T02:56:33.855Z",
+  "prompt": {
+    "text": "Create a collector-edition epic narrative poster for 《西游记》. Use a giant elegant side-profile silhouette as the outer contour, and let the interior grow into a complete Journey to the West world: Monkey King, monk, pig and sand monk, flaming mountain, heavenly palace, demons, magic staff, clouds, temples, mountains, relics, and symbolic motifs. Not a collage but a refined silhouette-filled narrative composition, blending cinematic poster design with dreamy watercolor illustration, soft atmospheric perspective, paper grain, restrained layout, large breathing space, poetic and legendary mood. Add a subtle refined signature mark “WHY” integrated into the poster design.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "西游记剪影史诗海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-041/53cc873f88800af379d5b782c337d593.png",
+        "mimeType": "image/png",
+        "bytes": 3608523,
+        "sha256": "53cc873f88800af379d5b782c337d593abf312da8ba2fd64c63982fe630a5898"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-041/7589ab2208689e6c1f867843b63ad410.webp",
+        "mimeType": "image/webp",
+        "bytes": 24428,
+        "sha256": "7589ab2208689e6c1f867843b63ad41079b8f110e7eaa56688d895ad7dca652e"
+      },
+      "preview": {
+        "key": "published/gpt-image2-041/2b9176fd29b9fc0c613309556d6f4aa8.webp",
+        "mimeType": "image/webp",
+        "bytes": 336464,
+        "sha256": "2b9176fd29b9fc0c613309556d6f4aa88a074afb046174732658a6b8e807057a"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e78cd4000000002103bdd3",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 41）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

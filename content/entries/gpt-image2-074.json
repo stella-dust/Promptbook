@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-074",
+  "revision": "5656ce84-d7e9-431e-a850-7b7ff9b29315",
+  "status": "published",
+  "kind": "image",
+  "title": "iPhone 摄影相机风格参考信息图",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:58.855Z",
+  "updatedAt": "2026-09-21T02:55:58.855Z",
+  "prompt": {
+    "text": "Make me an image in 35 mm film style of a diagram showing the knowledge of camera styles, presets, and what to know about them as an aspiring iPhone photographer that wants to pursue their passion. Build it as a rich multi-panel reference board with labeled sections for film looks, digital presets, portrait approaches, street photography styles, color temperature, grain, contrast, flash, framing, and common mistakes. Each camera and preset style should appear in its actual style instead of being rendered uniformly in one style. Make it visually dense, highly educational, beautifully designed, and easy to scan.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "iPhone 摄影相机风格参考信息图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-074/a7b0e8b99db307421805d6c8a12dbd7d.png",
+        "mimeType": "image/png",
+        "bytes": 3036985,
+        "sha256": "a7b0e8b99db307421805d6c8a12dbd7de5b62250a75663fae4712663ede62bda"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-074/517c11c478be23b9fa3cbecdf2c2c54f.webp",
+        "mimeType": "image/webp",
+        "bytes": 56498,
+        "sha256": "517c11c478be23b9fa3cbecdf2c2c54feb8e249b978d225977a8cf4e87374898"
+      },
+      "preview": {
+        "key": "published/gpt-image2-074/7b21f78beb086a9f7ffe10239dfd4308.webp",
+        "mimeType": "image/webp",
+        "bytes": 291866,
+        "sha256": "7b21f78beb086a9f7ffe10239dfd430895ad19cada8ed4108277470106a3eb43"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@Vtrivedy10",
+    "url": "https://x.com/Vtrivedy10/status/2046771959157887014",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 74）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

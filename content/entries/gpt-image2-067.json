@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-067",
+  "revision": "9b3b39a0-5e17-400d-9304-7f238d61bdca",
+  "status": "published",
+  "kind": "image",
+  "title": "自然 SNS 日常人像",
+  "category": "story",
+  "tags": [
+    "写实摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:05.855Z",
+  "updatedAt": "2026-09-21T02:56:05.855Z",
+  "prompt": {
+    "text": "# Realism Guidelines\n\nApply these as the default aesthetic target.\n\n## Basic mindset\n\n- Make the result feel like a natural photo of a clearly adult woman in her 20s that could plausibly appear on a real SNS feed.\n- Suppress CG-like texture, aggressive beauty filtering, plastic skin, and unnatural shine.\n- Preserve attractiveness without making the face or skin impossibly perfect.\n- Avoid fashion-campaign or advertisement styling; favor ordinary daily-life photography.\n- Prioritize real-world presence, lived-in detail, and natural imperfection over perfection.\n\n## Photography and texture\n\n- Prefer an everyday smartphone snapshot rather than a high-end camera look.\n- Use natural window light or existing practical lighting in the scene.\n- Allow mild hand-shake softness, smartphone sensor noise, modest sharpening artifacts, and slightly rough resolution.\n- Keep framing a little imperfect: slight tilt, uneven negative space, minor cropping, or off-center composition.\n- Avoid poses that look designed for a photoshoot; favor a caught-in-the-moment feeling.\n- Do not overuse cinematic depth of field. Ordinary phones often keep more of the scene legible.\n\n## Facial details\n\n- Keep realistic facial proportions and bone structure.\n- Do not enlarge the eyes. Preserve natural sclera ratio, eyelid thickness, and subtle left-right differences.\n- Keep expressions restrained and spontaneous; a faint smile or relaxed neutral expression is preferable to a forced grin.\n- Unless explicitly requested, avoid rigid straight-on passport framing.\n- Preserve mild facial asymmetry around brows, eyes, cheeks, and mouth.\n\n## Final touches\n\n- Keep pores, fine facial hair, soft redness, tiny blemishes, and natural shadow variation where appropriate.\n- Hands and fingers must have plausible count, joints, lengths, overlap, and grip.\n- Keep the overall impression clean, approachable, and cute while remaining physically believable.\n- Hair should contain flyaways, irregular clumps, slight frizz, and uneven strands rather than perfectly separated hair fibers.\n- Use realistic body proportions consistent with the reference or request. Avoid exaggerated hourglass shaping or model-like body retouching.\n- Favor the kind of cuteness that feels possible in real life rather than doll-like perfection.\n\n## Common negative constraints\n\nAvoid: CGI, 3D render, doll skin, porcelain skin, excessive skin smoothing, beauty-app face reshaping, huge eyes, perfectly symmetrical face, over-sharpened eyelashes, waxy highlights, glam studio lighting, commercial fashion campaign, artificial rim light, extreme bokeh, hyper-detailed pore texture, over-HDR, unreal anatomy, extra fingers, fused fingers, floating accessories, warped glasses, duplicated jewelry, fake text, malformed background objects.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "自然 SNS 日常人像，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-067/c06e33005898c12f8a3038a5a1597c4f.png",
+        "mimeType": "image/png",
+        "bytes": 1990928,
+        "sha256": "c06e33005898c12f8a3038a5a1597c4f1d5abbfaeba545113c6aa19cc74339f1"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-067/0c26949fbb86ca93ee581ec571888626.webp",
+        "mimeType": "image/webp",
+        "bytes": 23180,
+        "sha256": "0c26949fbb86ca93ee581ec5718886268a44b930dfe40a3c11b0b1031ea93303"
+      },
+      "preview": {
+        "key": "published/gpt-image2-067/8622191aa977950623884b61e63a33e0.webp",
+        "mimeType": "image/webp",
+        "bytes": 83940,
+        "sha256": "8622191aa977950623884b61e63a33e022812388b7b541464a88e5efb087e03f"
+      },
+      "width": 1087,
+      "height": 1447,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@LunarXuan",
+    "url": "https://github.com/LunarXuan/natural-sns-portrait",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 67）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-photography.md"
+  }
+}

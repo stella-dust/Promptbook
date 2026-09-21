@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-056",
+  "revision": "535325e0-2013-426b-adff-47623a7af767",
+  "status": "published",
+  "kind": "image",
+  "title": "从展开图装配成 3D 产品盒",
+  "category": "product",
+  "tags": [
+    "产品美食",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:17.855Z",
+  "updatedAt": "2026-09-21T02:56:17.855Z",
+  "prompt": {
+    "text": "将展开图组装成一个完美的3D盒子，面板准确，折痕干净，文字不失真，图案完全保留。竖直拍摄，采用精致的三分之三角度，极简高端工作室布景，柔和中性色背景，漫反射光，细微阴影，无道具，真实颜色，哑光纸板质感，逼真的编辑细节。盒子正面写有\"AURAE / COLD-BREW MATCHA / 12 fl oz\"，采用干净的无衬线字体。侧面板显示8pt字体的小配料表，营养成分块。风格干净、编辑感强，获奖级产品照美学。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "从展开图装配成 3D 产品盒，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-056/a9b553e856da3f3affa80f9b6cbec553.png",
+        "mimeType": "image/png",
+        "bytes": 2094235,
+        "sha256": "a9b553e856da3f3affa80f9b6cbec5533436c43c34c9ce27379a767c1e788c13"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-056/104216d09f0da4b37155706dd280e5e2.webp",
+        "mimeType": "image/webp",
+        "bytes": 15196,
+        "sha256": "104216d09f0da4b37155706dd280e5e27198d4942b9ebad79ee5ade067f5d4cf"
+      },
+      "preview": {
+        "key": "published/gpt-image2-056/84c981641fcd9a2abd53e969b4ac05a1.webp",
+        "mimeType": "image/webp",
+        "bytes": 74994,
+        "sha256": "84c981641fcd9a2abd53e969b4ac05a12cd89e4208aa9a0fc7f248890b532ed5"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@Salmaaboukarr",
+    "url": "https://x.com/Salmaaboukarr",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 56）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-product-and-food.md"
+  }
+}

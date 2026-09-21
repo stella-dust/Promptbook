@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-022",
+  "revision": "a6475714-e8b4-4079-aac3-8eb56ec5c81e",
+  "status": "published",
+  "kind": "image",
+  "title": "九宫格黑暗奇幻世界观设定板",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:53.855Z",
+  "updatedAt": "2026-09-21T02:56:53.855Z",
+  "prompt": {
+    "text": "Create a square 3x3 worldbuilding set for an original dark-fantasy universe called \"Saltwind Reach\". Each panel is a distinct but consistent scene: a storm-battered coastal fortress at dawn, a foggy market street, a knight relic close-up, a handwritten map fragment, a monster silhouette study, a candlelit tavern interior, an alchemist kit flat lay, a moonlit harbor, and a faction banner concept. Keep one cohesive art direction across all nine panels: painterly realism, muted teal / rust / bone palette, cinematic weather, premium concept-art presentation, small caption labels, and strong consistency across costume motifs, architecture, symbols, and lighting. The full board should feel like a polished pre-production worldbuilding sheet rather than a collage of unrelated images.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "九宫格黑暗奇幻世界观设定板，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-022/440d3d9283a592ca302e01c7ba242524.png",
+        "mimeType": "image/png",
+        "bytes": 1910717,
+        "sha256": "440d3d9283a592ca302e01c7ba242524139a3836ad7ccf32ebf0d22ce2b2c09b"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-022/bf060c6726680f0a2e73571ba33bd565.webp",
+        "mimeType": "image/webp",
+        "bytes": 62502,
+        "sha256": "bf060c6726680f0a2e73571ba33bd5657b13e6a383e3b97bfbb7e20655289005"
+      },
+      "preview": {
+        "key": "published/gpt-image2-022/fb8623464f9da1dbf7fd15491a6ca0f4.webp",
+        "mimeType": "image/webp",
+        "bytes": 163846,
+        "sha256": "fb8623464f9da1dbf7fd15491a6ca0f4845b76aa0ca10a4024695ab3ad2101ff"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@aleenaamiir",
+    "url": "https://x.com/aleenaamiir/status/2046866168208916503",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 22）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

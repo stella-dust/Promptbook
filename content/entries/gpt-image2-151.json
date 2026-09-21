@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-151",
+  "revision": "93d3ff6c-edb0-4ec3-bcde-729bab06be6d",
+  "status": "published",
+  "kind": "image",
+  "title": "慢镜头电影：迷雾果园",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:39.855Z",
+  "updatedAt": "2026-09-21T02:54:39.855Z",
+  "prompt": {
+    "text": "一幅富有沉思意味的长镜头电影画面，继承塔可夫斯基慢镜头电影风格。浓密银色雾气笼罩着黎明时分被遗弃的苹果果园。中央是一张简朴的木桌，上面放着一杯水，周围是高而湿润的草丛。颜色近乎单色调，由‘苔藓绿’、‘冷灰色’和‘潮湿棕’主导，远处的灯笼闪烁着一丝琥珀色光芒。光线自然且带有忧郁，透过厚重雾气和树冠过滤。画面传递出时间流逝、寂静和精神重量的深刻感受。摄像机静止，伴随缓慢、几乎察觉不到的变焦。质感真实：木头腐烂、水杯上的露珠和空气的湿润感。氛围哲学性、孤独，深深扎根于自然世界和家的记忆中。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "慢镜头电影：迷雾果园，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-151/33c3c602bc0a327838d84696dbb41014.png",
+        "mimeType": "image/png",
+        "bytes": 3697702,
+        "sha256": "33c3c602bc0a327838d84696dbb41014696a210a73d10b7a12131a5ff88fd2e4"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-151/a324882c2d9ff18fb50c6750a7d23d98.webp",
+        "mimeType": "image/webp",
+        "bytes": 33134,
+        "sha256": "a324882c2d9ff18fb50c6750a7d23d983f3af83d5c0644a4e2f1361149db7631"
+      },
+      "preview": {
+        "key": "published/gpt-image2-151/266662916547f4ecf8d61526c73ee613.webp",
+        "mimeType": "image/webp",
+        "bytes": 162038,
+        "sha256": "266662916547f4ecf8d61526c73ee613067db76801dc17ed678deb4edbd18b63"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 151）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

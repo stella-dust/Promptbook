@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-152",
+  "revision": "edefc9f0-6c10-4196-9ddc-c61e62a6a518",
+  "status": "published",
+  "kind": "image",
+  "title": "新黑色电影：橙色迷雾",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:38.855Z",
+  "updatedAt": "2026-09-21T02:54:38.855Z",
+  "prompt": {
+    "text": "一幅继承《银翼杀手2049》风格的电影广角镜头，描绘一座被厚重、有毒的橙色放射性雾气笼罩的未来城市。破败的古老雕像轮廓和锯齿状摩天大楼隐约可见。一个孤独的悬浮载具带着蓝色推进光穿透橙色阴霾，形成鲜明的色彩对比。光线压抑且漫散，没有可见的太阳，只有持续的诡异橙色光芒，使所有特征变得扁平。色彩调色板为醒目的“琥珀与钴蓝”双色调。构图采用低角度，仰望城市压迫性的建筑。摄像机使用35mm变形镜头，创造宽银幕电影画面比例和细微镜头光晕。氛围末世感强烈，孤独且在荒芜中视觉震撼，着重表现大气密度和废墟规模。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "新黑色电影：橙色迷雾，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-152/5389ac0924894427f84d32d460848e46.png",
+        "mimeType": "image/png",
+        "bytes": 3138299,
+        "sha256": "5389ac0924894427f84d32d460848e46c9b7ed01f8c90ed87f0894e761670521"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-152/79f62f88f9eb6fcb7867931529e90f80.webp",
+        "mimeType": "image/webp",
+        "bytes": 11680,
+        "sha256": "79f62f88f9eb6fcb7867931529e90f80920f5ab08d10754c92ecae16c71c1083"
+      },
+      "preview": {
+        "key": "published/gpt-image2-152/d33efcee7da95aa54644914c5ec93e95.webp",
+        "mimeType": "image/webp",
+        "bytes": 75926,
+        "sha256": "d33efcee7da95aa54644914c5ec93e95e4240ed1564542b595a34c249c7c621d"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 152）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

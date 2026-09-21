@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-091",
+  "revision": "c10561ef-a306-4ce1-9120-44eb790d010f",
+  "status": "published",
+  "kind": "image",
+  "title": "多模态智能体记忆路由",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:41.855Z",
+  "updatedAt": "2026-09-21T02:55:41.855Z",
+  "prompt": {
+    "text": "Design a premium conference-paper figure for an imaginary method called Memory Router for Multimodal Agents. Landscape layout, pure white background, large readable labels, elegant vector-clean boxes and curved arrows, tasteful teal slate and amber palette. Top strip shows the failure mode of a crowded baseline pipeline with red warning accents. Main panel shows User Query, Planner, Retriever, Tool Executor, Memory Router, Working Memory, Long-term Memory, Verifier, and a feedback loop. Beautiful spacing, crisp legend, subtle depth, polished academic styling, highly detailed but uncluttered.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "多模态智能体记忆路由，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-091/18655d912b95d38b01369d3ada228ae4.png",
+        "mimeType": "image/png",
+        "bytes": 956464,
+        "sha256": "18655d912b95d38b01369d3ada228ae452d8bcb30614dc57ca8155f1008fe9a3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-091/83f957753b6ea6d6aa7eacecb58331bb.webp",
+        "mimeType": "image/webp",
+        "bytes": 37898,
+        "sha256": "83f957753b6ea6d6aa7eacecb58331bbe36ba0e671279a6c8174a221326e482e"
+      },
+      "preview": {
+        "key": "published/gpt-image2-091/b23b148056a7c9a4385e3adf4fad792e.webp",
+        "mimeType": "image/webp",
+        "bytes": 133652,
+        "sha256": "b23b148056a7c9a4385e3adf4fad792e66fa398fb184b2462f96f3c6b677ede5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 91）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

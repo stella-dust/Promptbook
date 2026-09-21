@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-004",
+  "revision": "abca8ec1-7e88-4833-9c3d-c1415a4342f5",
+  "status": "published",
+  "kind": "image",
+  "title": "双城记人物关系图",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:11.855Z",
+  "updatedAt": "2026-09-21T02:57:11.855Z",
+  "prompt": {
+    "text": "A manga-style illustration showing the person-relationship map for \"A Tale of Two Cities\" by Charles Dickens. Single full-frame composition, monochrome ink + screentone, classic shōjo / historical-manga aesthetic.\n\nCharacters as small portrait panels connected by labeled relationship lines:\n- Charles Darnay ↔ Lucie Manette: \"marriage\"\n- Sydney Carton → Lucie: \"unrequited love → ultimate sacrifice\"\n- Lucie ↔ Dr. Manette: \"father / daughter\"\n- Madame Defarge → Darnay family: \"vengeance\"\n- Monsieur & Madame Defarge: \"husband / wife, revolutionaries\"\n- Jarvis Lorry → Manette family: \"loyal banker & guardian\"\n- Miss Pross → Lucie: \"devoted protector\"\n\nTitle \"A TALE OF TWO CITIES\" in elegant serif at top. Decorative border echoes 18th-century Paris (guillotine silhouette) / London (Tower of London). Monochrome black-ink linework with grey screentone shading.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "双城记人物关系图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-004/a3dffec0527563954c67c8d34f6bd794.png",
+        "mimeType": "image/png",
+        "bytes": 3551570,
+        "sha256": "a3dffec0527563954c67c8d34f6bd79478c608e74b8a5e3f3502e8f31f361533"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-004/8c7be3c7b940422bc0fed9cdc4b91e08.webp",
+        "mimeType": "image/webp",
+        "bytes": 69746,
+        "sha256": "8c7be3c7b940422bc0fed9cdc4b91e08de4e6b11fa773895aa2830926cc74b27"
+      },
+      "preview": {
+        "key": "published/gpt-image2-004/1f89121d16831031f5d68e03a61a93b1.webp",
+        "mimeType": "image/webp",
+        "bytes": 370624,
+        "sha256": "1f89121d16831031f5d68e03a61a93b1e6ab0e3f9b3ac564056ab77a94ea6484"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@cht0001",
+    "url": "https://x.com/cht0001",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 4）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

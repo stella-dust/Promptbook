@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-148",
+  "revision": "c6e79712-bd84-4929-a981-ca8c6df5f96a",
+  "status": "published",
+  "kind": "image",
+  "title": "对称粉彩：宏伟温室",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:42.855Z",
+  "updatedAt": "2026-09-21T02:54:42.855Z",
+  "prompt": {
+    "text": "一张完美对称的广角电影镜头，继承了韦斯·安德森奇思妙想的美学血统。场景是一座宏伟的玻璃温室，里面摆满了异国植物和粉红色火烈鸟，中央是一张完美摆放的黄色丝绒沙发。色彩调色板严格采用‘千禧粉’、‘开心果绿’和‘芥末黄’的粉彩配色。画面中的每个元素都精心摆放，采用平面正面视角，感觉像一个娃娃屋。光线柔和均匀，没有强烈阴影，赋予场景一种超现实的绘画质感。画面中央，一位穿着薰衣草色行李员制服的男子静静地站立，手持一朵红玫瑰。摄像机是复古的Panavision，捕捉清晰细腻的画面，带有一丝怀旧暖色调。氛围古怪、迷人且高度受控，强调强迫症式的完美组织之美。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "对称粉彩：宏伟温室，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-148/32c26ef19e4825293ce2c0e5c525c136.png",
+        "mimeType": "image/png",
+        "bytes": 3080644,
+        "sha256": "32c26ef19e4825293ce2c0e5c525c136ed34efc28ffb262cc668e4c22cb85224"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-148/3c9feadd873d4af781e7306d75b98d6c.webp",
+        "mimeType": "image/webp",
+        "bytes": 65244,
+        "sha256": "3c9feadd873d4af781e7306d75b98d6c34b2c2f30686d20df6369422d7fc3e85"
+      },
+      "preview": {
+        "key": "published/gpt-image2-148/b93f8bcd3328b606f249db18a187c9f9.webp",
+        "mimeType": "image/webp",
+        "bytes": 271794,
+        "sha256": "b93f8bcd3328b606f249db18a187c9f98ac33a15b3626579c11cd3ae701d241b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 148）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

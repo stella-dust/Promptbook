@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-011",
+  "revision": "fcdd4fe7-4cbd-48de-aa76-1b613cd15a7a",
+  "status": "published",
+  "kind": "image",
+  "title": "路边反光镜自拍",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:04.855Z",
+  "updatedAt": "2026-09-21T02:57:04.855Z",
+  "prompt": {
+    "text": "Create a portrait-oriented anime fashion illustration of an adult woman, age 24, taking a playful roadside mirror selfie in the reflection of a parked scooter mirror on a quiet Tokyo side street. She looks into the mirror with a bright mischievous smile, one hand making a small peace sign near her cheek, the other holding a phone with a cute sticker case. Outfit: soft ivory knit cardigan, navy pleated skirt, sheer black stockings, loafers, small shoulder bag, ribbon hair clip, tasteful everyday street fashion. Composition: the mirror reflection is the main frame, with blurred street signs, vending machine glow, crosswalk stripes, and spring evening light around the mirror edge. Keep the pose cute, stylish, and non-explicit; no nudity, no lingerie, no fetish framing, adult character only. Use polished modern anime rendering, crisp line art, luminous eyes, soft cel shading, warm reflections, natural street-photo energy, and a charming slice-of-life mood.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "路边反光镜自拍，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-011/4e55054dff177961a6bcef8a33c06a5a.png",
+        "mimeType": "image/png",
+        "bytes": 2437255,
+        "sha256": "4e55054dff177961a6bcef8a33c06a5afb0a383a9c1f710069e48bb1ce1d1a2d"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-011/e3bc28ba85746fa3ed3c52d9b0572816.webp",
+        "mimeType": "image/webp",
+        "bytes": 46268,
+        "sha256": "e3bc28ba85746fa3ed3c52d9b057281689c29e4b15073719e3e62e018e5f607b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-011/b78529d4f5a3cd8d57001fe80c769075.webp",
+        "mimeType": "image/webp",
+        "bytes": 172426,
+        "sha256": "b78529d4f5a3cd8d57001fe80c7690753bf6c6a019fe36a664203834dd825d03"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 11）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

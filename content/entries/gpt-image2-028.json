@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-028",
+  "revision": "9b3f33a4-0539-47b6-93a2-05ca0c39e75c",
+  "status": "published",
+  "kind": "image",
+  "title": "专业6格电影分镜",
+  "category": "story",
+  "tags": [
+    "电影动画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:47.855Z",
+  "updatedAt": "2026-09-21T02:56:47.855Z",
+  "prompt": {
+    "text": "一个6格电影分镜，布局为3×2网格，整体横向16:9。每个格子是一个矩形的铅笔和马克笔速写，带有白色边距和下方的小信息条。\n\n场景：一场穿越东京雨巷的追逐，最终在屋顶跳跃。\n\n画格1 — 宽景设定：潮湿的霓虹巷道，跑者从左侧进入；墙上有汉字招牌。信息：“PANEL 1 · EXT. ALLEY · NIGHT · WIDE / 静止 / 2秒”\n画格2 — 跟踪镜头：从背后跑者迈步中；追赶者身影在10米后。信息：“PANEL 2 · OTS TRACKING / 跟随摄像 / 左平移45° / 3秒”\n画格3 — 特写：跑者的脸，汗水，眼睛快速看向消防梯。信息：“PANEL 3 · CU RUNNER / 静止 / 1.5秒 / 音效：呼吸”\n画格4 — 低角度：跑者跃上消防梯；雨线。信息：“PANEL 4 · LOW ANGLE / 仰摄30° / 2秒”\n画格5 — 宽幅航拍：跑者剪影衬托霓虹天际线，准备跳跃屋顶。信息：“PANEL 5 · WIDE AERIAL / 起重机下移 / 4秒”\n画格6 — 匹配剪辑：跑者的靴子落在湿屋顶；水花飞溅。信息：“PANEL 6 · MATCH CUT CU / 静止 / 1秒 / 音效：水花”\n\n艺术指导：经典动画学派分镜——铅笔线条，灰色马克笔阴影，画格2和5上有红铅笔箭头注释（摄像机移动和动作轨迹）。浅米色纸张纹理背景。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "专业6格电影分镜，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-028/ecd39a909a9da5003a793b462e380c37.png",
+        "mimeType": "image/png",
+        "bytes": 3601868,
+        "sha256": "ecd39a909a9da5003a793b462e380c379bbb14f099ffe1c841a0beebd1f9cd94"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-028/0f5aa9bb9858a49f7956dd6189dc8a9d.webp",
+        "mimeType": "image/webp",
+        "bytes": 67794,
+        "sha256": "0f5aa9bb9858a49f7956dd6189dc8a9d709f6dcce4a0b99631872fb6cb9094da"
+      },
+      "preview": {
+        "key": "published/gpt-image2-028/bab4641bf50e7371604887c6864ec6ea.webp",
+        "mimeType": "image/webp",
+        "bytes": 384254,
+        "sha256": "bab4641bf50e7371604887c6864ec6ea28dea7a90c6de14000810833011dc022"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 28）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md"
+  }
+}

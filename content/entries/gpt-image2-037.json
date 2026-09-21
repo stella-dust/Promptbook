@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-037",
+  "revision": "50049531-71bb-44bd-a4c3-b76556f697bd",
+  "status": "published",
+  "kind": "image",
+  "title": "1950年代 Astounding Stories 科幻封面",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:37.855Z",
+  "updatedAt": "2026-09-21T02:56:37.855Z",
+  "prompt": {
+    "text": "一张1950年代复古科幻通俗杂志封面，3:4 竖版。经典的《Astounding Science Fiction》/《Galaxy》风格 — 手绘水粉画插图，通俗黄色纸张纹理，丝网印刷印刷略有错位，边缘带微黄棕色旧纸色调。\n\n封面插画：一艘铬银色火箭船下降到一个异星红色沙漠星球上，天空呈紫罗兰色，有两颗类似土星环的卫星。前景左侧一名独立宇航员，头戴1950年代风格玻璃圆顶头盔，穿着猩红色压力服，手持射线枪，面对从裂缝中浮现出的多触手半透明绿色生物。\n\n精确排版：\n- 顶部拱形巨大黄色复古衬线展示字体标题：\"ASTOUNDING STORIES\"\n- 顶部下方红色卷号条：\"VOL. XXXVII · NO. 5 · MARCH 1957 · 25¢\"\n- 左下角加粗红色无衬线体精彩故事呼吁：\"THE MEN FROM RIGEL — a novelette by E. A. KLEIN\"\n\n艺术指导：水粉绘制，笔触明显，浓烈通俗配色（亮黄、橙、红、电紫、铬银），手写标题，轻微粗糙纸张纹理，角落轻微虫蛀色斑。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "1950年代 Astounding Stories 科幻封面，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-037/571a108af8c2aa2dd6ca1040b374361f.png",
+        "mimeType": "image/png",
+        "bytes": 3409255,
+        "sha256": "571a108af8c2aa2dd6ca1040b374361fc0dc8d3e5e39b571fc71344b3a358314"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-037/5f7bf95d7b5c1879d8398cc21b65e0af.webp",
+        "mimeType": "image/webp",
+        "bytes": 74572,
+        "sha256": "5f7bf95d7b5c1879d8398cc21b65e0af2e8de16615f3663637d0e03cc136d5bd"
+      },
+      "preview": {
+        "key": "published/gpt-image2-037/74deaf0500488fedf9df7fd8c5673823.webp",
+        "mimeType": "image/webp",
+        "bytes": 412880,
+        "sha256": "74deaf0500488fedf9df7fd8c56738230a484abfe73d353d83816226bee7531f"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 37）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

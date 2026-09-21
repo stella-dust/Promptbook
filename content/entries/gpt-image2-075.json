@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-075",
+  "revision": "ca022956-acae-49be-8275-8506e37d62a3",
+  "status": "published",
+  "kind": "image",
+  "title": "中国濒危动物信息图",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:57.855Z",
+  "updatedAt": "2026-09-21T02:55:57.855Z",
+  "prompt": {
+    "text": "Create a visually rich infographic in Chinese about an endangered animal. Start by finding one online, research its habitat, diet, and unique traits. Present information through annotated visuals and structured callouts, not generic sections. Style it like a bold graphic illustration: a detailed, photorealistic central animal as the focal point, supported by diagrams, callouts, and concise text elements. Use clean backgrounds and a mix of photorealism with strong graphic elements (shapes, icons, color blocking) in a layered composition. Make it dense, tactile, and professionally authored.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "中国濒危动物信息图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-075/5440124a2b482b9fcca1e21b2f42a167.png",
+        "mimeType": "image/png",
+        "bytes": 2880412,
+        "sha256": "5440124a2b482b9fcca1e21b2f42a167d34c00bd3b8c7ddffe673d44dcb3685b"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-075/f076f96c7709cc70f9e602dd063703bb.webp",
+        "mimeType": "image/webp",
+        "bytes": 62456,
+        "sha256": "f076f96c7709cc70f9e602dd063703bb9420b09f3024d3d86563ef52dfd6026b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-075/94159e0da79f6223ad4ba700fcb87a39.webp",
+        "mimeType": "image/webp",
+        "bytes": 281246,
+        "sha256": "94159e0da79f6223ad4ba700fcb87a39904e9c8a088ccfeeb29f6d6e2e7fca0f"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@billtheinvestor",
+    "url": "https://x.com/billtheinvestor/status/2047153211560399009",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 75）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

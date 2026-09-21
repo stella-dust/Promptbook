@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-090",
+  "revision": "92716e17-bbbb-465c-aa40-52ccb837691a",
+  "status": "published",
+  "kind": "image",
+  "title": "ReAct 推理轨迹",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:42.855Z",
+  "updatedAt": "2026-09-21T02:55:42.855Z",
+  "prompt": {
+    "text": "横向 16:9 图示，ReAct 轨迹，针对事实问答任务，竖直排列 7 个交替块。\n\n顶部标题：\"Task — user asks: 'What year did the scientist who proved the Higgs boson exists win the Nobel Prize?'\"。\n\n7 个块，从上到下，左侧编号 1–7：\n1. Thought: \"I need to identify the scientist associated with the proof of the Higgs boson and then look up their Nobel Prize year.\"\n2. Action: wiki_search(\"Higgs boson discovery\")\n3. Observation: \"The 2012 announcement at CERN confirmed the Higgs boson...\"\n4. Thought: \"The theoretical prediction is due to Peter Higgs and François Englert. I should check if they were later awarded the Nobel.\"\n5. Action: wiki_search(\"Peter Higgs Nobel Prize\")\n6. Observation: \"Peter Higgs and François Englert won the 2013 Nobel Prize in Physics...\"\n7. Thought: \"Answer: 2013.\"\n\nThought 块：左侧尘土绿松石边框，斜体，带大脑符号。Action 块：左侧柔和海军蓝边框，等宽字体，带扳手符号。Observation 块：左侧柔和陶土色边框，较浅填充，带眼睛符号。块间有细石板灰箭头。\n\n底部：胶囊形状，“Final answer: 2013”，带勾符号。\n\n标题：\"ReAct trace: interleaved reasoning and tool-use on a factual-QA task\"。副标题：\"Yao et al., 2022.\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "ReAct 推理轨迹，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-090/98ce3b423e0b19b432a37e92da54dbe7.png",
+        "mimeType": "image/png",
+        "bytes": 727235,
+        "sha256": "98ce3b423e0b19b432a37e92da54dbe732f622ecb23e90236ead3ea644f257f1"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-090/2ae6f8a0f148b08794b6a46af90aa17c.webp",
+        "mimeType": "image/webp",
+        "bytes": 29370,
+        "sha256": "2ae6f8a0f148b08794b6a46af90aa17cfcc10f2ad05d19d0f713270823c49171"
+      },
+      "preview": {
+        "key": "published/gpt-image2-090/0eed8fa8c9eafdd9d372f9aa8d715690.webp",
+        "mimeType": "image/webp",
+        "bytes": 99768,
+        "sha256": "0eed8fa8c9eafdd9d372f9aa8d71569013d0ad309d1b6266e0a210887120ba2f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 90）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

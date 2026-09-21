@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-059",
+  "revision": "36391f54-9926-4e55-8478-855dbecebfd2",
+  "status": "published",
+  "kind": "image",
+  "title": "通用商业海报（Aurora Oolong）",
+  "category": "product",
+  "tags": [
+    "产品美食",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:14.855Z",
+  "updatedAt": "2026-09-21T02:56:14.855Z",
+  "prompt": {
+    "text": "设计一张名为\"Aurora Oolong Cold Brew\"的高端商业海报。极简风格，干净构图，主角瓶和茶杯居中，柔和工作室灯光，真实材质纹理，优雅的水汽细节，充足的留白空间，高端品牌视觉语言，电影光影，精致包装字体排版，极致细节处理。让它有豪华饮品广告的感觉，可用于地铁灯箱或时尚杂志。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "通用商业海报（Aurora Oolong），源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-059/403b7f2cb44cb260bede74a0b2c4aa36.png",
+        "mimeType": "image/png",
+        "bytes": 2299487,
+        "sha256": "403b7f2cb44cb260bede74a0b2c4aa3673d6553795d8af85d024609e413e96a3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-059/0e78fc6d84457a96bbe498433691482b.webp",
+        "mimeType": "image/webp",
+        "bytes": 20666,
+        "sha256": "0e78fc6d84457a96bbe498433691482b509912545d0ebeda100e12c08718ea99"
+      },
+      "preview": {
+        "key": "published/gpt-image2-059/ad8dc8a2418f279e8b7b8b6ea94d6c04.webp",
+        "mimeType": "image/webp",
+        "bytes": 122086,
+        "sha256": "ad8dc8a2418f279e8b7b8b6ea94d6c04acbc7dc9d511ae35b09519fa9a6434db"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e7878300000000230050bb",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 59）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-product-and-food.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-062",
+  "revision": "72c64802-4dc3-4f99-a756-f20d3655e171",
+  "status": "published",
+  "kind": "image",
+  "title": "俏皮品牌系统：Mochi Metro",
+  "category": "design",
+  "tags": [
+    "品牌视觉",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:10.855Z",
+  "updatedAt": "2026-09-21T02:56:10.855Z",
+  "prompt": {
+    "text": "为虚构品牌“Mochi Metro”设计一张俏皮、鲜艳、现代的品牌系统展示板。使用大胆配色、有趣字体和模块化方形版式，内容包括 logo 研究、包装片段、海报、App 图标、贴纸、UI 界面碎片，以及一整套围绕东京零食文化展开的快乐视觉系统。要求排版清晰、信息密但不乱、整体高度 polished，像真实设计工作室交付的品牌 case board。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "俏皮品牌系统：Mochi Metro，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-062/f8403612e6ad2640b341a760638fa2bf.png",
+        "mimeType": "image/png",
+        "bytes": 996628,
+        "sha256": "f8403612e6ad2640b341a760638fa2bfa938c187160c87d197fca01d34247c1a"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-062/1d33f681f4e22ab9d7f91d9855583a38.webp",
+        "mimeType": "image/webp",
+        "bytes": 67002,
+        "sha256": "1d33f681f4e22ab9d7f91d9855583a3869977eace48b61c9bb6b7d4ca2c2716d"
+      },
+      "preview": {
+        "key": "published/gpt-image2-062/f1f4f554dcdbbff1b8f24009efbf6ab9.webp",
+        "mimeType": "image/webp",
+        "bytes": 133116,
+        "sha256": "f1f4f554dcdbbff1b8f24009efbf6ab9b5bb6e7a87b470a48f53d5467bfce7bf"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@aleenaamiir",
+    "url": "https://x.com/aleenaamiir/status/2047207315976368584",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 62）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-brand-systems-and-identity.md"
+  }
+}

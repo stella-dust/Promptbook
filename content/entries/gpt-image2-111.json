@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-111",
+  "revision": "45968039-bbc9-4a53-bd55-5bef4cfd4cb1",
+  "status": "published",
+  "kind": "image",
+  "title": "预算分配矩形树图",
+  "category": "design",
+  "tags": [
+    "数据可视化",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:20.855Z",
+  "updatedAt": "2026-09-21T02:55:20.855Z",
+  "prompt": {
+    "text": "Design a modern treemap infographic showing a fictional company budget allocation for LUMEN BIO in fiscal year 2026. Use a light neutral background and a controlled palette of forest green, desaturated blue, amber, terracotta, lavender-gray, and charcoal outlines. The composition should be a clean rectangular treemap with strong visual grouping and crisp typography. Include a header with the in-image text \"LUMEN BIO Budget Allocation\" and \"FY 2026\". Major blocks should be labeled \"R&D 38%\", \"Manufacturing 22%\", \"Clinical 14%\", \"Operations 10%\", \"Marketing 7%\", \"IT 5%\", and \"Legal 4%\". Within some blocks, add smaller labels like \"Prototypes\", \"Reagents\", \"QA\", \"Cloud\", and \"Field Trials\". Include a compact side legend reading \"Total Budget $84.0M\". Ensure the chart has precise edges, balanced annotation density, clean hierarchy, and sharp text rendering suitable for a technical gallery prompt.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "预算分配矩形树图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-111/32f4f3c4d164c5a983b15d70624ae767.png",
+        "mimeType": "image/png",
+        "bytes": 793076,
+        "sha256": "32f4f3c4d164c5a983b15d70624ae7679e4fc849c56be0b2eb4f7aa06ce47543"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-111/ffe598be2e845355074cdba1a54cf071.webp",
+        "mimeType": "image/webp",
+        "bytes": 28578,
+        "sha256": "ffe598be2e845355074cdba1a54cf0712d2da7030869b960118966999cf2f609"
+      },
+      "preview": {
+        "key": "published/gpt-image2-111/d784d9c2063eb9b2cd12599e3ce80aab.webp",
+        "mimeType": "image/webp",
+        "bytes": 90228,
+        "sha256": "d784d9c2063eb9b2cd12599e3ce80aab85cb057a26db4980d805da4894231b66"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 111）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-data-visualization.md"
+  }
+}

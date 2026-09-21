@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-015",
+  "revision": "c6e1e0c6-97f0-425d-bcb4-5f1aa2541963",
+  "status": "published",
+  "kind": "image",
+  "title": "暗黑奇幻沼泽首领狩猎",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:00.855Z",
+  "updatedAt": "2026-09-21T02:57:00.855Z",
+  "prompt": {
+    "text": "创作一个原创 AAA 级暗黑奇幻动作 RPG 截图。银发的怪物猎人身穿多层皮甲，站在蓝调时刻的废弃沼泽中，拔剑指向从迷雾中升起的巨大战翼沼泽兽。电影化的肩部过肩镜头，可信的 HUD，包含生命值、耐力、药水图标、任务文本和小地图。湿石，枯树，火把光，月光雾气，微妙炼金术符文，高度细节材料，戏剧性但易读的构图，顶级次世代游戏风格，16:9 横向。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "暗黑奇幻沼泽首领狩猎，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-015/aa2e4e48d559c8f01b132fe0a828d691.png",
+        "mimeType": "image/png",
+        "bytes": 2470827,
+        "sha256": "aa2e4e48d559c8f01b132fe0a828d691262ba4708784bd08d6511e7fcc9bf318"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-015/22c6f92d69f2a443906fd9ee12af29c6.webp",
+        "mimeType": "image/webp",
+        "bytes": 27136,
+        "sha256": "22c6f92d69f2a443906fd9ee12af29c6ebda96b9ce71f94f8d215e58cd437a5b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-015/cb31e21ce7809d208d8c67e09e3bf23e.webp",
+        "mimeType": "image/webp",
+        "bytes": 158756,
+        "sha256": "cb31e21ce7809d208d8c67e09e3bf23edaf8278a7dd5adc6065ae051929085eb"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 15）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

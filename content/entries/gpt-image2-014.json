@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-014",
+  "revision": "244b46c8-cb19-41db-b7f4-3eb70be76da2",
+  "status": "published",
+  "kind": "image",
+  "title": "GTA 6 游戏演示: 副城市海滩",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:01.855Z",
+  "updatedAt": "2026-09-21T02:57:01.855Z",
+  "prompt": {
+    "text": "GTA 6 游戏内画面，非常详细，非常逼真。从一台静止的 4k 显示器拍摄的特写镜头。（画面有轻微模糊，感觉像是手持拍摄）。宽广明亮的环境。逼真的细节。角色与 /:dog 一起在海滩上行走。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "GTA 6 游戏演示: 副城市海滩，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-014/890a969e2f3bf4579926fbc84ee047b2.png",
+        "mimeType": "image/png",
+        "bytes": 2745763,
+        "sha256": "890a969e2f3bf4579926fbc84ee047b2b437f7fce342b541e34cbeed3ed509b0"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-014/2cab7d8b5322c93f9dfcf6e0b11c3dac.webp",
+        "mimeType": "image/webp",
+        "bytes": 46608,
+        "sha256": "2cab7d8b5322c93f9dfcf6e0b11c3dac9acea618883967f625c3a42897d17d83"
+      },
+      "preview": {
+        "key": "published/gpt-image2-014/805899eab84cef6e7e685f181917e60a.webp",
+        "mimeType": "image/webp",
+        "bytes": 250906,
+        "sha256": "805899eab84cef6e7e685f181917e60ac873de93ea781c3567662de9481e98d2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@WolfRiccardo",
+    "url": "https://x.com/WolfRiccardo",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 14）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

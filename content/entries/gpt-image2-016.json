@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-016",
+  "revision": "9e2ef501-c7b6-44a1-9d6e-6656b8a1eb62",
+  "status": "published",
+  "kind": "image",
+  "title": "史诗伙伴桥梁靠近场景",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:59.855Z",
+  "updatedAt": "2026-09-21T02:56:59.855Z",
+  "prompt": {
+    "text": "创作一个原创史诗奇幻 RPG 关键艺术截图。一小队旅行者穿越一座巨大的古石桥，朝向日出时分发光的山城前进。一名游侠领路，一名法师提灯，一个侏儒锻造师持锤，旗帜在风中飘扬。巨大山谷、瀑布、金色云朵、风化石砌，电影级规模，微妙的 HUD 任务标记和指南针，丰富细节的盔甲和环境，AAA 级奇幻冒险风格，16:9 横向，高度细节和振奋人心。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "史诗伙伴桥梁靠近场景，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-016/d310fe104cd11c315887ad727614b403.png",
+        "mimeType": "image/png",
+        "bytes": 2814888,
+        "sha256": "d310fe104cd11c315887ad727614b403ec29316bff439a828d554dd6ea085748"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-016/3f866ae32a49cde2f4183dfc8445b826.webp",
+        "mimeType": "image/webp",
+        "bytes": 49614,
+        "sha256": "3f866ae32a49cde2f4183dfc8445b8268f6b7b4ca5e293fe48ad30cc40230062"
+      },
+      "preview": {
+        "key": "published/gpt-image2-016/f1ccbe0560f8a3e38b07f124345aa976.webp",
+        "mimeType": "image/webp",
+        "bytes": 261466,
+        "sha256": "f1ccbe0560f8a3e38b07f124345aa976fffe64b21e2b10354a9fee26c444c9e5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 16）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

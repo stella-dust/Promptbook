@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-083",
+  "revision": "4a41871d-6376-4bf0-8bd1-acc6c945b593",
+  "status": "published",
+  "kind": "image",
+  "title": "扩散模型去噪过程",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:49.855Z",
+  "updatedAt": "2026-09-21T02:55:49.855Z",
+  "prompt": {
+    "text": "横向 16:9 学术图示，展示扩散正向 + 逆向链，两个水平链垂直堆叠。\n\n顶部链（左→右）标注 \"Forward diffusion q(x_t | x_{t-1})\"：五幅画面 \"x_0\"、\"x_{T/4}\"、\"x_{T/2}\"、\"x_{3T/4}\"、\"x_T\"，画面从清晰的小山与太阳景象逐渐变为纯高斯噪声。画面间箭头标注 \"+ β_t ε\"。\n\n底部链（右→左）标注 \"Reverse denoising p_θ(x_{t-1} | x_t)\"：同样五幅画面逆序排列，每对之间有一个小六边形块 ε_θ(x_t, t)。\n\n最右侧弯曲箭头 \"T diffusion steps\" 连接顶部右侧和底部右侧；最左侧弯曲箭头 \"sample x_0\" 连接底部左侧和顶部左侧。\n\n标题：\"Denoising Diffusion: forward corruption and learned reverse\"。副标题：\"Ho et al., 2020\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "扩散模型去噪过程，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-083/bc25f15558553776656470e177a906cb.png",
+        "mimeType": "image/png",
+        "bytes": 1169795,
+        "sha256": "bc25f15558553776656470e177a906cb34bbfa978ae1f16815d259c046013e26"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-083/8dd060c795c98f6fde8f9069a347de47.webp",
+        "mimeType": "image/webp",
+        "bytes": 26774,
+        "sha256": "8dd060c795c98f6fde8f9069a347de47c105796cf01caf008fc694ec105fe339"
+      },
+      "preview": {
+        "key": "published/gpt-image2-083/40d7ace4f8e484beb5ec019af4bd571b.webp",
+        "mimeType": "image/webp",
+        "bytes": 141248,
+        "sha256": "40d7ace4f8e484beb5ec019af4bd571b2f5d07e8ebfd8372281d09c419d4389b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 83）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

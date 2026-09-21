@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-066",
+  "revision": "4c551e6f-16f4-4f7e-8b7d-029b01153e1a",
+  "status": "published",
+  "kind": "image",
+  "title": "360° 等幅投影丛林全景",
+  "category": "story",
+  "tags": [
+    "写实摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:06.855Z",
+  "updatedAt": "2026-09-21T02:56:06.855Z",
+  "prompt": {
+    "text": "一幅密集史前丛林场景的360度等幅矩形全景图。电影级细节。严格2:1长宽比（如4096×2048）。无拼接失真——左右边缘必须完美无缝连接。\n\n场景：高耸的蕨类覆盖树木，金色阳光穿透树冠，一条缓慢流动的河流蜿蜒穿过中心前景，水面升起薄雾。散布着各种恐龙——远处树冠中可见一只在啃食的腕龙脖子，河边有两只小型鸟脚龙在饮水，背景灌木中有一只三角龙。热带飞鸟飞翔，蝴蝶与蜻蜓飞舞于水面上空。\n\n光照：下午晚些时候金色时刻，暖色方向性的背光穿透树冠。高动态范围，微弱的大气雾气。等幅矩形投影，适合球形/360度观看器。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "360° 等幅投影丛林全景，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-066/605698f3f34e9880f8df3f1667966ce2.png",
+        "mimeType": "image/png",
+        "bytes": 5232669,
+        "sha256": "605698f3f34e9880f8df3f1667966ce24fb93e286467437acd7e80b3aa08f7f7"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-066/517d5f878229f757fbf7f26604e38d15.webp",
+        "mimeType": "image/webp",
+        "bytes": 63136,
+        "sha256": "517d5f878229f757fbf7f26604e38d15196b553893f035d49e078eac16613557"
+      },
+      "preview": {
+        "key": "published/gpt-image2-066/98f3621be8f949a11c3fab668df392f1.webp",
+        "mimeType": "image/webp",
+        "bytes": 425336,
+        "sha256": "98f3621be8f949a11c3fab668df392f1416df7aeb6bb5277d30b9390c025174c"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@AIimagined",
+    "url": "https://x.com/AIimagined",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 66）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-photography.md"
+  }
+}

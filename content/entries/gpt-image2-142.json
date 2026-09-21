@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-142",
+  "revision": "061231b3-7427-4f4a-b120-87936d70b473",
+  "status": "published",
+  "kind": "image",
+  "title": "现代健康主题扁平插画",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:48.855Z",
+  "updatedAt": "2026-09-21T02:54:48.855Z",
+  "prompt": {
+    "text": "A clean, vector-based flat design illustration for a modern health and wellness editorial. The scene features a diverse group of stylized people practicing yoga and meditation in a minimalist park. The characters have simplified, elegant proportions with no facial features, wearing activewear in a palette of 'Muted Sage', 'Dusty Rose', and 'Sand'. The background consists of geometric semi-circles representing hills and simple leaf shapes in varying shades of green. There are no gradients or shadows; the entire image is composed of solid, overlapping color blocks with crisp edges. The composition is balanced and airy, with plenty of negative space. The lighting is represented by a single yellow circle for the sun, casting no shadows. The overall aesthetic is friendly, professional, and very 'Behance 2024,' emphasizing clarity and calm.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "现代健康主题扁平插画，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-142/0a8fe45167eb97a051588a4da5d1f28d.png",
+        "mimeType": "image/png",
+        "bytes": 471130,
+        "sha256": "0a8fe45167eb97a051588a4da5d1f28d6e719aae0a70e516b5e5881fde4e650b"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-142/d6b9804559a67a7b191beedb8a0c22e0.webp",
+        "mimeType": "image/webp",
+        "bytes": 21398,
+        "sha256": "d6b9804559a67a7b191beedb8a0c22e0bced8f046f29b6f9765f9e631329ce50"
+      },
+      "preview": {
+        "key": "published/gpt-image2-142/2879201e72e53c5d80ee76602a374d18.webp",
+        "mimeType": "image/webp",
+        "bytes": 40400,
+        "sha256": "2879201e72e53c5d80ee76602a374d18dcf646e0e1ef9c06fee14ebc1e5f093c"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 142）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

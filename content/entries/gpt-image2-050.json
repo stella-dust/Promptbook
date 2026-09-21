@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-050",
+  "revision": "9150d0e2-2756-4594-96c3-e02012c3d581",
+  "status": "published",
+  "kind": "image",
+  "title": "水墨山川",
+  "category": "design",
+  "tags": [
+    "水墨",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:24.855Z",
+  "updatedAt": "2026-09-21T02:56:24.855Z",
+  "prompt": {
+    "text": "A traditional Chinese ink-wash (水墨) landscape painting of mist-shrouded mountains, rendered on aged xuan rice paper. Layered mountain ranges receding into distance through gradations of black ink — bold dark foreground peaks with sharp brushwork, mid-ground ranges in medium wash, far peaks almost dissolved into pale grey mist. A single traditional pavilion perched on a cliff midway up, a small solitary figure crossing a wooden bridge over a waterfall. Pine trees with calligraphic branches, curling cloud-mist flowing between peaks (留白 negative-space clouds). A vertical seal stamp in red (篆刻 zhu-wen style) bottom-left, a vertical column of calligraphic characters reading \"山高水長\" top-right in elegant caoshu (草書) brushwork. Paper has faint warm beige tone with visible fiber texture. Aesthetic in the tradition of 范寬 Fan Kuan / 馬遠 Ma Yuan Song-dynasty landscape painting — contemplative, restrained, deep negative space, brush-energy (气韵) visible in every stroke.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "水墨山川，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-050/a93758dc44a16beb062c2a8176d7f821.png",
+        "mimeType": "image/png",
+        "bytes": 3316697,
+        "sha256": "a93758dc44a16beb062c2a8176d7f821d4da9e890309820e8e45c027df21fd23"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-050/5830d5161c3288d64b0497afe418dafd.webp",
+        "mimeType": "image/webp",
+        "bytes": 49390,
+        "sha256": "5830d5161c3288d64b0497afe418dafd366370226ff38837f8217c24f69f79f1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-050/2c00c07f79e17441de67f41df6253bf3.webp",
+        "mimeType": "image/webp",
+        "bytes": 316942,
+        "sha256": "2c00c07f79e17441de67f41df6253bf3dcddd168c02b5cef22bff4c449d489aa"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 50）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ink-and-chinese.md"
+  }
+}

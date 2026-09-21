@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-127",
+  "revision": "22b71479-8e66-4ee8-abd1-22cb5a876e6a",
+  "status": "published",
+  "kind": "image",
+  "title": "生命之树海报",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:03.855Z",
+  "updatedAt": "2026-09-21T02:55:03.855Z",
+  "prompt": {
+    "text": "Generate an elegant scientific poster visualizing a stylized tree of life as a radial phylogeny diagram on an ivory background. Use fine botanical-meets-scientific linework with a restrained palette of moss green, deep teal, amber, plum, and charcoal. The diagram should branch outward from a central root labeled with crisp in-image text \"Last Universal Common Ancestor\". Main clades should be labeled \"Bacteria\", \"Archaea\", and \"Eukaryota\", with outer branches including \"Plants\", \"Fungi\", \"Animals\", \"Protists\", and \"Cyanobacteria\". Add a title at the top reading \"Tree of Life\" and a subtitle \"Simplified Radial Phylogeny\". Include a small scale note \"Approximate branching only\". Keep labels readable and branch geometry balanced, with clean hierarchy and educational clarity. The overall design should feel like a museum-science graphic: structured, accurate in spirit, visually rich, and rendered with crisp text and refined detail.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "生命之树海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-127/1ef6169027779ab2ccfa8fc0656117d1.png",
+        "mimeType": "image/png",
+        "bytes": 3448860,
+        "sha256": "1ef6169027779ab2ccfa8fc0656117d1b644ee6272a7862f8984400fd3ffd55e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-127/acf6ee6ad1b215667fd3dd19d2e5943d.webp",
+        "mimeType": "image/webp",
+        "bytes": 44944,
+        "sha256": "acf6ee6ad1b215667fd3dd19d2e5943d1d002a9c5d732b477b9c8a39bd6c3315"
+      },
+      "preview": {
+        "key": "published/gpt-image2-127/032209a8d4bd99806508cab85f3b4b9b.webp",
+        "mimeType": "image/webp",
+        "bytes": 212712,
+        "sha256": "032209a8d4bd99806508cab85f3b4b9b6a84b8ecf62d8552cb7e784702f23fca"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 127）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

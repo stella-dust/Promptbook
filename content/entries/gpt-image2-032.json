@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-032",
+  "revision": "ea8f6d59-bd1e-4693-b22d-4b93a8ec41ec",
+  "status": "published",
+  "kind": "image",
+  "title": "精灵弓箭手素描簿概念图",
+  "category": "character",
+  "tags": [
+    "角色设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:43.855Z",
+  "updatedAt": "2026-09-21T02:56:43.855Z",
+  "prompt": {
+    "text": "创建一页以神秘精灵弓箭手为核心、穿着飘逸长袍的奇幻概念艺术素描簿页面。用松散的石墨笔触绘制主角轮廓，并用精确的墨线细节表现。主画周围环绕侧视图，展示披风变体，一幅半成品的带尺寸标注的弓研究，缩略的动作姿势，关于魔法刺绣图案的手写注释，及森林绿和银色晕染到页边的淡水彩测试。此页应如同真正艺术总监的开发稿：探索性、优美、易读且触感丰富。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "精灵弓箭手素描簿概念图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-032/823dc75dd732d80a1c2033fe29df39cd.png",
+        "mimeType": "image/png",
+        "bytes": 3495092,
+        "sha256": "823dc75dd732d80a1c2033fe29df39cdf73a8f2557002b55303873fd91a5b37e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-032/c7bd34db0e3fe7836cdc74afce1303b5.webp",
+        "mimeType": "image/webp",
+        "bytes": 61132,
+        "sha256": "c7bd34db0e3fe7836cdc74afce1303b553b147c7db690601a9e55a56bdf0920c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-032/2cb5575e963294c8ba37c4dbff8bd1f1.webp",
+        "mimeType": "image/webp",
+        "bytes": 344578,
+        "sha256": "2cb5575e963294c8ba37c4dbff8bd1f16a865cf7080314bf1e4e7b009e64a4ba"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/midjourney/comments/1jrcpan/fantasy_concept_arts_with_v7_prompts_included/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 32）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-character-design.md"
+  }
+}

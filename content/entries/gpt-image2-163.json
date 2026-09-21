@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-163",
+  "revision": "6ce03a05-1bbb-44cd-9c27-7dd5be6527bd",
+  "status": "published",
+  "kind": "image",
+  "title": "Notes + FaceTime 工作屏幕",
+  "category": "story",
+  "tags": [
+    "屏幕摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:27.855Z",
+  "updatedAt": "2026-09-21T02:54:27.855Z",
+  "prompt": {
+    "text": "制作一张真实手机拍摄笔记本电脑屏幕的照片，不是截图。画幅 3:4，夜晚从书桌上方向下俯拍。笔记本屏幕占据大部分画面，底部只露出一条黑色键盘和触控板。强真实感：可见 RGB 子像素网格、轻微摩尔纹、小灰尘、淡指纹、不均匀玻璃反射、手持手机噪点、轻微透视倾斜，不要棚拍质感。macOS 深色模式。背景应用是 Apple Notes，一条深夜学习笔记标题为 \"Design Critique\"，可见短项目符号：\"layout\"、\"lighting\"、\"source links\"、\"ship tomorrow\"。前景应用是一个浮在右下角的 FaceTime live preview 窗口，里面显示一位虚构的二十多岁成年男性坐在凌乱书桌前，穿 hoodie，表情疲惫但有点被逗笑，身后有暖色台灯、书本和便利贴。背后还部分露出一个带图片缩略图的 Finder 小窗口。整体像偶然拍到的真实工作电脑屏幕。不要真实人物肖像、不要美颜滤镜、不要完美 UI、不要截图、不要水印、不要卡通、不要 3D 渲染。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Notes + FaceTime 工作屏幕，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-163/884c38b46bf10810851f650d848250c1.png",
+        "mimeType": "image/png",
+        "bytes": 2382644,
+        "sha256": "884c38b46bf10810851f650d848250c1378664352dc931256e539c5910fa83d9"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-163/99a67c16bf061e633b33f2d39bcf3ac1.webp",
+        "mimeType": "image/webp",
+        "bytes": 22726,
+        "sha256": "99a67c16bf061e633b33f2d39bcf3ac1115b3db2c101bfd4dbfabecdac925498"
+      },
+      "preview": {
+        "key": "published/gpt-image2-163/299af9e31b58b9585ea1512b98010064.webp",
+        "mimeType": "image/webp",
+        "bytes": 98862,
+        "sha256": "299af9e31b58b9585ea1512b980100642415e33c0d887b9ba886bbc023901929"
+      },
+      "width": 1152,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-screen-photography.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 163）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-screen-photography.md"
+  }
+}

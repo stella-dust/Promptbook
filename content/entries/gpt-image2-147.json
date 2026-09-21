@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-147",
+  "revision": "a1d81314-685c-47da-8eee-23a143e0cb67",
+  "status": "published",
+  "kind": "image",
+  "title": "城市阴影孔版印刷",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:43.855Z",
+  "updatedAt": "2026-09-21T02:54:43.855Z",
+  "prompt": {
+    "text": "An urban landscape illustration created in the style of a two-color Risograph print. The palette is limited to 'Fluorescent Pink' and 'Teal Blue', with a dark navy created where the two inks overlap. The image has the characteristic grainy, tactile texture of Riso printing, with visible halftones and a slight, intentional 'misregistration' where the colors don't perfectly align. The subject is a high-contrast view of a city street with fire escapes and power lines. The lighting is represented through the density of the dot patterns, creating a gritty, lo-fi aesthetic. The composition uses flat shapes and bold silhouettes, with the pink ink used for the sky and the teal for the building shadows. The mood is indie, artistic, and nostalgic for DIY zine culture. The text 'SHIFT' is printed in the bottom corner in a distorted, ink-heavy typeface.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "城市阴影孔版印刷，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-147/ebcf53dea0c7e53d561be13746a595de.png",
+        "mimeType": "image/png",
+        "bytes": 4208978,
+        "sha256": "ebcf53dea0c7e53d561be13746a595de7ef756e135f601dbcf7a75b9d61d1674"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-147/d2c2e3c8978bc7b80dc059511009461e.webp",
+        "mimeType": "image/webp",
+        "bytes": 96638,
+        "sha256": "d2c2e3c8978bc7b80dc059511009461e56b65ebde6722db42dd83288bd9dd602"
+      },
+      "preview": {
+        "key": "published/gpt-image2-147/82ea4ec3edb6e361b7be4b1aea4b6dfb.webp",
+        "mimeType": "image/webp",
+        "bytes": 626278,
+        "sha256": "82ea4ec3edb6e361b7be4b1aea4b6dfb6146a9cbcf2384e23edd9f98ab2b786d"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 147）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

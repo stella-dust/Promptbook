@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-057",
+  "revision": "93dc79a8-8bcb-4146-b403-6fe09d152553",
+  "status": "published",
+  "kind": "image",
+  "title": "巧克力威化（JSON 风格）",
+  "category": "product",
+  "tags": [
+    "产品美食",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:16.855Z",
+  "updatedAt": "2026-09-21T02:56:16.855Z",
+  "prompt": {
+    "text": "/* PRODUCT_RENDER_CONFIG: 巧克力威化榛子版\n   版本: 2.0.1\n   美学: 高端商业食品摄影 */\n\n{\n  \"ENVIRONMENT\": {\n    \"Background\": \"Gradient(Dark_Warm_Brown)\",\n    \"Atmospheric_FX\": [\"Floating_Particles\", \"Depth_Blur\", \"Cinematic_Bokeh\"],\n    \"Lighting\": { \"Type\": \"Directional_Studio_Warmer\", \"Highlights\": \"Specular_Glossy_Reflections\", \"Shadow_Softness\": \"High\" }\n  },\n  \"CORE_ASSETS\": {\n    \"Primary_Subject\": \"Wafer_Rolls\",\n    \"Physics\": \"Zero_Gravity_Diagonal_X_Composition\",\n    \"Material_Properties\": {\n      \"Outer\": \"Milk_Chocolate_Coating\",\n      \"Surface_Texture\": \"Irregular_Nut_Clusters_Embedded\",\n      \"Interior_Cross_Section\": { \"Structure\": \"Crispy_Hollow_Wafer\", \"Core\": \"Silky_Chocolate_Cream_Filling\" }\n    }\n  },\n  \"PARTICLE_SYSTEMS\": [\n    { \"Object\": \"Chocolate_Blocks\", \"Detail\": \"Rectangular_Embossed_Letter_B\", \"State\": \"Floating\" },\n    { \"Object\": \"Hazelnuts\", \"State\": \"Halved_and_Fragmented\", \"Distribution\": \"Random_Orbit\" }\n  ],\n  \"FLUID_DYNAMICS\": { \"Element\": \"Chocolate_Splash\", \"Behavior\": \"Dynamic_Backdrop_Flow\", \"Viscosity\": \"Thick_Glossy\" },\n  \"RENDER_OUTPUT\": { \"Resolution\": \"8K_UHD\", \"Aspect_Ratio\": \"3:4\", \"Quality_Flags\": [\"Hyper_Realistic\", \"Sharp_Foreground\", \"Indulgent_Mood\"] }\n}",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "巧克力威化（JSON 风格），源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-057/0c4bf1f4effc504df0d245cc5ecda351.png",
+        "mimeType": "image/png",
+        "bytes": 2169171,
+        "sha256": "0c4bf1f4effc504df0d245cc5ecda35186b4d8960606adc2005baa91f163dbd6"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-057/0bdc371877dcc7a08738569c446407fd.webp",
+        "mimeType": "image/webp",
+        "bytes": 37660,
+        "sha256": "0bdc371877dcc7a08738569c446407fd6186902c8a597da12e2386f44fcd5ecc"
+      },
+      "preview": {
+        "key": "published/gpt-image2-057/3c0a53c6afa0e64434239610b4abdcee.webp",
+        "mimeType": "image/webp",
+        "bytes": 127436,
+        "sha256": "3c0a53c6afa0e64434239610b4abdceef4642ff0eefaae359172ff4b3e0eb853"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@mehvishs25",
+    "url": "https://x.com/mehvishs25",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 57）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-product-and-food.md"
+  }
+}

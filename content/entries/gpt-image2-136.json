@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-136",
+  "revision": "7d0e4f78-64b5-44b7-8840-ce2ff706acc7",
+  "status": "published",
+  "kind": "image",
+  "title": "埃菲尔铁塔夜间奢华时尚大片",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:54.855Z",
+  "updatedAt": "2026-09-21T02:54:54.855Z",
+  "prompt": {
+    "text": "Dramatic, low-angle ground perspective full-body shot captured with a 50mm lens at f/1.4, featuring a stylish bearded man with slicked-back hair and aviator glasses, wearing tailored high-fashion modern clothing, standing on the platform of Trocadéro at night. He is dressed in a structured black velvet blazer over a black cashmere roll-neck sweater, tailored black trousers, and polished black boots, looking up intently at the fully illuminated Eiffel Tower, which dominates the background. Directly behind him is a deep sapphire blue Bugatti Chiron reflecting the surrounding city lights. One foot is planted on the rear tire, with his body leaning casually back. Use a shallow depth of field, rendering distant Parisian street lights and crowd into creamy bokeh. Spotlighting from city lamps creates dramatic, high-contrast shadows. Photorealistic, cinematic, luxury high-fashion editorial aesthetic.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "埃菲尔铁塔夜间奢华时尚大片，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-136/15e3ab540f16411a0d5748d6d7a5185a.png",
+        "mimeType": "image/png",
+        "bytes": 2139237,
+        "sha256": "15e3ab540f16411a0d5748d6d7a5185aadfb74be5cac7536bee7ea7d25ed2593"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-136/f779e8aab7befecf4d78f919c5e4ba54.webp",
+        "mimeType": "image/webp",
+        "bytes": 28218,
+        "sha256": "f779e8aab7befecf4d78f919c5e4ba5475c2fcbc3603c4919126ee45190a4fc9"
+      },
+      "preview": {
+        "key": "published/gpt-image2-136/07582f69be120c45a315ed356c863034.webp",
+        "mimeType": "image/webp",
+        "bytes": 123348,
+        "sha256": "07582f69be120c45a315ed356c863034519c4ef71deb9c72264ee88eb75c7f73"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@Sheldon056",
+    "url": "https://x.com/Sheldon056/status/2047157379020861782",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 136）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

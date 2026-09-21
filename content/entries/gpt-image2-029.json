@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-029",
+  "revision": "869438d3-e1f4-4211-a39f-5a9325e01a25",
+  "status": "published",
+  "kind": "image",
+  "title": "吉卜力风格动画静帧",
+  "category": "story",
+  "tags": [
+    "电影动画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:46.855Z",
+  "updatedAt": "2026-09-21T02:56:46.855Z",
+  "prompt": {
+    "text": "一个吉卜力风格手绘动画静帧，横向16:9。一座小木屋坐落在长满草的山坡上，俯瞰山谷的金色时刻。一名赤脚孩子站在木屋门口，向藏在草丛中的小毛茸茸森林精灵挥手。远处有一列火车穿过谷底，燕子在头顶盘旋。\n\n艺术指导：经典宫崎骏/吉卜力水彩与蛋彩画风。柔和的画笔边缘，稍微去饱和的绿色和温暖的肤色，云朵和草地上可见刷子质感。角色上用细腻的墨线绘制。柔和的大气透视。整个画面应像《龙猫》或《魔女宅急便》中的动画片段，而非3D渲染。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "吉卜力风格动画静帧，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-029/f4c97eed5da2313e5e98a793b677b6cb.png",
+        "mimeType": "image/png",
+        "bytes": 3249314,
+        "sha256": "f4c97eed5da2313e5e98a793b677b6cb9287c0e6438bfab9701ca52b6ebcbf69"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-029/9952f9b243ebbd3f4c597347144c5597.webp",
+        "mimeType": "image/webp",
+        "bytes": 69384,
+        "sha256": "9952f9b243ebbd3f4c597347144c5597926b5716aa25f0da08fa2b7f7c4847d1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-029/e48adabf69b8c3139a1d2bfcedbca2b8.webp",
+        "mimeType": "image/webp",
+        "bytes": 366486,
+        "sha256": "e48adabf69b8c3139a1d2bfcedbca2b864cf9973f58907627355f05a3859cf5e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 29）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md"
+  }
+}

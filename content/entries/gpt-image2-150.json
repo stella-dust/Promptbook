@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-150",
+  "revision": "0f1bb239-5e66-45cd-a99b-a9e6142d82c8",
+  "status": "published",
+  "kind": "image",
+  "title": "梦境景观：漂浮花园",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:40.855Z",
+  "updatedAt": "2026-09-21T02:54:40.855Z",
+  "prompt": {
+    "text": "一幅郁郁葱葱、手绘风格的电影画面，继承宫崎骏梦幻动画的血脉。场景描绘一系列小型草地岛屿漂浮在蓬松的白色积云海洋上，背景是明亮的绿松石蓝天。古老的石头废墟覆盖着鲜艳的‘翡翠绿’苔藓，夹杂在开花果树之间。柔和的风吹动长草摇曳，白色飞鸟翱翔。光线是夏日清晨明亮且乐观的清晰感，伴有柔和、绘画般的阴影和温柔的光晕。色彩调色板丰富自然：天蓝色、春绿色和花朵粉。构图开阔通透，带有无限的奇妙与和平感。质感柔和如水粉画，每片叶子和草叶都充满生命力和细致关怀。这里是纯粹想象与环境和谐的世界。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "梦境景观：漂浮花园，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-150/009607b2cd51a7985c1b82499b2f9298.png",
+        "mimeType": "image/png",
+        "bytes": 2876756,
+        "sha256": "009607b2cd51a7985c1b82499b2f929882db740488fdbba48a61544b6a93b634"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-150/7b8cfbc67fd4535180f750289a25908b.webp",
+        "mimeType": "image/webp",
+        "bytes": 47446,
+        "sha256": "7b8cfbc67fd4535180f750289a25908bd4c98338e7c5b412c2be4f27176fc0b7"
+      },
+      "preview": {
+        "key": "published/gpt-image2-150/31aa379b40bccaf3f74e9372f90d5a23.webp",
+        "mimeType": "image/webp",
+        "bytes": 252922,
+        "sha256": "31aa379b40bccaf3f74e9372f90d5a233a663adecc25822cfe804180216a078e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 150）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

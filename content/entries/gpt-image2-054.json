@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-054",
+  "revision": "363b00ee-df83-4fe9-b2ef-f16b0d1d1c3f",
+  "status": "published",
+  "kind": "image",
+  "title": "等距咖啡街区",
+  "category": "space",
+  "tags": [
+    "等距场景",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:20.855Z",
+  "updatedAt": "2026-09-21T02:56:20.855Z",
+  "prompt": {
+    "text": "A detailed isometric 3D miniature scene of a two-block cafe district, clean geometric forms, precise 30° isometric perspective alignment. A corner cafe with outdoor umbrella seating, a bookstore next door with stacks of books visible through the window, a bakery with a window display of pastries, a bicycle parked at the curb, a small fountain in a mini-plaza, planter boxes with tiny trees, a food cart on the corner selling coffee, stylised miniature pedestrians in various poses, tiled roof tops with ventilation details. Soft ambient lighting from upper-left, no harsh shadows, pastel-plus-muted palette (terracotta rooftops, cream walls, sage greens, dusty blue accents), slight atmospheric haze, subtle ambient occlusion in corners, high-detail miniature texturing. Professional rendering quality, suitable for editorial or marketing materials. Flat colored background in a single soft cream tone, no ground plane shadow, scene floating like a diorama.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "等距咖啡街区，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-054/8cf7ec1909d898f5c4e281418d4fb7fc.png",
+        "mimeType": "image/png",
+        "bytes": 1559853,
+        "sha256": "8cf7ec1909d898f5c4e281418d4fb7fcefeea52172682e087241e5012d2122dd"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-054/06affabafb821ffc2072d92de4dde1a1.webp",
+        "mimeType": "image/webp",
+        "bytes": 66752,
+        "sha256": "06affabafb821ffc2072d92de4dde1a1d4bff09ae9ee6b9e63fb274bddc6bd91"
+      },
+      "preview": {
+        "key": "published/gpt-image2-054/3c55892dc3b11bfbead15fa7601d86ae.webp",
+        "mimeType": "image/webp",
+        "bytes": 160318,
+        "sha256": "3c55892dc3b11bfbead15fa7601d86aeb4145c33557754cf388368da705fc632"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 54）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-isometric.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-040",
+  "revision": "264d663e-2ede-4377-b49c-047e2eca7363",
+  "status": "published",
+  "kind": "image",
+  "title": "双重曝光叙事海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:34.855Z",
+  "updatedAt": "2026-09-21T02:56:34.855Z",
+  "prompt": {
+    "text": "Create a high-aesthetic collector poster in a \"silhouette universe / dual-exposure narrative\" style for an original theme called \"Moonlit Dragon Court\". Choose the most symbolic outer contour yourself — not a bottle or hourglass, but a more resonant form like a mask, archway, wing, throne, face profile, or luminous gate. Inside and around that contour, let a complete theme world naturally unfold: palaces, bridges, moonlit water, dragon motifs, relics, banners, distant figures, and layered atmospheric depth. The image must feel like a premium novel/anime poster: elegant, mythic, poetic, not cluttered, not collage-like, with strong visual memory and restrained luxurious design.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "双重曝光叙事海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-040/45b4c828f69f7e5dad7841f75e521251.png",
+        "mimeType": "image/png",
+        "bytes": 2712798,
+        "sha256": "45b4c828f69f7e5dad7841f75e5212515a7f8eea2e86ecd1e7d14a01112a0c7f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-040/ffa54c37c812818a0a5749bbf7d1a8d2.webp",
+        "mimeType": "image/webp",
+        "bytes": 39432,
+        "sha256": "ffa54c37c812818a0a5749bbf7d1a8d246dc2a9468221e330743dcef98505cbc"
+      },
+      "preview": {
+        "key": "published/gpt-image2-040/e5732fd73b7ea7172a2167c9c4a78aef.webp",
+        "mimeType": "image/webp",
+        "bytes": 233710,
+        "sha256": "e5732fd73b7ea7172a2167c9c4a78aef6dd1f5744523a6b4e3939a957456b06d"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e7a01700000000230153f3",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 40）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

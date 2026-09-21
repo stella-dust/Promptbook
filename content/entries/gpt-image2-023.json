@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-023",
+  "revision": "1bad482c-cc5b-4aa6-b685-db8ac22ac8a6",
+  "status": "published",
+  "kind": "image",
+  "title": "海上要塞上的赛博朋克机甲少女",
+  "category": "story",
+  "tags": [
+    "复古赛博",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:52.855Z",
+  "updatedAt": "2026-09-21T02:56:52.855Z",
+  "prompt": {
+    "text": "一位十几岁的机甲少女，苍白的皮肤沾染着煤烟和盐雾，锐利的琥珀色眼睛带有发光的HUD准星，及腰的灰白色头发绑成高马尾，在海风中飘扬，哑光枪金属外骨骼装甲护住肩膀、前臂和小腿，关节处露出液压活塞，胸甲有发光的青色冷却管线，超大号染满油渍的飞行员夹克半滑落一肩，巨大的轨道炮架在右肩，颈项悬挂军牌和磨损的红色缎带，站在倾斜钢平台生锈的边缘偏左处，平台向深色海面凸出，体重偏向一条腿，左手攥着炮带，头略微转向镜头，目光坚定且沉静，背部推进器冒着蒸汽，马尾和夹克在盐风中横向飘扬，黄昏时分一座废弃海上城市，巨大的未知用途超级结构从海洋中错落耸立剪影，骨白色的整体塔楼与附着了藤壶的钢铁融合，巨大的环形构筑在破碎角度倾斜，生锈的骨架吊车架穿过死线缆，支柱间黑暗的波浪滚动，脚下半吞噬的沉船，浓厚的海雾笼罩基座而上部结构刺破斑驳天空，塔顶散布微弱闪烁的灯光如远方眼睛，情绪化的低调光源，阴天带来冷青绿色环境光，右摄像机方向远处建筑透出温暖琥珀色钠灯光，背后低悬太阳形成强烈逆光勾勒剪影，体积感神光穿越海雾，装甲湿润的高光反射，35mm变形镜头，轻微低角度从肩膀后仰望结构，中景宽幅镜头，浅景深前景生锈处柔焦，水平镜头光晕，细腻大气雾霭将远方超级结构压缩成分层剪影，电影感动漫主视觉，画意数字插画，线条清晰，去饱和的海洋调色板包含青色、骨白和铁锈色，点缀少量暖色光，胶片颗粒，高对比编选海报美学。格式16:9。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "海上要塞上的赛博朋克机甲少女，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-023/5fc04d936ed96eba4a7eacdc1f4672a7.png",
+        "mimeType": "image/png",
+        "bytes": 2812483,
+        "sha256": "5fc04d936ed96eba4a7eacdc1f4672a7c7fab0467a245619c171322d1811e8e3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-023/00835e847685c9628730ddcb3ce77dbf.webp",
+        "mimeType": "image/webp",
+        "bytes": 45030,
+        "sha256": "00835e847685c9628730ddcb3ce77dbf8d7b941b75372573c3ad188877b94f17"
+      },
+      "preview": {
+        "key": "published/gpt-image2-023/90edbeb5945d7b10e064a09ae3fd9198.webp",
+        "mimeType": "image/webp",
+        "bytes": 231362,
+        "sha256": "90edbeb5945d7b10e064a09ae3fd91986281555250f66fd3c46163caa9313b3c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 23）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-retro-and-cyberpunk.md"
+  }
+}

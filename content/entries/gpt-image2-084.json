@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-084",
+  "revision": "aa126ba5-8701-4490-90c4-13474de862d1",
+  "status": "published",
+  "kind": "image",
+  "title": "模型缩放规律图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:48.855Z",
+  "updatedAt": "2026-09-21T02:55:48.855Z",
+  "prompt": {
+    "text": "横向 16:9 对数刻度训练损失与计算量关系图，四条不同模型规模的曲线。\n\nX 轴 \"Training compute (FLOPs)\" 以对数刻度标注 \"1e20\"、\"1e21\"、\"1e22\"、\"1e23\"、\"1e24\"。Y 轴 \"Validation loss (cross-entropy)\" 线性递减刻度 \"3.5\"、\"3.0\"、\"2.5\"、\"2.0\"、\"1.5\"。\n\n四条下降曲线，带 ±1σ 阴影带，尾部附近标注：\n\"70M params\"（石板灰）、\"1B params\"（柔和海军蓝）、\"10B params\"（尘土绿松石）、\"70B params\"（柔和陶土色）。\n\n暖铜色虚线对角线，标注 \"compute-optimal frontier\"；在等计算量交叉点处有空心圆。右上角图例框。\n\n标题：\"Empirical scaling laws: loss vs training compute\"。副标题：\"四种模型规模使用固定数据混合；阴影带表示三次实验的 ±1 标准差。\"",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "模型缩放规律图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-084/ac1ce65d26d9dabf508b55108e391eac.png",
+        "mimeType": "image/png",
+        "bytes": 614291,
+        "sha256": "ac1ce65d26d9dabf508b55108e391eacabd014e2cd3c6d3276bb2d9931e459db"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-084/e35cf489f5ccc4197339c4f04f878b8c.webp",
+        "mimeType": "image/webp",
+        "bytes": 24686,
+        "sha256": "e35cf489f5ccc4197339c4f04f878b8c16e6bee5d122f360593e1e0833aefb33"
+      },
+      "preview": {
+        "key": "published/gpt-image2-084/faf4b890ca8802402a85f726a6175782.webp",
+        "mimeType": "image/webp",
+        "bytes": 84154,
+        "sha256": "faf4b890ca8802402a85f726a6175782b952a481e029360e11828c817562ae3a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 84）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

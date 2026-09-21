@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-104",
+  "revision": "56a076f1-3b47-4050-abd0-6b009694f6ab",
+  "status": "published",
+  "kind": "image",
+  "title": "桌面运营仪表盘",
+  "category": "design",
+  "tags": [
+    "界面设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:27.855Z",
+  "updatedAt": "2026-09-21T02:55:27.855Z",
+  "prompt": {
+    "text": "Create a high-end desktop SaaS analytics dashboard mockup for a fictional platform named HELIX OPS, displayed on a 16:10 monitor canvas at 1600x1000. Use a cool palette of slate, cobalt blue, teal, pale gray, and white, with subtle glass panels and tight grid alignment. The layout should include a left sidebar, top filter bar, KPI cards, line charts, data table, and alert panel. Use crisp typography and correct labels. Include in-image text: \"HELIX OPS\", \"Operations Overview\", \"Last 30 Days\", \"Uptime 99.982%\", \"Tickets 184\", \"Latency 42 ms\", and \"Conversion 6.4%\". Show a line chart labeled \"Apr 1\" through \"Apr 30\", a donut chart titled \"Traffic Sources\", and a table with columns \"Site\", \"Status\", \"Region\", and \"Load\". Add alert pills reading \"3 Critical\" and \"12 Warning\". Composition should feel realistic and presentation-ready, with clean hierarchy, precise spacing, balanced negative space, and ultra-sharp dashboard UI rendering.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "桌面运营仪表盘，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-104/e562330f906ce692ae016bb6bb6333ed.png",
+        "mimeType": "image/png",
+        "bytes": 570388,
+        "sha256": "e562330f906ce692ae016bb6bb6333ed66289cadb879f1aca626215ba5d3bfe5"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-104/9d7828871f9f660e7ab6a46cae89fe5e.webp",
+        "mimeType": "image/webp",
+        "bytes": 22072,
+        "sha256": "9d7828871f9f660e7ab6a46cae89fe5e559099aeb20757ef527b64e43ca223c2"
+      },
+      "preview": {
+        "key": "published/gpt-image2-104/5228d1c36d2dc2cb8cf9e40a576ebb9c.webp",
+        "mimeType": "image/webp",
+        "bytes": 82124,
+        "sha256": "5228d1c36d2dc2cb8cf9e40a576ebb9ccd81c62ab6aa3161988c6ea614472394"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 104）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md"
+  }
+}

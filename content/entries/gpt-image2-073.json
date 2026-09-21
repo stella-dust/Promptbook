@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-073",
+  "revision": "17afaefd-279f-46dd-a79e-f1da4f48ad46",
+  "status": "published",
+  "kind": "image",
+  "title": "小红书风格烹饪教程卡",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:59.855Z",
+  "updatedAt": "2026-09-21T02:55:59.855Z",
+  "prompt": {
+    "text": "创建一张小红书风格的爆款烹饪教程图，纵向3:4布局，主题为自制葱油拌面。营造温馨家常氛围，暖色调生活美学，4至6步的网格布局，干净间距，真实食物摄影，柔和自然光，略带胶片质感，暖色调调色，显油光、蒸汽、酱料质地及手部互动。添加简短中文注释如“切葱”、“熬油”、“拌面”、“出锅”。避免画面拥挤或文字过多。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "小红书风格烹饪教程卡，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-073/c3380393da5cc3338d92dee4b5605796.png",
+        "mimeType": "image/png",
+        "bytes": 3080235,
+        "sha256": "c3380393da5cc3338d92dee4b560579667bbc4cb84efce4a4de3923bfe47fae1"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-073/a149beae639c4d76e4e2c6a2be47d053.webp",
+        "mimeType": "image/webp",
+        "bytes": 35324,
+        "sha256": "a149beae639c4d76e4e2c6a2be47d0533fc7799b2f6d1abf028c303973551128"
+      },
+      "preview": {
+        "key": "published/gpt-image2-073/4ef9a3edaf4c48c6b715e25ddeede7c0.webp",
+        "mimeType": "image/webp",
+        "bytes": 220026,
+        "sha256": "4ef9a3edaf4c48c6b715e25ddeede7c0fb5d2fa328156986579263f18edda5ba"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e8eeed0000000021004a54",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 73）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

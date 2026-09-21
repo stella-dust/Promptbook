@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-107",
+  "revision": "9dc03d14-de3f-4d16-95e1-2b7133226721",
+  "status": "published",
+  "kind": "image",
+  "title": "健康追踪 App Mockup",
+  "category": "design",
+  "tags": [
+    "界面设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:24.855Z",
+  "updatedAt": "2026-09-21T02:55:24.855Z",
+  "prompt": {
+    "text": "Create a refined mobile health tracking app screen for a fictional wellness product named VITA LOOP, displayed on a tall smartphone with a bright editorial UI aesthetic. Use a palette of soft mint, deep forest green, cream, coral, and cool gray. Compose a daily overview screen with clean cards, circular progress rings, miniature charts, and a tidy bottom navigation. Include crisp in-image text: \"VITA LOOP\", \"Daily Summary\", \"Steps 8,420\", \"Sleep 7.6 h\", \"Heart Rate 64 bpm\", and \"Hydration 2.1 L\". Add three progress rings labeled \"Move 78%\", \"Recovery 84%\", and \"Focus 66%\". Show a weekly chart labeled \"Mon Tue Wed Thu Fri Sat Sun\" and two buttons reading \"Log Meal\" and \"Start Session\". Add a health insight card with the text \"Recovery improved 12% this week\". The result should feel production-ready, medically clean, carefully spaced, sharply rendered, and optimized for crisp typography and accurate labels.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "健康追踪 App Mockup，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-107/e6a905c97985cb824ee000551990e493.png",
+        "mimeType": "image/png",
+        "bytes": 1005413,
+        "sha256": "e6a905c97985cb824ee000551990e493da33c5704704298f930c5af95288f6eb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-107/3116a073bdcf42dc0b45f18db75a8738.webp",
+        "mimeType": "image/webp",
+        "bytes": 24440,
+        "sha256": "3116a073bdcf42dc0b45f18db75a8738b88bad51160bf914725e064951eeaca1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-107/67c31f30597b6b3242f5af31306cf926.webp",
+        "mimeType": "image/webp",
+        "bytes": 79938,
+        "sha256": "67c31f30597b6b3242f5af31306cf92690bd1ab6a5de2ad139dbe532d3d2a263"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 107）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md"
+  }
+}

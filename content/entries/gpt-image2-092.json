@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-092",
+  "revision": "a02f268d-4758-4b21-b2a5-47e8f6b78538",
+  "status": "published",
+  "kind": "image",
+  "title": "Frontier 安全评测循环",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:40.855Z",
+  "updatedAt": "2026-09-21T02:55:40.855Z",
+  "prompt": {
+    "text": "创建一张美观的研究流程图，用于 AI 安全基准管道，名为 Frontier Safety Eval Loop。横向图示，白色背景，大型字体，矢量风格图形，柔和的靛青、珊瑚、鼠尾草和石墨色调。展示阶段 Prompt Suite、Model Runs、Judge Models、Human Audit、Failure Taxonomy、Patch Queue 和 Re-run。采用干净的泳道、编号标注、紧凑图例、优质论文风格。高细节，色彩和谐，富有留白，无杂乱，会议级质量图。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Frontier 安全评测循环，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-092/03bc8b1c0417b8f24e02b5fca58cb702.png",
+        "mimeType": "image/png",
+        "bytes": 739909,
+        "sha256": "03bc8b1c0417b8f24e02b5fca58cb702c64aaf66eaafb3f1ef40d4f141e45c66"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-092/b4a3005d20cc2c912fddb2d9fa541445.webp",
+        "mimeType": "image/webp",
+        "bytes": 31458,
+        "sha256": "b4a3005d20cc2c912fddb2d9fa541445109acf806530045fe3a24d232c4a35a6"
+      },
+      "preview": {
+        "key": "published/gpt-image2-092/6d955510c0cc4facff1f2c57c2b67400.webp",
+        "mimeType": "image/webp",
+        "bytes": 125088,
+        "sha256": "6d955510c0cc4facff1f2c57c2b674005596ea7d49f86a40f82cb1b9c4a5ac1c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 92）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

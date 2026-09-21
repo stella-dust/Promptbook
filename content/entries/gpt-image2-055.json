@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-055",
+  "revision": "19c29411-2b93-43fa-a937-fe7a29bfdf6e",
+  "status": "published",
+  "kind": "image",
+  "title": "等距视图奇幻村庄地图",
+  "category": "space",
+  "tags": [
+    "等距场景",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:18.855Z",
+  "updatedAt": "2026-09-21T02:56:18.855Z",
+  "prompt": {
+    "text": "创建一个充满活力的等距视图奇幻村庄地图，采用干净的基于网格布局，使用3x3米瓷砖。包括茅草屋顶的木屋、鹅卵石小路和中央石制喷泉。地图的一角升起一个约2米高的小草坪小丘，设有连接较低地面的楼梯。保持等距角度精准且适合游戏使用。温暖的阳光投射出清晰的光线和长长的阴影在屋顶上。使场景易读，像手工制作的策略游戏地图，瓷砖逻辑清晰，环境细节迷人，色彩丰富但受控。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "等距视图奇幻村庄地图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-055/0f7999bb4533aea4f990dc5706fcfe44.png",
+        "mimeType": "image/png",
+        "bytes": 2500831,
+        "sha256": "0f7999bb4533aea4f990dc5706fcfe441a4a16c637d1bc35d3ff1b08c6fcc79c"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-055/859b637b97d3f374b1e55ec6b42b5a14.webp",
+        "mimeType": "image/webp",
+        "bytes": 126924,
+        "sha256": "859b637b97d3f374b1e55ec6b42b5a1473ec4a216df74bd2323e3a6a2f68c8ea"
+      },
+      "preview": {
+        "key": "published/gpt-image2-055/86661282ad111d03996c39d469f2eff0.webp",
+        "mimeType": "image/webp",
+        "bytes": 312332,
+        "sha256": "86661282ad111d03996c39d469f2eff08942216b56c5d7e892264f739174925e"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/midjourney/comments/1hkqr4x/isometric_maps_prompts_included/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 55）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-isometric.md"
+  }
+}

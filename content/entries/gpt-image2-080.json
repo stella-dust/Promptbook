@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-080",
+  "revision": "5b888685-6357-40ea-ae8d-2a7f20929b38",
+  "status": "published",
+  "kind": "image",
+  "title": "Transformer 架构图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:52.855Z",
+  "updatedAt": "2026-09-21T02:55:52.855Z",
+  "prompt": {
+    "text": "横向 16:9 学术概念图，展示 Transformer 编码器-解码器架构，NeurIPS 定稿风格。左右两列垂直堆叠，中间用虚线分隔。\n\n左列标题：\"ENCODER (×N)\"。模块从下到上依次为：\"Input tokens\" → \"Input Embedding\" → \"+ Positional Encoding\" → 虚线框 \"Encoder layer\"，包含 \"Multi-Head Self-Attention\"、\"Add & Norm\"、\"Feed-Forward\"、\"Add & Norm\"，每个子层周围有细弯曲的残差箭头。\n\n右列标题：\"DECODER (×N)\"。模块从下到上依次为：\"Output tokens (shifted right)\" → \"Output Embedding\" → \"+ Positional Encoding\" → 虚线框 \"Decoder layer\"，包含 \"Masked Multi-Head Self-Attention\"、\"Add & Norm\"、\"Multi-Head Cross-Attention\"（有箭头从编码器顶部标注 \"keys, values\" 指向此处）、\"Add & Norm\"、\"Feed-Forward\"、\"Add & Norm\"。解码器上方有 \"Linear\"、\"Softmax\"、\"Output probabilities\"。\n\n标题：\"Transformer: encoder–decoder with multi-head attention\"。副标题：\"Vaswani et al., 2017\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Transformer 架构图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-080/dc2493f488a3ec2ddb84e303ece40fbd.png",
+        "mimeType": "image/png",
+        "bytes": 564565,
+        "sha256": "dc2493f488a3ec2ddb84e303ece40fbdc58e7fef2215f3914303618e90e900b6"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-080/f27821698800ed34ab3e8a9c91cdade3.webp",
+        "mimeType": "image/webp",
+        "bytes": 21578,
+        "sha256": "f27821698800ed34ab3e8a9c91cdade393154ded4ac9b7b00b45c0ada1fd7c5c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-080/64dbf8a701c0c692135b7931e9160ec0.webp",
+        "mimeType": "image/webp",
+        "bytes": 63962,
+        "sha256": "64dbf8a701c0c692135b7931e9160ec080457e4c96a6e71b4398dce6f337df56"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 80）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-005",
+  "revision": "3ba3e554-eacb-40f2-93cc-b61d91195691",
+  "status": "published",
+  "kind": "image",
+  "title": "16格动漫表情网格",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:10.855Z",
+  "updatedAt": "2026-09-21T02:57:10.855Z",
+  "prompt": {
+    "text": "创建一个16格表情网格，描绘一个银发、蓝眼的动漫女孩。她的脸型、发型和服装在所有格子中必须保持高度一致。16种表情包括：开心、伤心、生气、惊讶、害羞、无语、邪恶笑容、沉思、好奇、自豪、委屈、轻蔑、困惑、害怕、哭泣，以及一个心形表情。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "16格动漫表情网格，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-005/f2983987ce4c725d3bc8893f67d4661a.png",
+        "mimeType": "image/png",
+        "bytes": 1641038,
+        "sha256": "f2983987ce4c725d3bc8893f67d4661a95d7337cc81d08ff6ec1d751d089b61a"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-005/28006e98afeafb1ac1ebc9a002ba51ca.webp",
+        "mimeType": "image/webp",
+        "bytes": 78570,
+        "sha256": "28006e98afeafb1ac1ebc9a002ba51ca3f182b8337f1f3b5a4b74ba6da8e2c3f"
+      },
+      "preview": {
+        "key": "published/gpt-image2-005/5c012a967e12f354cf86f15ba3cf9ae7.webp",
+        "mimeType": "image/webp",
+        "bytes": 185280,
+        "sha256": "5c012a967e12f354cf86f15ba3cf9ae7797e82144e525ded0ea4c238bc01d33f"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 5）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

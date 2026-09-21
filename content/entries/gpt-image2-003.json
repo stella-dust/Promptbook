@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-003",
+  "revision": "73bf0737-bbf2-41f1-8c03-160c9497d65b",
+  "status": "published",
+  "kind": "image",
+  "title": "篮球扣篮漫画双页",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:12.855Z",
+  "updatedAt": "2026-09-21T02:57:12.855Z",
+  "prompt": {
+    "text": "一幅黑白少年漫画双页版面（横向16:9作为单一画面，带有微弱的中央分割线）。高对比墨线与网点，周刊少年Jump篮球漫画传统（井上雄彦《灌篮高手》/ 藤巻忠俊《黑子的篮球》）。\n\n构图：5个不规则格子加一个跨越两页右下方的大斜格子，呈现高潮扣篮场面。\n\n- 左上角：主角锐利眼神特写，汗珠滴落，绑紧头带\n- 中上方：满座的高中体育馆宽景，记分牌显示\"42 — 40 · 第4节 0:03\"\n- 右上角：对手队长震惊表情，嘴张开\n- 左中部：主角双手紧握篮球腾空而起\n- 右中部小格子：厚重黑字片假名音效\"バッ\"\n- 右下大斜格（跨两页一半）：主角扣篮，篮筐弯曲，巨大的墨迹书法汉字\"決\"（决定）填满负空间\n\n艺术指导：专业漫画家品质——自信的墨线，戏剧化的网点渐变，扣篮发散的速度线，多样线宽，浅米色纸张纹理及轻微页边阴影。\n\n对白气泡故意留白，仅显示两个音效词。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "篮球扣篮漫画双页，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-003/49c4c7dbd5e80e54f414982b91ae5542.png",
+        "mimeType": "image/png",
+        "bytes": 4518538,
+        "sha256": "49c4c7dbd5e80e54f414982b91ae5542e58ff703253abf2116dd81a0576be98d"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-003/d0fa59dff7638cc735f76f28128b0454.webp",
+        "mimeType": "image/webp",
+        "bytes": 90028,
+        "sha256": "d0fa59dff7638cc735f76f28128b0454c04bed2b1fe8983afc55a354050e8b94"
+      },
+      "preview": {
+        "key": "published/gpt-image2-003/aaf61cf1697146a78d9cbba871e4f6db.webp",
+        "mimeType": "image/webp",
+        "bytes": 558050,
+        "sha256": "aaf61cf1697146a78d9cbba871e4f6db553bdf7d6483e14005fc659813c40730"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 3）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

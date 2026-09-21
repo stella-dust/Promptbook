@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-053",
+  "revision": "4935dbd2-c9aa-4b81-9b72-8ecca817673a",
+  "status": "published",
+  "kind": "image",
+  "title": "像素艺术早餐静物",
+  "category": "design",
+  "tags": [
+    "像素画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:21.855Z",
+  "updatedAt": "2026-09-21T02:56:21.855Z",
+  "prompt": {
+    "text": "创造一个怀旧的像素艺术早餐静物。展示一叠绵软金黄的松饼，上面淋有光亮的枫糖浆，顶端摆放草莓和蓝莓，像素化的蒸汽从中升腾而起。盘子放在浅色桌布上，背景有一杯热咖啡。使用丰富的早餐色彩，精心的光照和美味的纹理细节，同时保持干净、清晰易读的像素艺术风格。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "像素艺术早餐静物，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-053/58d64360dcc738eb1652cfc2251d71d5.png",
+        "mimeType": "image/png",
+        "bytes": 1342012,
+        "sha256": "58d64360dcc738eb1652cfc2251d71d51aecd5b3da4e57e70c469ed907fb5396"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-053/250353c97e163e50736632f00feb29d4.webp",
+        "mimeType": "image/webp",
+        "bytes": 74088,
+        "sha256": "250353c97e163e50736632f00feb29d4335c2986cb450cce663b908eebe56785"
+      },
+      "preview": {
+        "key": "published/gpt-image2-053/0bccb2c70c3eec6acaa0ec1c22cca937.webp",
+        "mimeType": "image/webp",
+        "bytes": 142860,
+        "sha256": "0bccb2c70c3eec6acaa0ec1c22cca937123237609cccecc7e3d68a9a94e861d4"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/midjourney/comments/1jmodcx/animated_pixel_art_food_prompts_included/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 53）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-pixel-art.md"
+  }
+}

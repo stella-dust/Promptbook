@@ -37,7 +37,7 @@ const o = e.outputs.find((o) => o.id === e.coverOutputId)!;
   <h2>
     <a href={`${site.base}/p/${e.id}/`}>{e.title}</a>
   </h2>
-  <p class="excerpt">{e.prompt.text}</p>
+  <p class="excerpt">{e.prompt.text.slice(0, 220)}</p>
   <div class="card-bottom">
     <span class="card-categories">
       {taxonomy.find((t) => t.id === e.category)?.label}

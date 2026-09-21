@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-098",
+  "revision": "73d6391c-60b3-451e-be0a-2af7b4b0390e",
+  "status": "published",
+  "kind": "image",
+  "title": "写实年长水手照片",
+  "category": "other",
+  "tags": [
+    "官方示例",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:34.855Z",
+  "updatedAt": "2026-09-21T02:55:34.855Z",
+  "prompt": {
+    "text": "Create a photorealistic candid photograph of an elderly sailor standing on a small fishing boat.\nHe has weathered skin with visible wrinkles, pores, and sun texture, and a few faded traditional sailor tattoos on his arms.\nHe is calmly adjusting a net while his dog sits nearby on the deck. Shot like a 35mm film photograph, medium close-up at eye level, using a 50mm lens.\nSoft coastal daylight, shallow depth of field, subtle film grain, natural color balance.\nThe image should feel honest and unposed, with real skin texture, worn materials, and everyday detail. No glamorization, no heavy retouching.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "写实年长水手照片，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-098/15326d037f4fa7515a5acd809afb1292.png",
+        "mimeType": "image/png",
+        "bytes": 2773127,
+        "sha256": "15326d037f4fa7515a5acd809afb12928f8d8e58110cdf6303ed83682099d7c2"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-098/3b7138ecf698373bccd454720f160a89.webp",
+        "mimeType": "image/webp",
+        "bytes": 41580,
+        "sha256": "3b7138ecf698373bccd454720f160a89938963f1c6247da894c27b953e2e6622"
+      },
+      "preview": {
+        "key": "published/gpt-image2-098/f150812fdcfd619a6592a2d032bff0a5.webp",
+        "mimeType": "image/webp",
+        "bytes": 180934,
+        "sha256": "f150812fdcfd619a6592a2d032bff0a548aea265497d6f3ac3c5d7066581e49d"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "OpenAI",
+    "url": "https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 98）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-official-openai-cookbook-examples.md"
+  }
+}

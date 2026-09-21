@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-121",
+  "revision": "a4486b36-0299-4325-a42c-e2d9164403dd",
+  "status": "published",
+  "kind": "image",
+  "title": "亲自然生物科技实验室",
+  "category": "space",
+  "tags": [
+    "建筑室内",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:09.855Z",
+  "updatedAt": "2026-09-21T02:55:09.855Z",
+  "prompt": {
+    "text": "生成一个高端写实的面向未来的生物科技实验室渲染图，融合亲自然设计理念。展示一个明亮开放的实验室，配有玻璃隔断、活体苔藓墙、悬挂植物、淡木质细节、白色复合工作台和先进科研设备。采用清新配色，包含白色、鼠尾草绿、浅橡木、不锈钢和清澈青蓝色显示器点缀。配置精准的4200K建筑光照、天窗漫射和洁净反射。添加细微的墙面图形与清晰画中文字“HELIX BIO LAB 03”、“Clean Zone”和“22 C”。场景应包含实验台、显微镜、样品存储塔和协作座椅，空间布局清晰。构图需令人向往且可信，设备比例合理、表面洁净、杂乱控制得当并具优质可视化效果。强调写实、材质准确渲染、层次分明，及自然与科学工作空间设计的优雅融合。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "亲自然生物科技实验室，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-121/cac76a6915aacecce6fcd945ca4abfa3.png",
+        "mimeType": "image/png",
+        "bytes": 3817421,
+        "sha256": "cac76a6915aacecce6fcd945ca4abfa31e9df255aa91a206b7d961290d1ee033"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-121/f5fea4ef9178a291656e08df00606f05.webp",
+        "mimeType": "image/webp",
+        "bytes": 41960,
+        "sha256": "f5fea4ef9178a291656e08df00606f059aba5796657a19cde07256d3dfc8cbbe"
+      },
+      "preview": {
+        "key": "published/gpt-image2-121/e2d8fb37eefd4d83db6400708a99dafc.webp",
+        "mimeType": "image/webp",
+        "bytes": 217120,
+        "sha256": "e2d8fb37eefd4d83db6400708a99dafc091aa5911c363e6ce3e1e8654925bae0"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 121）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md"
+  }
+}

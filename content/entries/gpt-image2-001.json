@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-001",
+  "revision": "56a78f09-3cde-471a-a7d4-293e1e64288b",
+  "status": "published",
+  "kind": "image",
+  "title": "蓝色能量的对决",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:14.855Z",
+  "updatedAt": "2026-09-21T02:57:14.855Z",
+  "prompt": {
+    "text": "一幅采用MAPPA公司制作的《咒术回战》（2020年电视动画）视觉风格的动画动作定格画面。横向16:9比例。\n\n一位银白发的年轻男子，穿着深海军蓝色校服夹克，眼戴蓝色眼罩，处于战斗中期姿势——一只手掌向外伸展，释放出一个旋转的浓密蓝色能量球，球的边缘有雷电般的闪光。对面是由液态黑色物质组成的恶魔阴影生物，拥有多个眼睛，从右侧猛扑过来。\n\n背景：黄昏时的破败城市街道，碎裂的柏油路面，裂开的霓虹汉字招牌“呪術”以断裂的红色LED灯显示，被毁坏的车辆，瓦砾被冲击波悬浮在半空中，雨点在空中捕捉停留。\n\n艺术指导：MAPPA风格的数字二维动画——重厚的卡通阴影，清晰的线条艺术，两人物体带有边缘光，能量球周围带有运动模糊光线。色彩方案采用深海军蓝、电青色、猩红色点缀。动感冲击构图，延续《咒术回战》涩谷篇的传统。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "蓝色能量的对决，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-001/533743ddb16aa5ab3196bb3f75b3edd1.png",
+        "mimeType": "image/png",
+        "bytes": 2676858,
+        "sha256": "533743ddb16aa5ab3196bb3f75b3edd1deb383f66b233c1b05ff4ca879393baf"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-001/2502574735a38c3b0a4c3700134676a7.webp",
+        "mimeType": "image/webp",
+        "bytes": 50696,
+        "sha256": "2502574735a38c3b0a4c3700134676a7937eb7b5547d51d8c5ed5c1d62b1da6e"
+      },
+      "preview": {
+        "key": "published/gpt-image2-001/9801f4410a6064f63643781457fa2029.webp",
+        "mimeType": "image/webp",
+        "bytes": 232740,
+        "sha256": "9801f4410a6064f63643781457fa20297ea6b43a0eb54ed277d7949982dbabf8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 1）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

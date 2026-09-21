@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-085",
+  "revision": "5e05ed52-efd4-45db-bd20-c13cbf768ad7",
+  "status": "published",
+  "kind": "image",
+  "title": "基准测试热图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:47.855Z",
+  "updatedAt": "2026-09-21T02:55:47.855Z",
+  "prompt": {
+    "text": "横向 16:9 模型 × 基准热度矩阵。\n\n列（旋转 45°）：\"MMLU\"、\"HumanEval\"、\"GSM8K\"、\"MATH\"、\"BBH\"、\"ARC-C\"、\"HellaSwag\"、\"TruthfulQA\"。\n行（右对齐无衬线字体）：\"GPT-4o\"、\"Claude 4.7 Opus\"、\"Gemini 3 Pro\"、\"Llama 4 405B\"、\"Qwen3-Next\"、\"DeepSeek-V3.1\"、\"Mistral-3 Large\"、\"Yi-3 34B\"、\"Phi-4 14B\"、\"OLMo-2 7B\"。\n\n每个格子填充尘土绿松石渐变，颜色深浅反映分数；格子内显示数值（如\"72.3\"、\"88.1\"）。每列最佳分数用 1.5px 柔和陶土色描边。\n\n右侧垂直色条，标注刻度 \"0\"、\"25\"、\"50\"、\"75\"、\"100\" 和标签 \"accuracy (%)\"。\n\n标题：\"Benchmark comparison across 10 frontier LLMs\"。副标题：\"零次准确率；每个基准的最佳分数以加粗描边标出。评测时间：2026年3月。\"",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "基准测试热图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-085/1be02b915786aaaa0c25dfa95a0b1401.png",
+        "mimeType": "image/png",
+        "bytes": 801582,
+        "sha256": "1be02b915786aaaa0c25dfa95a0b14019142e2f658736e88ba28e4ff3254e53f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-085/b94bae77dc0391884be16fb1d574d1b3.webp",
+        "mimeType": "image/webp",
+        "bytes": 27456,
+        "sha256": "b94bae77dc0391884be16fb1d574d1b3b964dcbd4fc53fd68bfec023a38d1a4b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-085/5916a15c338517a5b114bfc5d28e93ab.webp",
+        "mimeType": "image/webp",
+        "bytes": 87064,
+        "sha256": "5916a15c338517a5b114bfc5d28e93ab93271a2f91f855b020c4176331b22bcf"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 85）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-102",
+  "revision": "c2bfdea7-6d16-4330-ba03-690e82e9fe40",
+  "status": "published",
+  "kind": "image",
+  "title": "茶饮海报地铁灯箱",
+  "category": "design",
+  "tags": [
+    "图像编辑",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:29.855Z",
+  "updatedAt": "2026-09-21T02:55:29.855Z",
+  "prompt": {
+    "text": "Transform the provided tea poster into a realistic metro-station lightbox mockup while preserving the poster artwork and Chinese typography as much as possible. Show the poster behind glossy glass in a vertical illuminated advertising frame on a clean subway platform wall. Add subtle reflections, brushed metal frame, floor tiles, soft overhead transit lighting, and a few blurred commuters in the distance. Keep the poster straight, legible, and dominant; do not redesign the poster, do not change its main text, and do not add fake brand logos.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "茶饮海报地铁灯箱，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-102/de68c6a1776d2d29448f763209bc6fe6.png",
+        "mimeType": "image/png",
+        "bytes": 2639660,
+        "sha256": "de68c6a1776d2d29448f763209bc6fe6a365ac7c6b84d28dd802ca295ba02584"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-102/ee54ae0580216d5591e64374bfb684c3.webp",
+        "mimeType": "image/webp",
+        "bytes": 37830,
+        "sha256": "ee54ae0580216d5591e64374bfb684c3f2d9447bb04e77782713829748e51220"
+      },
+      "preview": {
+        "key": "published/gpt-image2-102/e02fbc5d7f18a077d4798f5fb8346bb2.webp",
+        "mimeType": "image/webp",
+        "bytes": 183304,
+        "sha256": "e02fbc5d7f18a077d4798f5fb8346bb271bb737eadbfbd4dc4136b2a07639b98"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "references": [
+    {
+      "role": "image-reference",
+      "asset": {
+        "key": "published/gpt-image2-102/366d0c4b7f293f9c60a6549da981186f.png",
+        "mimeType": "image/png",
+        "bytes": 2911155,
+        "sha256": "366d0c4b7f293f9c60a6549da981186faca44d88b993b423fb23a92d2a218102"
+      },
+      "caption": "源图库标记的输入参考图"
+    }
+  ],
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-edit-endpoint-showcase.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 102）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-edit-endpoint-showcase.md"
+  }
+}

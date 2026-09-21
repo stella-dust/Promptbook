@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-026",
+  "revision": "f7cc4a33-3028-448e-8f61-f6c84e18088f",
+  "status": "published",
+  "kind": "image",
+  "title": "皮克斯风格的3D动画静帧（小猫）",
+  "category": "story",
+  "tags": [
+    "电影动画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:49.855Z",
+  "updatedAt": "2026-09-21T02:56:49.855Z",
+  "prompt": {
+    "text": "一个皮克斯品质的3D动画静帧，横向16:9。电影剧场版风格，温暖的工作室灯光。\n\n场景：黎明时分一间温馨的公寓厨房。一个橘色虎斑小猫坐在台面上，伸出爪子向烤箱里正在上升的舒芙蕾触碰；烤箱的光从下方照亮场景。柔和的晨光透过亚麻窗帘。一个木质砧板，上面放着半剥皮的柠檬，一只铜制搅拌器上漂浮着一小团面粉，一株小型多肉植物种在陶土盆中。\n\n角色：小猫有着富有表现力的、稍微夸大的眼睛（经典皮克斯比例），单根雕琢的胡须，逼真的毛发带有微型梳理方向，好奇且略带担忧的表情。\n\n艺术指导：全CG皮克斯美学——耳朵和胡须的次表面散射，基于物理的材质，柔和阴影的环境光遮蔽，体积晨光束，浅景深。整洁的风格化形状，与《卢卡》《灵魂》《元素战记》一致——非真实感恐怖谷效果。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "皮克斯风格的3D动画静帧（小猫），源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-026/5e788c6f6adf248ae27d87d70324d75a.png",
+        "mimeType": "image/png",
+        "bytes": 2339366,
+        "sha256": "5e788c6f6adf248ae27d87d70324d75a4d42fe14346e2107124e94a2af08cada"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-026/ca0f4ae4073c86431b40cdf3ae12cec6.webp",
+        "mimeType": "image/webp",
+        "bytes": 34108,
+        "sha256": "ca0f4ae4073c86431b40cdf3ae12cec6dab4cf8e888efa1e924a9c44fd715218"
+      },
+      "preview": {
+        "key": "published/gpt-image2-026/7c22bbbca6b49fe5382a85b08ded27f4.webp",
+        "mimeType": "image/webp",
+        "bytes": 151206,
+        "sha256": "7c22bbbca6b49fe5382a85b08ded27f4f3263edda7ca2fab93cc81d1cf0007e1"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 26）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md"
+  }
+}

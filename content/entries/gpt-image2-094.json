@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-094",
+  "revision": "371d7ef7-51ee-42ca-a8e9-f2138fe0a051",
+  "status": "published",
+  "kind": "image",
+  "title": "语言模型角色图谱",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:38.855Z",
+  "updatedAt": "2026-09-21T02:55:38.855Z",
+  "prompt": {
+    "text": "Create a premium conceptual figure for an EMNLP / ACL paper, landscape 16:9, high-resolution, polished editorial-academic style. Theme: \"LLM Persona Atlas\". This should not look like a generic pipeline diagram. It should look like a beautifully designed Figure 1 from a top NLP / agent paper: minimal, refined, memorable, with a strong central visual metaphor.\n\nUse a warm off-white paper background, subtle grain, large clean margins, crisp vector-like linework, delicate shadows, and fine gradients used sparingly. Use an understated, high-end color palette: ink black, warm gray, muted cobalt, dusty teal, soft sage, pale amber, muted coral, slate blue. No saturated rainbow colors, no cartoon style, no photorealism, no generic stock illustration.\n\nComposition: left \"Utterance Stream\" with small translucent speech fragments flowing in as curved data ribbons; center \"Persona Lens\" as a glass-like hexagonal prism / agent lens that refracts utterance ribbons into six colored persona strands; right \"Six Persona Glyphs\" as a coherent 2x3 gallery of abstract symbolic avatars labeled \"Concise\", \"Explainer\", \"Cautious\", \"Supportive\", \"Creative\", and \"Analyst\".\n\nKeep typography sparse, crisp, and clean. Add a small title \"LLM Persona Atlas\" and subtitle \"from utterance style to model profile\". Avoid dense method labels, big boxes, fake equations, fake citations, garbled text, photoreal humans, childish cartoon avatars, heavy shadows, and purple gradient backgrounds.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "语言模型角色图谱，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-094/20e33225300705cfd42a46ce3c63ef95.png",
+        "mimeType": "image/png",
+        "bytes": 2983725,
+        "sha256": "20e33225300705cfd42a46ce3c63ef95ab0b14d00735f0660625a3d679760f06"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-094/1322a940c75e831f2ce4d1e49508c144.webp",
+        "mimeType": "image/webp",
+        "bytes": 20786,
+        "sha256": "1322a940c75e831f2ce4d1e49508c144f3e56993651e248dda28e0e2a643672f"
+      },
+      "preview": {
+        "key": "published/gpt-image2-094/3fcb3cda84f6417dd96ba5e126fc45d2.webp",
+        "mimeType": "image/webp",
+        "bytes": 99546,
+        "sha256": "3fcb3cda84f6417dd96ba5e126fc45d230a1fefe0fd59a77d2e7c62d935edbb1"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 94）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

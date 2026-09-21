@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-021",
+  "revision": "267544bf-cbad-4355-b79a-79c719a3af96",
+  "status": "published",
+  "kind": "image",
+  "title": "低多边形武士村落",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:54.855Z",
+  "updatedAt": "2026-09-21T02:56:54.855Z",
+  "prompt": {
+    "text": "Create an isometric low-poly strategy game screenshot of a mountainous Japanese village with rice terraces, torii gates, samurai and archer units in formation, and a tactical RTS interface. Include unit selection boxes, resource counters for rice and wood, fog-of-war minimap, command overlays, and warm daylight with soft shadows. Stylized but readable, modern indie strategy game key art, 16:9.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "低多边形武士村落，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-021/2ae6e684a2938d5a248f7e401fa8384d.png",
+        "mimeType": "image/png",
+        "bytes": 2388084,
+        "sha256": "2ae6e684a2938d5a248f7e401fa8384da3aaa2ac54b5a920cf2d21ee84fb2b0e"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-021/e153a2f6f0565e071d653ac9207eaf53.webp",
+        "mimeType": "image/webp",
+        "bytes": 28578,
+        "sha256": "e153a2f6f0565e071d653ac9207eaf5366e58af4efd4e03ce0cea95a95d01007"
+      },
+      "preview": {
+        "key": "published/gpt-image2-021/c8c22516de31b4964d2cceaf97f61ff6.webp",
+        "mimeType": "image/webp",
+        "bytes": 101996,
+        "sha256": "c8c22516de31b4964d2cceaf97f61ff6fde4379fc5e84bc5b070010c33fcb07a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/midjourney/comments/1l2d5dr/lowpoly_strategy_video_games_in_japan_prompts/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 21）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

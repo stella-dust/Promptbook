@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-115",
+  "revision": "df5a957f-6238-4ea0-835b-afa38d2c4eb3",
+  "status": "published",
+  "kind": "image",
+  "title": "机械键盘爆炸装配图",
+  "category": "design",
+  "tags": [
+    "技术图解",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:15.855Z",
+  "updatedAt": "2026-09-21T02:55:15.855Z",
+  "prompt": {
+    "text": "Design a crisp exploded-view product illustration of a custom mechanical keyboard named LUMEN K65, shown in three-quarter perspective on a pale gray background with subtle shadow. Separate the layers clearly: keycaps, switches, plate, PCB, foam, gasket mounts, case top, battery module, rotary knob, and case bottom. Use anodized silver, matte black, translucent smoke keycaps, and small teal accent parts. Add clean technical callouts and in-image text reading \"LUMEN K65\", \"Exploded Assembly\", \"65% Layout\", \"Hot-Swap PCB\", and \"3,200 mAh\". Include labels for \"PBT Keycaps\", \"Linear Switch\", \"Aluminum Plate\", \"Poron Foam\", \"USB-C\", and \"Encoder Knob\". Show a compact dimension note \"317 mm x 112 mm x 31 mm\". The composition should feel like an industrial design presentation board: precise spacing, realistic materials, sharp typography, correct labels, and highly legible component hierarchy.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "机械键盘爆炸装配图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-115/5054d3583919e633048bdc5cfb395197.png",
+        "mimeType": "image/png",
+        "bytes": 2569498,
+        "sha256": "5054d3583919e633048bdc5cfb395197423c14cab2c482d5c75cda733f74d714"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-115/31e96414f5232dc83eb219f51106a2ae.webp",
+        "mimeType": "image/webp",
+        "bytes": 36540,
+        "sha256": "31e96414f5232dc83eb219f51106a2ae802bc96c9be40a1ceb00d9d0ce72c0f0"
+      },
+      "preview": {
+        "key": "published/gpt-image2-115/0dff58c5c0f7197652b2eccb30007e11.webp",
+        "mimeType": "image/webp",
+        "bytes": 159656,
+        "sha256": "0dff58c5c0f7197652b2eccb30007e1164924ad6e93ea3dc7b89ff88e43d0c20"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 115）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md"
+  }
+}

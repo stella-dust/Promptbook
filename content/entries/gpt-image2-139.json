@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-139",
+  "revision": "2093952d-f858-4a6f-a53c-463753f60821",
+  "status": "published",
+  "kind": "image",
+  "title": "中世纪现代：蓝色泳池",
+  "category": "design",
+  "tags": [
+    "绘画艺术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:51.855Z",
+  "updatedAt": "2026-09-21T02:54:51.855Z",
+  "prompt": {
+    "text": "A flat, vibrant acrylic painting in the lineage of 1960s California modernism. The scene features a sparkling turquoise swimming pool in the foreground, with highly stylized white splash lines indicating a recent dive. In the background, a minimalist glass-and-steel house sits under a cloudless 'Cerulean' sky, flanked by two perfectly manicured palm trees. The color palette is dominated by saturated primaries: 'Turquoise Blue', 'Lemon Yellow', and 'Terracotta'. The lighting is the flat, shadowless glare of a Los Angeles afternoon, emphasizing the geometric shapes and clean lines of the architecture. The composition is strictly horizontal and balanced, with a sense of artificial stillness and leisure. The texture is smooth and matte, avoiding any visible brushstrokes to maintain a clean, graphic quality. It is a portrait of a sunny, suburban utopia.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "中世纪现代：蓝色泳池，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-139/16ded5b5d8f3d83c41db67318fdfbcd7.png",
+        "mimeType": "image/png",
+        "bytes": 1962688,
+        "sha256": "16ded5b5d8f3d83c41db67318fdfbcd77c6a938a92ddbfb9aa1499daead37c34"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-139/c7ef774747543862b53f22647947a9df.webp",
+        "mimeType": "image/webp",
+        "bytes": 31062,
+        "sha256": "c7ef774747543862b53f22647947a9dfc9655f9f8a208cde50b9b23ef5c28de6"
+      },
+      "preview": {
+        "key": "published/gpt-image2-139/27d8a365fac23744c9d3b2e9b76549a0.webp",
+        "mimeType": "image/webp",
+        "bytes": 116930,
+        "sha256": "27d8a365fac23744c9d3b2e9b76549a00e1b509d217599e867fa5a461fdbbd04"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 139）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md"
+  }
+}

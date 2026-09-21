@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-119",
+  "revision": "79301980-62e0-4465-9153-f88e0dd92503",
+  "status": "published",
+  "kind": "image",
+  "title": "野兽派混凝土博物馆中庭",
+  "category": "space",
+  "tags": [
+    "建筑室内",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:11.855Z",
+  "updatedAt": "2026-09-21T02:55:11.855Z",
+  "prompt": {
+    "text": "制作一幅写实的室内渲染图，展示纪念性野兽派风格博物馆中庭，采用暴露的模板混凝土，大气的天窗，长缓坡道和巨大的几何空洞。视角略低且宽广，突出垂直尺度和阴影。使用冷灰混凝土、黑色钢材、柔和砂岩、淡白昼光和少量锈色导示标识作为配色。包含稀疏的标识牌，清晰的画中文字为：“Gallery A”，“Level 02”，和“Atrium 18.0 m”。添加若干小型人体模型以表现比例，但建筑为主体。空间包含悬吊步道、中央雕塑基座，并反射抛光混凝土地板的光线。构图须具电影感且建筑精确，真实材质纹理、精准照明、合理对比及画廊级质量渲染。重点实现可信空间深度、干净几何、微妙气氛透视和锐利标识。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "野兽派混凝土博物馆中庭，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-119/f572a22af6e2998ef5643adcd2a15888.png",
+        "mimeType": "image/png",
+        "bytes": 4141477,
+        "sha256": "f572a22af6e2998ef5643adcd2a158886a7a422c1140e3cee1571290b0ca081c"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-119/616345cfecf61e93be07b7ffb3fa3912.webp",
+        "mimeType": "image/webp",
+        "bytes": 23486,
+        "sha256": "616345cfecf61e93be07b7ffb3fa3912c0cffada72332e550fd0116b95acb7ad"
+      },
+      "preview": {
+        "key": "published/gpt-image2-119/390700e3ae84877743df0a1f3e86abda.webp",
+        "mimeType": "image/webp",
+        "bytes": 163406,
+        "sha256": "390700e3ae84877743df0a1f3e86abdafd058ea332efc017722ae07ec3ce706e"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 119）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md"
+  }
+}

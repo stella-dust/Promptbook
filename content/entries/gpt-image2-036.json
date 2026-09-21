@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-036",
+  "revision": "04b34862-cecb-45ed-b5f3-89054fe75613",
+  "status": "published",
+  "kind": "image",
+  "title": "Vogue风格时尚杂志封面",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:38.855Z",
+  "updatedAt": "2026-09-21T02:56:38.855Z",
+  "prompt": {
+    "text": "一张高端时尚杂志封面，3:4 竖版，Vogue Paris / British Vogue编辑风格。\n\n主体：一位高挑女性模特，中等偏深肤色，三十多岁，侧身三分之四朝向镜头，眼神直接锐利。她穿着一件雕塑感强烈的象牙色高领羊毛大衣，内搭深茄紫色丝质吊带裙。简约银色螺旋耳环。发型为光滑低髻，一缕发丝松脱。妆容：哑光青铜暖色调，光泽李子色唇。\n\n背景：柔和水泥灰无缝纸背景，左上方有一束竖直冷色自然光。浅景深。\n\n精确封面文字（全英文，字体清晰，拼写正确）：\n- 铭牌标题，巨大大写衬线体，白色：\"VOGUE\"\n- 左上日期条，微型大写字体：\"NOVEMBER 2026 · PARIS EDITION · €9.00\"\n- 主要封面标题，粗体无衬线体居中：\"THE QUIET POWER ISSUE\"\n- 右侧封面标题，叠排：\n   \"THE NEW MINIMALISTS — a 40-page portfolio\"\n   \"HOW AI TOOLS ARE REWRITING THE ATELIER\"\n   \"MARTIN MARGIELA'S UNREVEALED ARCHIVE\"\n   \"SKIN · INVESTMENT · WHERE THE MONEY GOES NEXT\"\n- 左下角条码及目录码 \"VG1126\"\n\n光影：经典时尚编辑风格 — 柔光主光源，细微补光，一侧面颊阴影深邃，细腻胶片颗粒。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Vogue风格时尚杂志封面，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-036/e1528f803c69c43bfeb8d8c6f91cdac9.png",
+        "mimeType": "image/png",
+        "bytes": 2385993,
+        "sha256": "e1528f803c69c43bfeb8d8c6f91cdac90e4cdf0e43bb541709f08b0acd2c5b38"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-036/cba2ab985f44be6b446b7b0e96084347.webp",
+        "mimeType": "image/webp",
+        "bytes": 22166,
+        "sha256": "cba2ab985f44be6b446b7b0e96084347c3c816ee2f7cd8b2ec1585959f3519b8"
+      },
+      "preview": {
+        "key": "published/gpt-image2-036/9335679d9fc8e876fe201a144ebce65f.webp",
+        "mimeType": "image/webp",
+        "bytes": 110560,
+        "sha256": "9335679d9fc8e876fe201a144ebce65f7426e744bdf3a7c026480d6f10ae4504"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 36）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

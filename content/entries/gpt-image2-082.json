@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-082",
+  "revision": "f29d5a29-1686-4434-9121-59d00b5718f5",
+  "status": "published",
+  "kind": "image",
+  "title": "多智能体系统架构",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:50.855Z",
+  "updatedAt": "2026-09-21T02:55:50.855Z",
+  "prompt": {
+    "text": "横向 16:9 高保真系统图，描绘多智能体 LLM 架构，风格类似细致的 AutoGen / LangGraph / Anthropic Managed Agents 图 1。细微阴影，暖铜色高光，编号流程标记 ①②③④。\n\n区域 1 — \"User interface\"：圆角用户框，内含占位任务 \"research question: summarize recent red-teaming attacks and reproduce the top three\"。\n\n区域 2 — \"Orchestrator layer\"：中心六边形节点 \"Planner LLM\"，顶部边缘暖铜色。三颗卫星芯片：\"Task decomposition\"、\"Agent routing\"、\"Re-plan on failure\"。小嵌入芯片 \"prompt cache hit ~98%\"。\n\n区域 3 — \"Specialised workers\"：2×2 六边形，分别为 \"Researcher\" / \"Coder\" / \"Critic\" / \"Writer\"，每个带有符号和状态条带（\"idle\"、\"running step 3/5\"、\"done\"、\"running step 2/4\"）。中央标注 \"async message bus\"。\n\n区域 4 — \"Tools & memory\"： (a) \"Tool registry\" 面板列出 \"web_search ×41\"、\"python_exec ×27\"、\"read_file ×18\"、\"write_file ×12\"、\"browser_use ×7\"；(b) \"Memory\" 面板含 \"Short-term scratchpad\" 和圆柱体 \"Long-term vector store — 1.8M episodes\"。\n\n底部嵌入 \"Example trace\"：8步水平时间线，从 \"User asks\" 到 \"Planner decomposes\"、\"Researcher: web_search(...)\"、\"Coder: python_exec(...)\"、\"Critic: verify\"、\"Re-plan\"（循环箭头）、\"Writer: compose final answer\"。\n\n标题：\"Agentic LLM system: planner orchestrates specialised workers over a shared tool and memory layer\"。副标题：\"adapted from AutoGen (Wu et al., 2023), LangGraph, and Anthropic Managed Agents patterns\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "多智能体系统架构，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-082/7a0e68a58e992987c94f05efdba5c834.png",
+        "mimeType": "image/png",
+        "bytes": 1068407,
+        "sha256": "7a0e68a58e992987c94f05efdba5c8348d2c821f1c6e4d9c47ec1e9bc4447139"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-082/03b019ede309b6348fc0f9a8f7290c8f.webp",
+        "mimeType": "image/webp",
+        "bytes": 33758,
+        "sha256": "03b019ede309b6348fc0f9a8f7290c8f227c70d893e6fcd87ac900f2289aa639"
+      },
+      "preview": {
+        "key": "published/gpt-image2-082/c11ec49414221bb10d590a494051ea8a.webp",
+        "mimeType": "image/webp",
+        "bytes": 117194,
+        "sha256": "c11ec49414221bb10d590a494051ea8ada9925eb80471e6df027d7f04167349f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 82）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

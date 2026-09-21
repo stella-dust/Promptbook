@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-162",
+  "revision": "d2de0fa1-2d66-4ceb-8dff-27c0d93542ea",
+  "status": "published",
+  "kind": "image",
+  "title": "音乐播放器 + Webcam 预览",
+  "category": "story",
+  "tags": [
+    "屏幕摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:28.855Z",
+  "updatedAt": "2026-09-21T02:54:28.855Z",
+  "prompt": {
+    "text": "制作一张真实手机拍摄笔记本电脑屏幕的照片，不是截图。画幅 3:4，高角度俯拍视角，像夜晚站在桌前低头看电脑。屏幕占据画面主体，下方只露出一条很窄的实体键盘。重点呈现 RGB 像素网格、轻微摩尔纹、屏幕玻璃上的微尘、淡淡指纹、柔和环境反光、手机手持噪点、轻微透视偏斜和不完美玻璃质感。macOS 深色模式。背景应用是通用音乐播放器的 Liked Songs 页面，出现虚构曲目：\"City Lights\"、\"Late Night Walk\"、\"Summer Static\"、\"Blue Hour\"。前景应用是一个浮在右侧的小型 webcam preview 窗口，里面只显示温馨桌角：陶瓷杯、笔记本、小熊玩偶、暖色台灯和米白墙面。整体像随手拍到的真实屏幕照片，真实、偶然、不精修。不要人物、不要人脸、不要名人名、不要真实人物肖像、不要截图、不要扁平 UI、不要完美干净玻璃、不要棚拍灯光、不要卡通、不要 3D 渲染、不要水印。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "音乐播放器 + Webcam 预览，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-162/c8e28a1aedfb258d0cf037de8016d67c.png",
+        "mimeType": "image/png",
+        "bytes": 2306667,
+        "sha256": "c8e28a1aedfb258d0cf037de8016d67c52c71d01ee2db9d1010febf59e19cfb8"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-162/277d4e16d6c21a09b0730386682e6bd5.webp",
+        "mimeType": "image/webp",
+        "bytes": 24026,
+        "sha256": "277d4e16d6c21a09b0730386682e6bd55c6434b641aebba23d1f7f3d6adf112b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-162/3bb1028de007d27b83a5efe714ff1904.webp",
+        "mimeType": "image/webp",
+        "bytes": 94998,
+        "sha256": "3bb1028de007d27b83a5efe714ff190411165cef1105951444ec9eeafe897be6"
+      },
+      "width": 1152,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-screen-photography.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 162）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-screen-photography.md"
+  }
+}

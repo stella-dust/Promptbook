@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-153",
+  "revision": "a1ba01c6-32d6-48d0-a132-435086426ad6",
+  "status": "published",
+  "kind": "image",
+  "title": "表现主义黑色电影：发条小巷",
+  "category": "story",
+  "tags": [
+    "电影风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:37.855Z",
+  "updatedAt": "2026-09-21T02:54:37.855Z",
+  "prompt": {
+    "text": "一幅戏剧化的电影宽幅画面，灵感来自德国表现主义黑色电影与早期默片舞台布景。午夜时分，一条被雨水打湿的发条小巷，瘦高且扭曲的建筑像剧场布景板一样向内倾斜，在湿润鹅卵石路面上投下尖锐三角阴影。画面中心，一位穿着深炭色长外套的孤独信使，手里提着一只装在玻璃笼中的发光黄铜自动机械鸟。色彩以墨黑、氧化黄铜、骨白为主，并用远处剧院招牌 “MIDNIGHT COURIER” 的猩红光作为唯一强调色。灯光采用高反差明暗法，硬质逆光、通风口蒸汽、水洼反射和锐利剪影。镜头为32mm变形宽幅，低机位，强引导线，深景深，细微胶片颗粒。整体应像高级电影剧照：超现实、图形感强、情绪浓郁、构图严谨，不要血腥恐怖，不要真实人物肖像。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "表现主义黑色电影：发条小巷，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-153/884117daab94d0da30c570adb30a1460.png",
+        "mimeType": "image/png",
+        "bytes": 3965572,
+        "sha256": "884117daab94d0da30c570adb30a14606a69b4a8586851c5cc69cbe94f1bfa59"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-153/fcc2f3227cd14d1a0976c3c0426f97cb.webp",
+        "mimeType": "image/webp",
+        "bytes": 30566,
+        "sha256": "fcc2f3227cd14d1a0976c3c0426f97cb6586d3af5a6beef57eef0ab5c7ec9c6c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-153/bf3717f5592f972c381027a9b5301881.webp",
+        "mimeType": "image/webp",
+        "bytes": 184202,
+        "sha256": "bf3717f5592f972c381027a9b5301881e9518ae9c9b190a1477c0353c9a01e00"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 153）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-film-references.md"
+  }
+}

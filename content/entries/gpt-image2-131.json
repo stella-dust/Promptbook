@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-131",
+  "revision": "2964c45c-e1a3-4e63-b306-d1a9a55c18dc",
+  "status": "published",
+  "kind": "image",
+  "title": "先锋高级定制秀场",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:59.855Z",
+  "updatedAt": "2026-09-21T02:54:59.855Z",
+  "prompt": {
+    "text": "High-angle editorial photograph of a haute couture runway show set within a brutalist concrete cathedral. The model is draped in a sculptural gown made of pleated iridescent organza that mimics the fluid movement of liquid mercury. The color palette is dominated by 'Champagne Gold' and 'Shadow Grey'. Lighting is a single, powerful overhead spotlight that creates sharp, dramatic shadows and emphasizes the architectural volume of the garment. The model has a minimalist, ethereal makeup look with silver leaf accents on the brow. The camera uses a 50mm prime lens with a deep depth of field to capture both the intricate texture of the fabric and the cold, vast scale of the concrete architecture in the background. The atmosphere is solemn, artistic, and high-fashion, focusing on the intersection of textile and space.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "先锋高级定制秀场，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-131/ade09ffbc464f16725865c40b2c75b26.png",
+        "mimeType": "image/png",
+        "bytes": 13252862,
+        "sha256": "ade09ffbc464f16725865c40b2c75b26d4168ab77a16d435e69d62216d1d1bfc"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-131/d319a93d8e705cdecaf52ef548f7e0b9.webp",
+        "mimeType": "image/webp",
+        "bytes": 25752,
+        "sha256": "d319a93d8e705cdecaf52ef548f7e0b97693ef883651ba3b47449229fe801cf9"
+      },
+      "preview": {
+        "key": "published/gpt-image2-131/f28710a8083f2fe598b06991f2f624e7.webp",
+        "mimeType": "image/webp",
+        "bytes": 166236,
+        "sha256": "f28710a8083f2fe598b06991f2f624e7d9069ae497376527039e36567b1aaf7b"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 131）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

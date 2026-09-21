@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-002",
+  "revision": "91c791b4-39c4-4013-9f81-b770299fcc1c",
+  "status": "published",
+  "kind": "image",
+  "title": "忍者空中交锋",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:13.855Z",
+  "updatedAt": "2026-09-21T02:57:13.855Z",
+  "prompt": {
+    "text": "一幅少年动漫战斗关键视觉图，采用Pierrot工作室制作的《火影忍者疾风传》视觉风格。横向16:9比例。\n\n两个忍者人物在空中激烈碰撞，正处于他们标志招式交汇的瞬间——左侧战士右手掌发出发光的蓝色螺旋查克拉，右侧战士右手掌握有噼啪作响的白色闪电刀刃。碰撞点发出圆形冲击波。\n\n两名战士均佩戴护额，穿着上忍风格的战术背心及卷轴口袋，脚穿忍者草鞋。左侧：金色刺猬发型，脸颊有胡须状标记，表情专注咧嘴，蓝色眼睛。右侧：黑发，一只红色写轮眼似的三勾玉眼睛，表情冷静。\n\n背景：夜晚的山谷，破裂的土地，倒塌中的巨大神树，月光下的云朵渐散，樱花花瓣被冲击波卷起。\n\n艺术指导：Pierrot工作室火影忍者疾风传风格——动态透视，冲突中心放射强烈速度线，动漫动作关键帧品质，数字二维卡通阴影，色彩饱和但不发光，明显原画品质线条，戏剧性背光。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "忍者空中交锋，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-002/9074b24f314a8149b78ca2ad31250968.png",
+        "mimeType": "image/png",
+        "bytes": 2733336,
+        "sha256": "9074b24f314a8149b78ca2ad312509687fccf0eba453371b24cd2fa6e1014b1f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-002/369df2769d0cf3bbccbc7d436363ce8b.webp",
+        "mimeType": "image/webp",
+        "bytes": 58198,
+        "sha256": "369df2769d0cf3bbccbc7d436363ce8b4a385445ad8d4ab510acf8ba048583e6"
+      },
+      "preview": {
+        "key": "published/gpt-image2-002/84c63f56349d8f55cc8f540e7371dbd6.webp",
+        "mimeType": "image/webp",
+        "bytes": 234008,
+        "sha256": "84c63f56349d8f55cc8f540e7371dbd6b35c0ffd366887a4af666341b43f6851"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 2）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

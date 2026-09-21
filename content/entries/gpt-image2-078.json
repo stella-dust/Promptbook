@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-078",
+  "revision": "fe5e3de8-4669-4946-b2e3-1f8712b272dd",
+  "status": "published",
+  "kind": "image",
+  "title": "多模态医疗 AI 方法图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:54.855Z",
+  "updatedAt": "2026-09-21T02:55:54.855Z",
+  "prompt": {
+    "text": "Create a Nature Biomedical Engineering / NeurIPS medical-AI method figure, landscape 3:2 (1536×1024), soft literature-science colors and minimal academic layout.\n\nFigure title: \"Multimodal foundation model for clinical decision support\".\n\nLayout: a left-to-right method pipeline with three horizontal bands and panel labels A–C.\nA. Inputs on the left: small clean icons and labeled cards \"Radiology image\", \"Pathology tile\", \"EHR sequence\", \"Lab values\", \"Genomics\". Use subtle rounded rectangles.\nB. Middle architecture: five modality encoders feeding into a central pale-teal block \"Shared clinical representation\"; include small modules \"contrastive alignment\", \"missing-modality mask\", \"temporal attention\". Add thin arrows and skip connections.\nC. Outputs on the right: three task heads \"diagnosis\", \"risk score\", \"treatment response\" with small calibrated probability bars. Add a lower inset \"external validation\" showing two hospital icons and an arrow labeled \"site transfer\".\n\nStyle requirements: soft Nature/Science palette (muted teal, dusty blue, sage green, warm sand, coral accents), white background, precise vector-like arrows, modest shadows only, readable labels, lots of whitespace, no futuristic HUD, no clinical gore, no real hospital logos, no watermark.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "多模态医疗 AI 方法图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-078/2b2c5be2b5228f0e8f4453eab666b517.png",
+        "mimeType": "image/png",
+        "bytes": 874345,
+        "sha256": "2b2c5be2b5228f0e8f4453eab666b51754e3ee09b5fe17db7cc27bdee71f1f88"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-078/7eeb96ce3b550d748a612dda2a374fb1.webp",
+        "mimeType": "image/webp",
+        "bytes": 33936,
+        "sha256": "7eeb96ce3b550d748a612dda2a374fb189097266bbb1428779709f13016cc5a8"
+      },
+      "preview": {
+        "key": "published/gpt-image2-078/fbed55633d38242fd35737ca6d09a0ec.webp",
+        "mimeType": "image/webp",
+        "bytes": 122408,
+        "sha256": "fbed55633d38242fd35737ca6d09a0eccfb6cbb83cc7757105d23f9d0aed845c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 78）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

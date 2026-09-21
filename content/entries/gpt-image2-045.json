@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-045",
+  "revision": "26f6d68b-aca9-4643-9b9b-e5165e369b72",
+  "status": "published",
+  "kind": "image",
+  "title": "运动员成长海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:29.855Z",
+  "updatedAt": "2026-09-21T02:56:29.855Z",
+  "prompt": {
+    "text": "Cinematic portrait poster of fictional athlete Aya Navarro showing her full journey from local school courts to world-stage champion, bold editorial typography listing milestone years, medals, best performances, dramatic split-era composition, premium sports documentary design, mobile-poster format, high text clarity.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "运动员成长海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-045/49f62c70574dbfde42473538ad36bcf1.png",
+        "mimeType": "image/png",
+        "bytes": 2618362,
+        "sha256": "49f62c70574dbfde42473538ad36bcf1525dacd3749220ad6414e29f6f12fabb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-045/808a8e37fc3a00445f17841edf1cb182.webp",
+        "mimeType": "image/webp",
+        "bytes": 56494,
+        "sha256": "808a8e37fc3a00445f17841edf1cb1824d3cdf117e2b8a9dae8df9ac324fb680"
+      },
+      "preview": {
+        "key": "published/gpt-image2-045/48ebb08c72afe48ba4d1c64e07f00cda.webp",
+        "mimeType": "image/webp",
+        "bytes": 243784,
+        "sha256": "48ebb08c72afe48ba4d1c64e07f00cda5364a653c58e14054baf00365278abdb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@aleenaamiir",
+    "url": "https://x.com/aleenaamiir/status/2047325329052823996",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 45）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

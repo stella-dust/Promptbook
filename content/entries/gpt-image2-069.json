@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-069",
+  "revision": "02c1b1ec-3796-406b-843a-2012a8ff0004",
+  "status": "published",
+  "kind": "image",
+  "title": "博物馆目录拆解信息图（唐代襦裙）",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:03.855Z",
+  "updatedAt": "2026-09-21T02:56:03.855Z",
+  "prompt": {
+    "text": "请基于[主题]自动生成一张“博物馆目录风格中文拆解信息图”。\n\n整张图需结合写实主视觉、结构拆解、中国文字注释、材质描述、图案含义、颜色含义以及核心特征总结。你需要根据[主题]自动判定最合适的主体、服饰体系、文物结构、时代风格、关键部件、材质工艺、色彩方案及布局结构，用户无需提供其他额外信息。\n\n整体风格应为：国家博物馆展览板块、历史服饰目录及文化/博物馆专题信息图，而非普通海报、古风肖像、电商详情页或动漫插画。背景采用米白、绢白、浅茶等纸张纹理，整体呈现高级、克制、专业和收藏感。\n\n布局固定：\n- 顶部：中文主标题 + 副标题 + 简介\n- 左侧：结构拆解区域，配中文引线注释关键部件，附细节特写\n- 右上：材质/工艺/质感区域，展示真实质感样本及说明\n- 右中：图案/颜色/含义区域，展示主色调、纹样样本及文化说明\n- 底部：穿着顺序/组成流程图 + 核心特征总结\n\n若主题适合人物呈现，则用真人全身立姿作为中心主体；若更适合文物或单一结构，则改为主体拆解示意图，整体依然保持完整中文信息图形式。所有文字须为简体中文，字迹清晰整洁，避免乱码、错别字、英文或拼音。\n\n避免：海报感、摄影棚肖像感、电商感、动漫感、角色扮演感、乱注释、结构错误、文字模糊、假质感、过度装饰。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "博物馆目录拆解信息图（唐代襦裙），源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-069/b01bdbde99b69bd6723f7de29ac9bfec.png",
+        "mimeType": "image/png",
+        "bytes": 2874009,
+        "sha256": "b01bdbde99b69bd6723f7de29ac9bfecc8add70d845bbc5c2f69fbccb5a715ea"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-069/0e1ee27257931c447af7a4d89d0a9322.webp",
+        "mimeType": "image/webp",
+        "bytes": 43952,
+        "sha256": "0e1ee27257931c447af7a4d89d0a932205848e0920d8ffe4ab66533c51aa4a59"
+      },
+      "preview": {
+        "key": "published/gpt-image2-069/25548c07c5856bc64e284ec252e5ff92.webp",
+        "mimeType": "image/webp",
+        "bytes": 228454,
+        "sha256": "25548c07c5856bc64e284ec252e5ff92228711ea97959d7c8f526f0d3fd6d478"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@MrLarus",
+    "url": "https://x.com/MrLarus",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 69）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

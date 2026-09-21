@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-086",
+  "revision": "38331c35-d3be-4aea-9a49-817b866ee346",
+  "status": "published",
+  "kind": "image",
+  "title": "消融实验柱状图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:46.855Z",
+  "updatedAt": "2026-09-21T02:55:46.855Z",
+  "prompt": {
+    "text": "横向 16:9 分组柱状消融图。\n\nX 轴：5 个基准组 \"MMLU\"、\"GSM8K\"、\"HumanEval\"、\"BBH\"、\"MATH\"。Y 轴 \"Accuracy (%)\"，刻度 \"0\"、\"20\"、\"40\"、\"60\"、\"80\"、\"100\"。\n\n每组包含 4 根并排柱子：\n(1) \"full model\" — 尘土绿松石，顶部有细暖铜色边框\n(2) \"– chain-of-thought\" — 石板灰\n(3) \"– self-consistency\" — 柔和海军蓝\n(4) \"– tool-use\" — 柔和陶土色\n\n每个柱子顶部有细黑色 ±1σ 误差条；上方为等宽字体数字标签。淡淡的水平网格线。右上角图例框。\n\n标题：\"Ablation of core reasoning components across 5 benchmarks\"。副标题：\"误差条表示三次运行的 ±1 标准差；每根柱子顶部显示相对完整模型的数值下降\"。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "消融实验柱状图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-086/e2a70dada0393e4a69e9b91db2373500.png",
+        "mimeType": "image/png",
+        "bytes": 523171,
+        "sha256": "e2a70dada0393e4a69e9b91db2373500ba13c1534fd9d07d6b52e079924de24f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-086/fb136f6f61c2b8472000afcb38d608f0.webp",
+        "mimeType": "image/webp",
+        "bytes": 18378,
+        "sha256": "fb136f6f61c2b8472000afcb38d608f0c28a6786807a60397ca048fa6852f260"
+      },
+      "preview": {
+        "key": "published/gpt-image2-086/4a698b9b96736dc81a67707066e633ac.webp",
+        "mimeType": "image/webp",
+        "bytes": 56220,
+        "sha256": "4a698b9b96736dc81a67707066e633aca31ae080186a26a3940e39382780577c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 86）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-047",
+  "revision": "dce09511-0393-4cd6-8ae6-c12759fd7d84",
+  "status": "published",
+  "kind": "image",
+  "title": "纸雕森林夜市插画",
+  "category": "design",
+  "tags": [
+    "插画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:27.855Z",
+  "updatedAt": "2026-09-21T02:56:27.855Z",
+  "prompt": {
+    "text": "Create a landscape editorial illustration in layered paper-cut style: a tiny forest night market hidden beneath giant mushrooms and fern leaves. Include warm lantern stalls selling acorn cakes, beetle taxis, a fox calligrapher, a badger tea vendor, children holding leaf umbrellas, and fireflies forming soft dotted paths. Style anchor: mid-century children’s book illustration meets contemporary layered paper diorama, visible cut-paper edges, soft shadows between layers, muted moss green, pumpkin orange, cream, and ink-blue palette. First glance: a cozy glowing market silhouette. Second glance: many small vendor stories. Third glance: handmade paper texture, tiny signage, and playful animal gestures. No photorealism, no 3D plastic look, no cluttered unreadable faces.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "纸雕森林夜市插画，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-047/699640168ff932cf254086fdb5dd2fd7.png",
+        "mimeType": "image/png",
+        "bytes": 3088347,
+        "sha256": "699640168ff932cf254086fdb5dd2fd7ebdbca42233993758224f2f2a3ab277c"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-047/2c245beb60afcdbc2aab79531a9194d8.webp",
+        "mimeType": "image/webp",
+        "bytes": 62798,
+        "sha256": "2c245beb60afcdbc2aab79531a9194d8a9597b03b87a2dde5d0ad6308d266e22"
+      },
+      "preview": {
+        "key": "published/gpt-image2-047/601d82ccfe4fc28be373006668cab448.webp",
+        "mimeType": "image/webp",
+        "bytes": 309986,
+        "sha256": "601d82ccfe4fc28be373006668cab4481d514b4faeccc978c0fcb525abbdb06e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 47）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-illustration.md"
+  }
+}

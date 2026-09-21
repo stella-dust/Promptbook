@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-156",
+  "revision": "91361a93-8ce0-4966-a050-97bb691915db",
+  "status": "published",
+  "kind": "image",
+  "title": "动物园游客导览地图",
+  "category": "design",
+  "tags": [
+    "活动体验",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:34.855Z",
+  "updatedAt": "2026-09-21T02:54:34.855Z",
+  "prompt": {
+    "text": "Design a polished visitor wayfinding map for a fictional modern city zoo named \"RIVERGATE ZOO\". Landscape 3:2 orientation (1536×1024), friendly illustrated navigation-map style, clean paths and zones, readable labels, cute animal icons, and practical visitor signage. Include crisp in-image text: \"RIVERGATE ZOO\", \"Main Gate\", \"Panda Forest\", \"Savanna Loop\", \"Aviary\", \"Reptile House\", \"Kids Farm\", \"Cafe\", \"Restrooms\", \"First Aid\", and \"Exit\". Show color-coded walking routes, numbered landmarks, small legend, north arrow, accessibility icons, and soft botanical details. Palette: warm cream paper, zoo green, sky blue, coral, amber, and charcoal labels. Make it charming, useful, and map-like rather than a generic poster; avoid fake sponsor logos and cluttered microtext.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "动物园游客导览地图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-156/dd6fc8a4f5e10d39dd80972d89178ad8.png",
+        "mimeType": "image/png",
+        "bytes": 3325399,
+        "sha256": "dd6fc8a4f5e10d39dd80972d89178ad8733a1ceeb50367b35de89ebe209e12c5"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-156/7f7fe8e3a5099a2184ed0f66925ce305.webp",
+        "mimeType": "image/webp",
+        "bytes": 86826,
+        "sha256": "7f7fe8e3a5099a2184ed0f66925ce305472abf403f68b8c50869b8f01d01dfe6"
+      },
+      "preview": {
+        "key": "published/gpt-image2-156/8fec53f171ae6058d5c349bc15e2e980.webp",
+        "mimeType": "image/webp",
+        "bytes": 399596,
+        "sha256": "8fec53f171ae6058d5c349bc15e2e98044b670642ee953156424cc34521fcec9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-events-and-experience.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 156）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-events-and-experience.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-160",
+  "revision": "997cfead-1c33-4f60-93c8-35aa145d6576",
+  "status": "published",
+  "kind": "image",
+  "title": "日本传统龙与鲤鱼背部纹身",
+  "category": "design",
+  "tags": [
+    "纹身设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:30.855Z",
+  "updatedAt": "2026-09-21T02:54:30.855Z",
+  "prompt": {
+    "text": "Create a Japanese traditional irezumi tattoo design poster for a full back piece. Subject: a powerful coiling dragon above a koi fish leaping through stylized waves, maple leaves, wind bars, and storm clouds. Use traditional Japanese tattoo aesthetics: bold black linework, strong flat color blocks, deep indigo waves, red-orange maple leaves, emerald dragon scales, cream highlights, and rhythmic negative space. Present as a clean tattoo flash / back-piece layout on rice-paper texture, not on a real person. Include small calligraphy-style labels: \"龍\" and \"鯉\". Make the composition balanced, tattooable, dramatic, and respectful of classic irezumi design language. Avoid anime style, avoid modern cyberpunk, avoid random fake kanji clutter.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "日本传统龙与鲤鱼背部纹身，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-160/cdd579cd7e444a3689940de346a726a4.png",
+        "mimeType": "image/png",
+        "bytes": 3663581,
+        "sha256": "cdd579cd7e444a3689940de346a726a41bffb8487809679cb91f970c0a8ecbb4"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-160/a536fe41fdea26077ece79cfe5cf4815.webp",
+        "mimeType": "image/webp",
+        "bytes": 81606,
+        "sha256": "a536fe41fdea26077ece79cfe5cf48154fb0a438d478b229d9a13d2a104c89f8"
+      },
+      "preview": {
+        "key": "published/gpt-image2-160/502a6b536ce4b8dffeeeb102a6ae4426.webp",
+        "mimeType": "image/webp",
+        "bytes": 448322,
+        "sha256": "502a6b536ce4b8dffeeeb102a6ae44269b2d39ffa9d140e874b4572bba3d22d1"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 160）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md"
+  }
+}

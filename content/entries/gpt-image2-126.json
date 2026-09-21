@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-126",
+  "revision": "ce6b7e7a-75f8-4085-a242-88735c424006",
+  "status": "published",
+  "kind": "image",
+  "title": "元素周期表光谱变体",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:04.855Z",
+  "updatedAt": "2026-09-21T02:55:04.855Z",
+  "prompt": {
+    "text": "Design a distinctive periodic table poster variant where each element tile is colored by fictional emission-spectrum families while preserving clean scientific layout. Use a dark navy background with luminous but disciplined colors: cyan, magenta, amber, lime, and silver-white. Arrange the periodic table accurately with clear periods and groups, including separate lanthanide and actinide rows. Add a crisp title reading \"Periodic Table of the Elements\" and subtitle \"Spectral Classification Variant\". Ensure visible labels for representative tiles such as \"H 1\", \"He 2\", \"C 6\", \"Fe 26\", \"Ag 47\", and \"U 92\". Include side legends titled \"Alkali\", \"Transition\", \"Metalloid\", \"Noble Gas\", and \"Actinide\". Add small group numbers \"1\" through \"18\" and period numbers \"1\" through \"7\". The result should feel educational, modern, and highly legible, with precise typography, clean cell alignment, balanced glow effects, and accurate table structure.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "元素周期表光谱变体，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-126/e1ab23bab6fdeb55ac248b80c80fbc27.png",
+        "mimeType": "image/png",
+        "bytes": 2709541,
+        "sha256": "e1ab23bab6fdeb55ac248b80c80fbc27b8b80a4cbff98a2b8baf4e446c870336"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-126/f8f9fb2d5a3cac4a26c55bfcbce8e7eb.webp",
+        "mimeType": "image/webp",
+        "bytes": 51642,
+        "sha256": "f8f9fb2d5a3cac4a26c55bfcbce8e7eb0df1bb474a838768d052a22b03803a4d"
+      },
+      "preview": {
+        "key": "published/gpt-image2-126/55944e56ae35194b8937ebaa757c3a04.webp",
+        "mimeType": "image/webp",
+        "bytes": 221062,
+        "sha256": "55944e56ae35194b8937ebaa757c3a047e9a17781fcc69c6895bc69675e807da"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 126）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

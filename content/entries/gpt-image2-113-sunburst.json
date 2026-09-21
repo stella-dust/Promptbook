@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-113-sunburst",
+  "revision": "e857d2a3-522b-45b1-9ea9-4ed0a914a089",
+  "status": "published",
+  "kind": "image",
+  "title": "机械腕表爆炸视图 · Sunburst",
+  "category": "design",
+  "tags": [
+    "技术图解",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:17.855Z",
+  "updatedAt": "2026-09-21T02:55:17.855Z",
+  "prompt": {
+    "text": "Create a premium technical exploded-view illustration of a fictional mechanical wristwatch called the Meridian 8, centered on a dark slate background with fine blueprint grid accents. Show the watch components separated vertically with precise spacing: sapphire crystal, dial, hands, chapter ring, movement plates, escapement, balance wheel, mainspring barrel, case, crown, and leather strap sections. Use realistic brushed steel, brass, ruby jewel accents, and deep navy dial details. Add crisp callouts and labels with the in-image text \"Meridian 8\", \"Exploded Assembly\", \"42 mm Case\", \"25 Jewels\", and \"Power Reserve 72 h\". Include numbered callouts \"01\" through \"10\" with short labels like \"Balance Wheel\", \"Mainspring Barrel\", and \"Sapphire Crystal\". The result should be highly detailed, technically believable, sharply rendered, and suitable for an industrial design plate with clean hierarchy, exact labeling, and refined material realism.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "gpt-image-2.5-sunburst",
+    "modelId": "gpt-image-2.5-sunburst",
+    "modelEvidence": "platform-displayed",
+    "generatedAt": "2026-09-09T00:00:00Z",
+    "parameters": {
+      "quality": "high",
+      "size": "2048x2048"
+    }
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "机械腕表爆炸视图 · Sunburst，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-113-sunburst/ef88970f98cd69946cbca2977a323b04.png",
+        "mimeType": "image/png",
+        "bytes": 5947051,
+        "sha256": "ef88970f98cd69946cbca2977a323b042531d41ef7ad17b4906a414865259deb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-113-sunburst/ebe8ba06b82388c9bfcfbaccd0fd48f6.webp",
+        "mimeType": "image/webp",
+        "bytes": 53600,
+        "sha256": "ebe8ba06b82388c9bfcfbaccd0fd48f6770317968f9d51452833788d8ff03a12"
+      },
+      "preview": {
+        "key": "published/gpt-image2-113-sunburst/81271682e60cfdab2e250636f64dac28.webp",
+        "mimeType": "image/webp",
+        "bytes": 291662,
+        "sha256": "81271682e60cfdab2e250636f64dac28207695ab04b8a13815dda2c14d9b6db3"
+      },
+      "width": 2048,
+      "height": 2048,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 113）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-030",
+  "revision": "2f89a9a9-abdf-49cc-8556-7ff12a455699",
+  "status": "published",
+  "kind": "image",
+  "title": "VHS风格杂货店混乱静帧",
+  "category": "story",
+  "tags": [
+    "电影动画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:45.855Z",
+  "updatedAt": "2026-09-21T02:56:45.855Z",
+  "prompt": {
+    "text": "创建一个1990年代杂货店的混乱监控摄像头静帧。一个穿着全套中世纪盔甲的男子定格在奔跑中，偷窃了几只烤鸡，正经过乳制品区。头顶的荧光灯在盔甲上反光。地板是婴儿蓝色瓷砖。加上一个时间戳“08/13/96 04:44 AM”和墙上海报写着“新！烤面包机千层酥！”。画面画质低，荒诞且稍显激烈，有运动模糊、VHS色彩溢出、监控噪音和真实模拟店铺灯光。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "VHS风格杂货店混乱静帧，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-030/17cae5db9dc7c710b01e2cf291c401fa.png",
+        "mimeType": "image/png",
+        "bytes": 2262501,
+        "sha256": "17cae5db9dc7c710b01e2cf291c401fa3d5624b4bcfe74cfb9904a810f672f21"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-030/2cae59a9f4b2f00d4886b5bd71a627d8.webp",
+        "mimeType": "image/webp",
+        "bytes": 32790,
+        "sha256": "2cae59a9f4b2f00d4886b5bd71a627d842b2ff7fbd81e2913bed7bf08adbe2b2"
+      },
+      "preview": {
+        "key": "published/gpt-image2-030/937c372bbb8fa722725f070e9a625f63.webp",
+        "mimeType": "image/webp",
+        "bytes": 117470,
+        "sha256": "937c372bbb8fa722725f070e9a625f63207c2970e088edbc9997f64890e34898"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1jk0p3v/tried_to_push_the_new_image_model_with_an/",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 30）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-cinematic-and-animation.md"
+  }
+}

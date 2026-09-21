@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-058",
+  "revision": "a0eefa74-27a8-45b4-a239-6f0149b69c6d",
+  "status": "published",
+  "kind": "image",
+  "title": "沙拉飞溅美食摄影",
+  "category": "product",
+  "tags": [
+    "产品美食",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:15.855Z",
+  "updatedAt": "2026-09-21T02:56:15.855Z",
+  "prompt": {
+    "text": "{\n  \"global_settings\": {\n    \"resolution\": \"8K ultra high definition\",\n    \"aspect_ratio\": \"2:3 vertical\",\n    \"style\": \"hyper-realistic food photography\",\n    \"clarity\": \"extreme sharpness, micro-texture visibility\",\n    \"motion\": \"frozen action with suspended ingredients\",\n    \"lighting_quality\": \"studio-grade, high-contrast, cinematic\"\n  },\n  \"scene_description\": \"A dynamic salad explosion emerging from a matte black bowl placed on a round wooden surface. Ingredients are mid-air, scattered upward and outward, each ingredient lit by a directional key light that highlights surface moisture.\",\n  \"ingredients_visible\": [\n    \"green lettuce leaves\", \"cherry tomatoes (whole and sliced)\", \"cucumber slices arranged in a curved stack\",\n    \"black olives\", \"white cheese cubes\", \"orange citrus slice\", \"small broccoli florets\",\n    \"fresh green basil leaves\", \"a drizzle of olive oil caught mid-fall\"\n  ],\n  \"motion_details\": {\n    \"ingredients\": \"caught mid-arc, rotating slightly, some lightly blurred to convey motion\",\n    \"particles\": \"tiny droplets of olive oil and water beads floating between ingredients\",\n    \"bowl\": \"perfectly still, matte black, absorbing highlights\"\n  },\n  \"environment\": { \"background\": \"softly graded off-white to warm beige\", \"surface\": \"circular cut of raw oak wood\" },\n  \"render_flags\": [\"food photography award-winning\", \"no CGI tell\", \"editorial cookbook cover feel\"]\n}",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "沙拉飞溅美食摄影，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-058/9097fdadf99dd69e0740e2430e287bc4.png",
+        "mimeType": "image/png",
+        "bytes": 2573165,
+        "sha256": "9097fdadf99dd69e0740e2430e287bc4b246dd1cd10cc882c837b61ef065c0be"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-058/3d68a15cc7e5e4f644acda11875dc990.webp",
+        "mimeType": "image/webp",
+        "bytes": 49272,
+        "sha256": "3d68a15cc7e5e4f644acda11875dc990f1a58b6c320b6ab333122fbd1a5b980a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-058/e666ae29acf9adf089045233afafee23.webp",
+        "mimeType": "image/webp",
+        "bytes": 225846,
+        "sha256": "e666ae29acf9adf089045233afafee23a66c21fd4d04f8d0b75995967927537d"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@ChillaiKalan__",
+    "url": "https://x.com/ChillaiKalan__",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 58）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-product-and-food.md"
+  }
+}

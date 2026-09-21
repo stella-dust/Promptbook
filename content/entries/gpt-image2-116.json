@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-116",
+  "revision": "9bb6743c-e541-42a2-9f53-b90ae45b0f2d",
+  "status": "published",
+  "kind": "image",
+  "title": "汽车动力总成透明剖视图",
+  "category": "design",
+  "tags": [
+    "技术图解",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:14.855Z",
+  "updatedAt": "2026-09-21T02:55:14.855Z",
+  "prompt": {
+    "text": "Create a high-detail transparent cutaway illustration of a fictional hybrid sports coupe powertrain on a dark neutral studio background. Show the vehicle in side profile with semi-transparent bodywork revealing the front electric motor, battery pack, rear combustion engine, transmission tunnel, cooling loops, and rear differential. Use realistic metallic surfaces, matte graphite body panels, orange high-voltage cables, and blue coolant lines. Add clean engineering callouts with crisp in-image text: \"Project VELA GT\", \"Hybrid Powertrain\", \"System Output 412 kW\", \"Battery 18.6 kWh\", and \"0-100 km/h 3.8 s\". Label key parts \"Inverter\", \"Motor\", \"Battery Pack\", \"Turbo Inline-4\", \"Radiator\", and \"Rear Differential\". Include a simple legend showing cable colors for \"HV\", \"Coolant\", and \"Fuel\". The rendering should be technically believable, photorealistic where appropriate, sharply annotated, and composed like a premium automotive engineering poster.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "汽车动力总成透明剖视图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-116/024f2a2355319a0d664475c1a4a931dc.png",
+        "mimeType": "image/png",
+        "bytes": 2342457,
+        "sha256": "024f2a2355319a0d664475c1a4a931dcac4d4834270ade46e7aaf56f62673bd4"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-116/25a97466762b762add3adbf4f5908088.webp",
+        "mimeType": "image/webp",
+        "bytes": 32578,
+        "sha256": "25a97466762b762add3adbf4f5908088f5a225d0fa275632b4b233f63e274bd4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-116/5e064a71898509274f1f95ed071dc2ab.webp",
+        "mimeType": "image/webp",
+        "bytes": 147202,
+        "sha256": "5e064a71898509274f1f95ed071dc2ab6ad2761fc174dedc104e2cf8bd4ae036"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 116）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md"
+  }
+}

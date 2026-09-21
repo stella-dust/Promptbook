@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-117",
+  "revision": "b39fff52-c95d-489f-9525-4d53ec457e2a",
+  "status": "published",
+  "kind": "image",
+  "title": "智能手机内部层叠视图",
+  "category": "design",
+  "tags": [
+    "技术图解",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:13.855Z",
+  "updatedAt": "2026-09-21T02:55:13.855Z",
+  "prompt": {
+    "text": "Produce a sleek exploded-view illustration of a fictional flagship smartphone called the HELIX ONE, shown front and back in a vertically layered assembly on a soft charcoal gradient background. Separate the glass, OLED panel, midframe, battery, camera island, wireless charging coil, logic board, cooling vapor chamber, speakers, and rear shell. Use realistic materials including brushed titanium edges, ceramic back, black glass, copper thermal elements, and blue PCB traces. Add crisp labels and in-image text: \"HELIX ONE\", \"Layered Internal Architecture\", \"6.7 in OLED\", \"5,100 mAh\", and \"Vapor Chamber 3,200 mm2\". Label components \"Main Camera 50 MP\", \"Ultrawide 13 MP\", \"Coil\", \"Battery\", \"Logic Board\", and \"Speaker Module\". Keep the composition elegant, technical, and believable, with exact spacing, sharp typography, clean callout leaders, and premium product-visualization quality.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "智能手机内部层叠视图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-117/61f83dafde6b5405025c31bfa15b955d.png",
+        "mimeType": "image/png",
+        "bytes": 2178518,
+        "sha256": "61f83dafde6b5405025c31bfa15b955d1f388da0bccb266a1416ba8e7e91b150"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-117/03d58a2fe85067fa404c85a4079a9799.webp",
+        "mimeType": "image/webp",
+        "bytes": 25820,
+        "sha256": "03d58a2fe85067fa404c85a4079a979996a7d45d8907c4bbe93bbe8ec0e41f5f"
+      },
+      "preview": {
+        "key": "published/gpt-image2-117/b67d5fbddf4462ccdf34f5b228cd1b00.webp",
+        "mimeType": "image/webp",
+        "bytes": 114610,
+        "sha256": "b67d5fbddf4462ccdf34f5b228cd1b00690760b8a084de8c83421968f47e6ae5"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 117）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md"
+  }
+}

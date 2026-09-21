@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-048",
+  "revision": "249f141d-1e4c-4037-bcd7-f5b0c60b2f75",
+  "status": "published",
+  "kind": "image",
+  "title": "睡莲池畔的水彩少女",
+  "category": "design",
+  "tags": [
+    "水彩",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:26.855Z",
+  "updatedAt": "2026-09-21T02:56:26.855Z",
+  "prompt": {
+    "text": "Dreamy watercolor illustration of a young woman in a cream linen dress sitting on a weathered stone bench, contemplating a lily pond at late golden hour. Impressionist-light aesthetic, loose confident brush strokes, translucent washes in muted teal and warm ochre tones with soft lavender shadows. Soft blur of water lilies and reflected clouds in the pond surface. Gentle sunlight filters through overhanging willow branches. Cold-pressed paper texture visible throughout, edges of wet-on-wet bleeds, delicate lighting, clean composition with generous negative space, minimalist focus on mood, sense of calm, lightness, and ephemeral beauty. Editorial high-quality illustration, in the tradition of Turner's watercolor studies and modern editorial magazine illustration.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "睡莲池畔的水彩少女，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-048/cae6d9da6eb3701f1e6abbcb67223260.png",
+        "mimeType": "image/png",
+        "bytes": 3276818,
+        "sha256": "cae6d9da6eb3701f1e6abbcb67223260bc370b29c5c4e1b6a1e74ac50c95f253"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-048/f05c9bfe0a6888a711dff584dc5044b8.webp",
+        "mimeType": "image/webp",
+        "bytes": 46440,
+        "sha256": "f05c9bfe0a6888a711dff584dc5044b8476c2279895efc8c7aaf8c7560cf5f21"
+      },
+      "preview": {
+        "key": "published/gpt-image2-048/1dc608c54f74b442e430684bc2ab0bf0.webp",
+        "mimeType": "image/webp",
+        "bytes": 320110,
+        "sha256": "1dc608c54f74b442e430684bc2ab0bf0386c94b11a33df86b1e32c3e6ce8e29f"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 48）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-watercolor.md"
+  }
+}

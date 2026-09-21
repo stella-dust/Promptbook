@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-159",
+  "revision": "a9485347-93a5-4a39-b31a-67c1345a8e42",
+  "status": "published",
+  "kind": "image",
+  "title": "彩色新传统狐狸花卉纹身",
+  "category": "design",
+  "tags": [
+    "纹身设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:31.855Z",
+  "updatedAt": "2026-09-21T02:54:31.855Z",
+  "prompt": {
+    "text": "Create a colorful neo-traditional tattoo flash poster. Central subject: a clever red fox head framed by chrysanthemum, peony, bluebells, small sparks, and decorative leaves. Use bold clean outlines, saturated but tasteful color fills, limited palette of vermilion, teal, golden ochre, deep navy, and cream highlights. Composition: symmetrical badge-like upper-arm tattoo design with separate small color swatches and a tiny stencil thumbnail on the side. Text must be small and readable: \"NEO TRADITIONAL\" / \"FOX & FLORA\". Make it vibrant, tattooable, and polished, with visible paper grain. Avoid cartoon mascot feel, avoid clutter, avoid gradients that would not tattoo well, no brand logos.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "彩色新传统狐狸花卉纹身，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-159/63e80bbc9645bea111c03f75e563119b.png",
+        "mimeType": "image/png",
+        "bytes": 3904558,
+        "sha256": "63e80bbc9645bea111c03f75e563119bddaac1a09a3ad9b35078b50665584ecb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-159/96729773c51f2fc1abdd291df51280a4.webp",
+        "mimeType": "image/webp",
+        "bytes": 71218,
+        "sha256": "96729773c51f2fc1abdd291df51280a48f38dc68de9a27cdbd81b80ba18cb1e4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-159/d0b622ebf8fa291e4d310b9522689808.webp",
+        "mimeType": "image/webp",
+        "bytes": 494438,
+        "sha256": "d0b622ebf8fa291e4d310b9522689808b32098204592e97ffd840c24213925d3"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 159）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md"
+  }
+}

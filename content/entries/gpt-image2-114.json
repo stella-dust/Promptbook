@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-114",
+  "revision": "c3e70cf7-dfc6-4cd5-8d26-79e372b37500",
+  "status": "published",
+  "kind": "image",
+  "title": "运载火箭剖面图",
+  "category": "design",
+  "tags": [
+    "技术图解",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:16.855Z",
+  "updatedAt": "2026-09-21T02:55:16.855Z",
+  "prompt": {
+    "text": "Generate a highly detailed vertical cutaway illustration of a fictional two-stage launch vehicle named Aster-9 on a clean white technical background. Show the full rocket from nose cone to engines, sliced to reveal internal tanks, avionics, payload fairing, interstage, turbopumps, and thrust structure. Use a restrained palette of white, gunmetal, orange, pale blue, and safety red accents. Add precise leader lines and crisp labels. Include in-image text: \"ASTER-9\", \"Payload 8,400 kg\", \"Height 62.4 m\", \"Stage 1 RP-1 / LOX\", and \"Stage 2 Methalox\". Label internal parts such as \"Payload Bay\", \"Guidance Computer\", \"LOX Tank\", \"Fuel Tank\", \"Helium COPV\", and \"Engine Cluster x9\". Add a small scale marker with \"0 m\", \"20 m\", \"40 m\", and \"60 m\". Prioritize accurate engineering-diagram composition, clean typography, believable hardware detail, and razor-sharp annotations optimized for gpt-image-2.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "运载火箭剖面图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-114/af1bc4793ae20a9b95f808ba1699ecaf.png",
+        "mimeType": "image/png",
+        "bytes": 4040328,
+        "sha256": "af1bc4793ae20a9b95f808ba1699ecafc70a2fd330afed3650c6e8e76ffbb214"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-114/215c74be6363a6f3957da6b396d4de2d.webp",
+        "mimeType": "image/webp",
+        "bytes": 25594,
+        "sha256": "215c74be6363a6f3957da6b396d4de2dd9f7141275ec229227ebccc3fd300e3a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-114/99e01c469aab19631df3eb45cd492291.webp",
+        "mimeType": "image/webp",
+        "bytes": 120520,
+        "sha256": "99e01c469aab19631df3eb45cd49229153537ff7cd47203bb6331abe394e3f78"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 114）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-technical-illustration.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-039",
+  "revision": "aae652c8-ddba-4ec7-95b9-833598ce322d",
+  "status": "published",
+  "kind": "image",
+  "title": "史诗世界观剪影海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:35.855Z",
+  "updatedAt": "2026-09-21T02:56:35.855Z",
+  "prompt": {
+    "text": "Design a collector's-edition epic poster for an original fantasy theme called \"The Celestial Archive\". The outer silhouette is a graceful side profile of a lone archivist, and inside that silhouette a complete world naturally grows: observatories, floating stairways, bridges, ancient libraries, moons, towers, relics, and distant pilgrims. Make it feel like a narrative silhouette composition rather than a collage. Style: cinematic poster fused with dreamy watercolor illustration, quiet and majestic, sacred and nostalgic, with paper grain, soft mist, brush-edge texture, elegant negative space, and a discreet signature \"WHY\" integrated naturally as part of the layout.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "史诗世界观剪影海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-039/d85c8776358ba06d5b105b049bee8d81.png",
+        "mimeType": "image/png",
+        "bytes": 3117177,
+        "sha256": "d85c8776358ba06d5b105b049bee8d8157186927bdbffefdf651ffbef20f2780"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-039/8b802729fc1c5997d00bc91f7e051b47.webp",
+        "mimeType": "image/webp",
+        "bytes": 46634,
+        "sha256": "8b802729fc1c5997d00bc91f7e051b474a872860615617f545588281a4f67242"
+      },
+      "preview": {
+        "key": "published/gpt-image2-039/07f1da058238ef404503bbaa494e1ad9.webp",
+        "mimeType": "image/webp",
+        "bytes": 284296,
+        "sha256": "07f1da058238ef404503bbaa494e1ad907df52529e5dc0f837e5cf8081d7c488"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e324cd0000000021039ca9",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 39）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

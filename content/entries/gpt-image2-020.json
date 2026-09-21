@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-020",
+  "revision": "609952d4-daaf-4297-aebe-8d741de24823",
+  "status": "published",
+  "kind": "image",
+  "title": "手机 MOBA 竞技场 HUD",
+  "category": "story",
+  "tags": [
+    "游戏美术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:55.855Z",
+  "updatedAt": "2026-09-21T02:56:55.855Z",
+  "prompt": {
+    "text": "创建一张原创横版手机 MOBA / 动作 RPG 游戏截图，参考竞技型分路对战游戏的构图逻辑，但不要复制任何现有游戏。16:9 landscape，精致移动端 HUD。场景：金色黄昏中的明亮幻想竞技场，三名风格化英雄在中央河道桥与发光水晶目标附近交战。镜头：略高的等距第三人称游戏视角，战场路线、小兵、技能特效、草丛、塔轮廓和远处 boss 目标坑位都要清晰可读。HUD 设计：左下角半透明虚拟摇杆，右下角四个圆形技能按钮并带冷却数字，终极技能按钮发光但显示 87% 充能，顶部中央比分栏显示 \"12 - 11\"，比赛时间 \"08:42\"，队伍血条，左上角小地图，物品快捷栏，金币 \"3,420\"，干净的移动端安全边距，图标清晰，不要真实游戏 logo。美术方向：高品质 anime-fantasy 3D 手机游戏，饱和的青绿 / 金色 / 紫色调，UI 清晰可读，动态技能特效，高细节材质，可读文字，像真实屏幕截图，不是海报，也不是 mockup board。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "手机 MOBA 竞技场 HUD，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-020/801c7b3fa4ad88a22a17d9a2b7eb2c23.png",
+        "mimeType": "image/png",
+        "bytes": 2815373,
+        "sha256": "801c7b3fa4ad88a22a17d9a2b7eb2c2375f3c4fa13d146c064e10bacf38b1cdc"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-020/41671cba0d1b62004f77718e607a43ee.webp",
+        "mimeType": "image/webp",
+        "bytes": 60154,
+        "sha256": "41671cba0d1b62004f77718e607a43ee735536fc6a19e70f508d0118b10dff66"
+      },
+      "preview": {
+        "key": "published/gpt-image2-020/4df511319bc86dc7733fde02916c451a.webp",
+        "mimeType": "image/webp",
+        "bytes": 269410,
+        "sha256": "4df511319bc86dc7733fde02916c451a2cffcbb82c85c2cf00518ffc396bf3fe"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 20）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-gaming.md"
+  }
+}

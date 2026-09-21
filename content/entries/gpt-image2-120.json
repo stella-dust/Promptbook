@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-120",
+  "revision": "dc171e57-7524-4179-bd5a-d5c67b7353b1",
+  "status": "published",
+  "kind": "image",
+  "title": "中世纪现代办公室",
+  "category": "space",
+  "tags": [
+    "建筑室内",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:10.855Z",
+  "updatedAt": "2026-09-21T02:55:10.855Z",
+  "prompt": {
+    "text": "用写实室内风格渲染一个精致的中世纪现代创意办公室，配备核桃木工艺、黄铜装饰、橄榄色软装、水磨石地面、烟熏玻璃隔断和大窗户投射的下午晚光。采用丰富的核桃棕、橄榄绿、奶油色、黄铜金和柔和的赭石色调色板。构图展示中央行政办公桌、内置书架、休闲角落与墙上规划板。规划板上有细微画中文字“Studio North”、“Q3 Review”与“14:30”。添加真实配件如绘图工具、书籍、陶瓷灯具和唱片机，但保持场景整理有序无杂乱。镜头角度富有编辑感，约32毫米，保持平衡透视线和写实景深。优先考虑触感材质、可信照明、干净几何和精致建筑可视化品质，细节锐利、构图精准。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "中世纪现代办公室，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-120/39d9cfb1d20c6a05bd3961117c82cfba.png",
+        "mimeType": "image/png",
+        "bytes": 2356952,
+        "sha256": "39d9cfb1d20c6a05bd3961117c82cfba0f921641a6cbc2e7ebc0a65955f96da6"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-120/83583c94a24d7fe7101a74b6711715b4.webp",
+        "mimeType": "image/webp",
+        "bytes": 34754,
+        "sha256": "83583c94a24d7fe7101a74b6711715b4ae0212827bf4be5312aa73af515d21e1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-120/55934910d846ac279ddbfc15319f94c3.webp",
+        "mimeType": "image/webp",
+        "bytes": 160118,
+        "sha256": "55934910d846ac279ddbfc15319f94c38078f27802924e2d79c7709e0ee176e0"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 120）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-068",
+  "revision": "c77fa4fb-cff0-4590-acb3-5fdd6d106df8",
+  "status": "published",
+  "kind": "image",
+  "title": "宋代社交媒体动态",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:04.855Z",
+  "updatedAt": "2026-09-21T02:56:04.855Z",
+  "prompt": {
+    "text": "“宋代人物的朋友圈” / “宋代社交媒体动态”，古今穿越幽默融合界面设计风格，图片模拟手机社交媒体界面，但内容完全为宋代场景，头像是宋代文人肖像，用户名“Su Dongpo SuShi_Official”，发布内容“刚到黄州，降职但心情还好。今天自己做了东坡肉，味道棒极了，附上食谱：”，附图为工笔画风格东坡肉特写，点赞列表“黄庭坚、秦观、佛印等126人”，评论区“王安石：呵呵”“司马光：味道依旧”，界面元素如点赞图标用宋代图案替换，状态栏显示“Great Song Mobile 5G”和“元丰三年”，配色方案为手机暗黑模式搭配雅致的宋代色调，是历史与社交媒体趣味碰撞的杰作",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "宋代社交媒体动态，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-068/cc818be7c2267d57eed2abda0cc1fb57.png",
+        "mimeType": "image/png",
+        "bytes": 2392417,
+        "sha256": "cc818be7c2267d57eed2abda0cc1fb5735e3055faa1b256bbd6f9cb5fb0ffdfa"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-068/eaf22a99ec2d41225a36ef5ea47ac22a.webp",
+        "mimeType": "image/webp",
+        "bytes": 27618,
+        "sha256": "eaf22a99ec2d41225a36ef5ea47ac22a6dd973c0c0db8d728347c11ac0e19db8"
+      },
+      "preview": {
+        "key": "published/gpt-image2-068/ab24497431379a79010feabbd094edd6.webp",
+        "mimeType": "image/webp",
+        "bytes": 151326,
+        "sha256": "ab24497431379a79010feabbd094edd66ea45f880b48a9be38a3095e8b314530"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@Panda20230902",
+    "url": "https://x.com/Panda20230902",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 68）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

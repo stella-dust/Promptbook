@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-064",
+  "revision": "ec93686c-6858-4e20-b70a-53191fa3ebd4",
+  "status": "published",
+  "kind": "image",
+  "title": "手写笔记本平铺图",
+  "category": "story",
+  "tags": [
+    "写实摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:08.855Z",
+  "updatedAt": "2026-09-21T02:56:08.855Z",
+  "prompt": {
+    "text": "一张业余拍摄的照片，拍摄一册摊开的笔记本，里面用黑色圆珠笔写满手写笔记。字迹随意且稍显凌乱，像是个人笔记，有自然的瑕疵、划掉的单词以及带下划线的标题。从略高角度拍摄，窗户自然光，无闪光灯。休闲的书桌环境，用iPhone拍摄。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "手写笔记本平铺图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-064/49da09d99fe4ce2dfa666ece0b051619.png",
+        "mimeType": "image/png",
+        "bytes": 2466681,
+        "sha256": "49da09d99fe4ce2dfa666ece0b051619a4b22d506fcde260a769b71b2d440774"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-064/0441154f59a5c9e468401fcc074a7c6b.webp",
+        "mimeType": "image/webp",
+        "bytes": 31742,
+        "sha256": "0441154f59a5c9e468401fcc074a7c6bf780ebe50f544593ea4cc0cd684b621a"
+      },
+      "preview": {
+        "key": "published/gpt-image2-064/fd0f54b4570e2098ef633dc7dfe598f8.webp",
+        "mimeType": "image/webp",
+        "bytes": 142428,
+        "sha256": "fd0f54b4570e2098ef633dc7dfe598f869eb40de905e68743899c16ae018bde9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@patrickassale",
+    "url": "https://x.com/patrickassale",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 64）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-photography.md"
+  }
+}

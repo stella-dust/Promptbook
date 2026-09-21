@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-063",
+  "revision": "3bdaf493-98aa-4725-bcf9-94606ffe7ca5",
+  "status": "published",
+  "kind": "image",
+  "title": "RAW iPhone: 42街地铁",
+  "category": "story",
+  "tags": [
+    "写实摄影",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:09.855Z",
+  "updatedAt": "2026-09-21T02:56:09.855Z",
+  "prompt": {
+    "text": "创建一张完全RAW质量、未经处理、未编辑的图片，具有完整的iPhone相机质量。美国的一个地铁站，一个瞬间的模糊。地铁正在运动。地铁前面有一位老年女性和一位老年男性。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "RAW iPhone: 42街地铁，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-063/9172fe153c8bef79b01bf39c9473d781.png",
+        "mimeType": "image/png",
+        "bytes": 2113469,
+        "sha256": "9172fe153c8bef79b01bf39c9473d781a730196e0818bc273d3458c6a2156b70"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-063/40bc5e517ab7bb0011cf73a54a43d18b.webp",
+        "mimeType": "image/webp",
+        "bytes": 24324,
+        "sha256": "40bc5e517ab7bb0011cf73a54a43d18b296762d17197bddf74afe9e03751c918"
+      },
+      "preview": {
+        "key": "published/gpt-image2-063/d6664f74cee41dd2ac4cbc940379975a.webp",
+        "mimeType": "image/webp",
+        "bytes": 95562,
+        "sha256": "d6664f74cee41dd2ac4cbc940379975a33342abc18e4ddeb6c25c4f5a4c8ffcc"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@WolfRiccardo",
+    "url": "https://x.com/WolfRiccardo",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 63）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-photography.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-079",
+  "revision": "a8fa0f02-9f7e-4810-92d0-bf3d891a727c",
+  "status": "published",
+  "kind": "image",
+  "title": "治疗响应统计图",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:53.855Z",
+  "updatedAt": "2026-09-21T02:55:53.855Z",
+  "prompt": {
+    "text": "Create a Nature Medicine style statistical results figure, landscape 3:2 (1536×1024), soft, restrained, publication-quality.\n\nFigure title: \"Therapeutic response across molecular subgroups\".\n\nLayout: 4-panel figure labeled A–D.\nA. Grouped bar chart: response rate (%) for four subgroups \"A\", \"B\", \"C\", \"D\" across two treatments \"standard\" and \"adaptive\". Use muted navy and soft teal bars, thin error bars, numeric labels.\nB. Forest plot of hazard ratios for subgroups with a vertical reference line at HR=1.0; rows \"age <65\", \"age ≥65\", \"high inflammation\", \"low inflammation\", \"mutation-positive\", \"mutation-negative\". Use small squares and confidence intervals.\nC. Volcano-style biomarker association plot with pale gray background points and highlighted labeled markers \"IL6\", \"CXCL10\", \"TP53\", \"MKI67\".\nD. Minimal mechanism schematic: adaptive therapy reduces inflammatory signaling and restores immune surveillance; use three clean nodes connected by arrows, no complex biology drawings.\n\nStyle requirements: literature-science aesthetic, white background, soft desaturated colors, thin gray axes, clear legends, compact labels, generous margins, Nature-style figure polish, no fake values that look too random, no decorative background, no watermark.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "治疗响应统计图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-079/78b6569abaed1fbcd29bfc2991831a91.png",
+        "mimeType": "image/png",
+        "bytes": 554379,
+        "sha256": "78b6569abaed1fbcd29bfc2991831a914ee6b4d4fdd086597ca7befdfbe6cfcb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-079/5cad72dec21b2ad1f6a1a989ec555aa3.webp",
+        "mimeType": "image/webp",
+        "bytes": 25292,
+        "sha256": "5cad72dec21b2ad1f6a1a989ec555aa32eaa9af8b8cfbddc474dd367f767e878"
+      },
+      "preview": {
+        "key": "published/gpt-image2-079/5047180346eeaa25c2d3e9fb2ebb5d49.webp",
+        "mimeType": "image/webp",
+        "bytes": 87638,
+        "sha256": "5047180346eeaa25c2d3e9fb2ebb5d49813c6fd7eb458494173eb520adf1cf0d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 79）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

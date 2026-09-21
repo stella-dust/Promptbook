@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-100",
+  "revision": "c5b0b32f-1d07-498c-9a3d-055ba6c22f11",
+  "status": "published",
+  "kind": "image",
+  "title": "四格宠物漫画",
+  "category": "other",
+  "tags": [
+    "官方示例",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:32.855Z",
+  "updatedAt": "2026-09-21T02:55:32.855Z",
+  "prompt": {
+    "text": "Create a short vertical comic-style reel with 4 equal-sized panels.\nPanel 1: The owner leaves through the front door. The pet is framed in the window behind them, small against the glass, eyes wide, paws pressed high, the house suddenly quiet.\nPanel 2: The door clicks shut. Silence breaks. The pet slowly turns toward the empty house, posture shifting, eyes sharp with possibility.\nPanel 3: The house transformed. The pet sprawls across the couch like it owns the place, crumbs nearby, sunlight cutting across the room like a spotlight.\nPanel 4: The door opens. The pet is seated perfectly by the entrance, alert and composed, as if nothing happened.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "四格宠物漫画，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-100/4f7b2136acc4d11a18361df3f6d21aae.png",
+        "mimeType": "image/png",
+        "bytes": 2195863,
+        "sha256": "4f7b2136acc4d11a18361df3f6d21aaec4af86b31e254472b072d046812ac670"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-100/4bb92ec42c5d95ecb52c611f20271e5b.webp",
+        "mimeType": "image/webp",
+        "bytes": 31664,
+        "sha256": "4bb92ec42c5d95ecb52c611f20271e5b94a074b75560adf3871ca93725181eae"
+      },
+      "preview": {
+        "key": "published/gpt-image2-100/c7842abda79dafb4eba2c5d17d4eec6e.webp",
+        "mimeType": "image/webp",
+        "bytes": 132068,
+        "sha256": "c7842abda79dafb4eba2c5d17d4eec6e7da1a5a0cd9bb87c86e32ea185578a69"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "OpenAI",
+    "url": "https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 100）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-official-openai-cookbook-examples.md"
+  }
+}

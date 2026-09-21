@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-158",
+  "revision": "68a36fae-e83e-4d23-82a3-ac23bee4a258",
+  "status": "published",
+  "kind": "image",
+  "title": "写实黑灰袖臂纹身设计",
+  "category": "design",
+  "tags": [
+    "纹身设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:32.855Z",
+  "updatedAt": "2026-09-21T02:54:32.855Z",
+  "prompt": {
+    "text": "Create a portrait tattoo design sheet for a realistic black-and-grey forearm sleeve. Subject: a highly detailed raven skull nested with realistic peonies, smoke ribbons, tiny moths, and cracked marble fragments. Present it as premium tattoo flash on warm off-white paper with a faint arm-placement silhouette behind the main artwork. Style: ultra-realistic tattoo shading, smooth dotwork gradients, crisp stencil-ready outlines, high contrast but not muddy, strong negative-space gaps for skin breathing room. Include small layout notes in clean text: \"BLACK & GREY\" / \"FOREARM SLEEVE\" / \"NEGATIVE SPACE\". No gore, no body horror, no brand logos, no actual person, no photorealistic skin photo; make it a professional tattoo design presentation.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "写实黑灰袖臂纹身设计，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-158/110cf7dae268ecf34c6afff9b17e0ef5.png",
+        "mimeType": "image/png",
+        "bytes": 3023894,
+        "sha256": "110cf7dae268ecf34c6afff9b17e0ef5a7d25bd6ff4e17c91b219a6281ea64d4"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-158/0c65e6de51d55033b8a6f6442aa54824.webp",
+        "mimeType": "image/webp",
+        "bytes": 43394,
+        "sha256": "0c65e6de51d55033b8a6f6442aa54824a2d893b6584fbbbf5fa121d2b1a08927"
+      },
+      "preview": {
+        "key": "published/gpt-image2-158/4200e82af28e72c1c1f99adc8678b287.webp",
+        "mimeType": "image/webp",
+        "bytes": 232768,
+        "sha256": "4200e82af28e72c1c1f99adc8678b2873ad56b0f34ad8ed1fd44f25f571eb676"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 158）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-tattoo-design.md"
+  }
+}

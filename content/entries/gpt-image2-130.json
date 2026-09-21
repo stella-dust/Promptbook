@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-130",
+  "revision": "a65c2033-66c1-442d-9c5b-a1608cb92bb6",
+  "status": "published",
+  "kind": "image",
+  "title": "都市街头穿搭：涩谷夜景",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:00.855Z",
+  "updatedAt": "2026-09-21T02:55:00.855Z",
+  "prompt": {
+    "text": "Full-body lookbook photography of a model standing in the center of a rain-slicked Shibuya crossing at twilight. The model wears an oversized, multi-pocketed technical puffer jacket in 'Electric Cobalt' with reflective silver detailing, paired with wide-leg cargo trousers in matte black and chunky platform sneakers. The composition is a sharp medium-wide shot using a 35mm lens, capturing the vibrant neon signs of the background blurred into a soft bokeh of pinks and cyans. Lighting is dramatic and directional, sourced from the surrounding digital billboards, creating high-contrast highlights on the jacket's texture. The mood is urban and fast-paced, with a subtle film grain characteristic of Portra 400. The image features a clean vertical layout suitable for a fashion magazine, with the text 'NEO-URBAN' subtly embossed in the corner in a minimalist sans-serif font. No brand logos are visible.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "都市街头穿搭：涩谷夜景，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-130/a82a88e805b553cbd15fc593688ff095.png",
+        "mimeType": "image/png",
+        "bytes": 2752392,
+        "sha256": "a82a88e805b553cbd15fc593688ff09591e5dd2ce81c3b5ce44d7b1ebc88c9cb"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-130/07dae58cf0ec2a1beb6c49a3f4ba0ad5.webp",
+        "mimeType": "image/webp",
+        "bytes": 37952,
+        "sha256": "07dae58cf0ec2a1beb6c49a3f4ba0ad58197bd66103fd76c969c0f774ffd6da1"
+      },
+      "preview": {
+        "key": "published/gpt-image2-130/20057ae4fe92d300c8effd4cb29a6d08.webp",
+        "mimeType": "image/webp",
+        "bytes": 179406,
+        "sha256": "20057ae4fe92d300c8effd4cb29a6d082d501be39a969628d9bd66089f41c475"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 130）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

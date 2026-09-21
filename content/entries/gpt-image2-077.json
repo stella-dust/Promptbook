@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-077",
+  "revision": "bf98d921-14ec-4851-9491-af7e2f08bd25",
+  "status": "published",
+  "kind": "image",
+  "title": "单细胞免疫图谱",
+  "category": "design",
+  "tags": [
+    "论文插图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:55.855Z",
+  "updatedAt": "2026-09-21T02:55:55.855Z",
+  "prompt": {
+    "text": "Create a polished Nature / Cell style biomedical research figure, landscape 3:2 (1536×1024), soft minimal palette, publication-ready.\n\nFigure title: \"Single-cell immune atlas reveals treatment-response states\".\n\nLayout: 4-panel figure labeled A–D.\nA. Large UMAP scatter plot with 8 softly colored immune clusters; labels: \"CD8 T\", \"CD4 T\", \"B cells\", \"NK\", \"Mono\", \"DC\", \"Treg\", \"Plasma\". Use pastel teal, sage, lavender, peach, slate, amber.\nB. Dot plot of marker genes with rows \"GZMB\", \"IFNG\", \"CXCL13\", \"MS4A1\", \"LYZ\", \"FOXP3\" and columns matching immune clusters; dot size = fraction, color = expression.\nC. Small stacked bar chart comparing \"Responder\" vs \"Non-responder\" cell-state proportions, with 5 muted segments and a tidy legend.\nD. Pseudotime trajectory diagram: a clean branching curve from \"naive\" to \"effector\" and \"exhausted\", with small arrows and gradient color.\n\nStyle requirements: literature-science design, white background, thin gray axes, compact legends, readable micro-labels, restrained typography, soft colors, elegant spacing, no 3D, no glossy UI, no fake journal logo, no watermark.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "单细胞免疫图谱，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-077/3261434a0c301ca8e9b8fafdb8f0ea9f.png",
+        "mimeType": "image/png",
+        "bytes": 628868,
+        "sha256": "3261434a0c301ca8e9b8fafdb8f0ea9fab4556d45d326042180beae17f5f0034"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-077/e19d7ca9627e7a3002df230b4f2aacfd.webp",
+        "mimeType": "image/webp",
+        "bytes": 24460,
+        "sha256": "e19d7ca9627e7a3002df230b4f2aacfd92db29d3fcda13ee493eea8ebb8285e0"
+      },
+      "preview": {
+        "key": "published/gpt-image2-077/85dc05433b59a6ce362e4136c87829f2.webp",
+        "mimeType": "image/webp",
+        "bytes": 90698,
+        "sha256": "85dc05433b59a6ce362e4136c87829f288c6dbc29cec25a67a1faa12ab8452f8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 77）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-research-paper-figures.md"
+  }
+}

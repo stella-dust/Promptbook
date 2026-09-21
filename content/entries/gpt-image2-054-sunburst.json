@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-054-sunburst",
+  "revision": "d52be51c-8ce0-434a-9872-153a0f0b7431",
+  "status": "published",
+  "kind": "image",
+  "title": "等距咖啡街区 · Sunburst",
+  "category": "space",
+  "tags": [
+    "等距场景",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:19.855Z",
+  "updatedAt": "2026-09-21T02:56:19.855Z",
+  "prompt": {
+    "text": "Use the reference image as the layout anchor for a richly detailed isometric two-block cafe district at blue hour. Keep the street footprint, corner cafe, neighboring bookstore, bakery and fountain plaza recognizable. Transform it into a three-storey architectural cutaway diorama with coherent 30-degree isometric geometry.\n\nOpen the front-facing walls to reveal the cafe espresso bar and upstairs jazz lounge; bookshelves, reading nooks and a spiral staircase in the bookstore; pastry cases and a working oven in the bakery. Add a rooftop glass greenhouse, tiny terraces, copper plumbing, tiled stairs, balconies, hanging plants and warm lights visible through rain-speckled windows. At street level show wet cobbles, bicycles, the coffee cart, varied miniature pedestrians and reflections around the fountain. Every floor, doorway and staircase should connect plausibly.\n\nUse warm amber interiors against deep teal evening shadows, tactile brick, glazed tiles, glass and brushed brass. Preserve crisp detail throughout the scene, with a clean dark navy background and room around the floating diorama. Give the scene depth through cutaway rooms and layered architecture. Use restrained, readable storefront lettering: \"NIGHT OWL CAFE\", \"OPEN BOOKS\", and \"DAWN BAKERY\". Keep the composition square and visually balanced.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "gpt-image-2.5-sunburst",
+    "modelId": "gpt-image-2.5-sunburst",
+    "modelEvidence": "platform-displayed",
+    "generatedAt": "2026-09-09T00:00:00Z",
+    "parameters": {
+      "quality": "high",
+      "size": "2048x2048"
+    }
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "等距咖啡街区 · Sunburst，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-054-sunburst/619cf90345baf3903c7783079a0ddde5.png",
+        "mimeType": "image/png",
+        "bytes": 8088654,
+        "sha256": "619cf90345baf3903c7783079a0ddde579b44cc45ec7f8eb8f40aa069a2af108"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-054-sunburst/f2d6ed6958fb4067844af87f0c0bd57a.webp",
+        "mimeType": "image/webp",
+        "bytes": 120318,
+        "sha256": "f2d6ed6958fb4067844af87f0c0bd57adf7cd0c295671d1c09e9affb36ba4a7e"
+      },
+      "preview": {
+        "key": "published/gpt-image2-054-sunburst/d4556f2acd75cfa13d57acdb2487410d.webp",
+        "mimeType": "image/webp",
+        "bytes": 650688,
+        "sha256": "d4556f2acd75cfa13d57acdb2487410d5883bf10460eeb6e5356a20165c526d1"
+      },
+      "width": 2048,
+      "height": 2048,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "references": [
+    {
+      "role": "image-reference",
+      "asset": {
+        "key": "published/gpt-image2-054-sunburst/8cf7ec1909d898f5c4e281418d4fb7fc.png",
+        "mimeType": "image/png",
+        "bytes": 1559853,
+        "sha256": "8cf7ec1909d898f5c4e281418d4fb7fcefeea52172682e087241e5012d2122dd"
+      },
+      "caption": "源图库标记的输入参考图"
+    }
+  ],
+  "source": {
+    "type": "collected",
+    "author": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 54）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-isometric.md"
+  }
+}

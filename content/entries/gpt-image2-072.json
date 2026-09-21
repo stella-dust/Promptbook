@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-072",
+  "revision": "2a1eb984-f9c5-499e-9f5f-e25074a2bc9c",
+  "status": "published",
+  "kind": "image",
+  "title": "模块化百科信息图卡片",
+  "category": "design",
+  "tags": [
+    "信息图",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:00.855Z",
+  "updatedAt": "2026-09-21T02:56:00.855Z",
+  "prompt": {
+    "text": "生成一张关于“雪豹 Snow Leopard”的高质量纵向科学百科卡片。其风格应如一张可收藏的模块化知识信息图，而非普通海报。包含一张精美主图，多幅局部放大细节注释，圆角信息模块，清晰的标题层次，紧凑的百科内容，评分卡片与Top 5趣闻模块。建议章节：基本资料、栖息地、外观、捕猎行为、保护风险、气候适应、适宜环境以及快速评分卡。视觉风格：干净明亮底色、柔和配色、细腻阴影、精致图标、圆角信息框、信息密度大但可读性强、精美编辑排版、高收藏价值。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "模块化百科信息图卡片，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-072/15ec4c625316d4d251b9672d9883ebdd.png",
+        "mimeType": "image/png",
+        "bytes": 2551775,
+        "sha256": "15ec4c625316d4d251b9672d9883ebdd8d3be0f892700db1c5361904da39e7d3"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-072/56e6a622c441635bf7054a56aa292ef5.webp",
+        "mimeType": "image/webp",
+        "bytes": 59308,
+        "sha256": "56e6a622c441635bf7054a56aa292ef59a06d8205506a1e6bdcd218697826db5"
+      },
+      "preview": {
+        "key": "published/gpt-image2-072/60b01b3c2661e632b0f7926cb7bb3a29.webp",
+        "mimeType": "image/webp",
+        "bytes": 248884,
+        "sha256": "60b01b3c2661e632b0f7926cb7bb3a294751e4adabf9ee9bbae40e30e2fc7872"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e832170000000023012116",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 72）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+  }
+}

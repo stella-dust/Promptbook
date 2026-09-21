@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-143",
+  "revision": "3819c25e-ec41-4163-97e1-8f823ab0e91e",
+  "status": "published",
+  "kind": "image",
+  "title": "Q版风格：星光面包房",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:47.855Z",
+  "updatedAt": "2026-09-21T02:54:47.855Z",
+  "prompt": {
+    "text": "A hyper-cute 'Q-style' or chibi illustration of a tiny, magical bakery run by a group of small forest animals. The characters have oversized heads, large twinkling eyes, and tiny limbs, dressed in miniature baker hats and aprons. They are decorating giant, glowing cupcakes that look like planets. The color palette is 'Pastel Rainbow': mint, strawberry pink, lavender, and lemon. The line art is soft and rounded, in a dark chocolate brown rather than black. The background is a cozy, rounded kitchen with jars of sparkling stardust and windows looking out onto a crescent moon. The lighting is warm and sparkly, with many small 'twinkle' effects and soft white glows around the pastries. The mood is sugary-sweet, whimsical, and extremely comforting, designed for a sticker set or a children's book.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Q版风格：星光面包房，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-143/00c4db68e8a72e12d4f213f442fb9131.png",
+        "mimeType": "image/png",
+        "bytes": 2042468,
+        "sha256": "00c4db68e8a72e12d4f213f442fb91316c974cc7926b2edd8e0df556f4563dc7"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-143/02409bfe8f528202da9986f03d617ff2.webp",
+        "mimeType": "image/webp",
+        "bytes": 97020,
+        "sha256": "02409bfe8f528202da9986f03d617ff204ceb3821d5adb70d19c876b7be8b2eb"
+      },
+      "preview": {
+        "key": "published/gpt-image2-143/892ab742ebbcf27bd266e7b93ea0e045.webp",
+        "mimeType": "image/webp",
+        "bytes": 206404,
+        "sha256": "892ab742ebbcf27bd266e7b93ea0e045fe1ae9a58bcf07efff2c8dc55fc8b214"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 143）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

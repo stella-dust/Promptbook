@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-118",
+  "revision": "59ebd792-a09f-43f0-8ac8-743177a91285",
+  "status": "published",
+  "kind": "image",
+  "title": "日式极简客厅",
+  "category": "space",
+  "tags": [
+    "建筑室内",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:12.855Z",
+  "updatedAt": "2026-09-21T02:55:12.855Z",
+  "prompt": {
+    "text": "以写实建筑可视化风格渲染一个宁静的日式极简客厅内饰，从眼平视角和28毫米镜头视角拍摄。空间应采用浅橡木地板、灵感来源于障子门的滑动面板、低矮模块化座椅、凹进的床榻洞、亚麻纹理，以及从左侧射入的柔和晨光。配色克制，采用温暖米色、浅橡木色、炭黑色、柔和苔绿色和宣纸白色。画面中包含一个小巧装框的平面图板，上面有细微字体显示“Room 6.4 m x 4.8 m”和“AURAE House”。添加一个低茶几、一只陶瓷花瓶、一棵盆景植物以及3000K的间接槽灯光。构图应保持平和均衡，拥有强烈的负空间、真实阴影、准确的材质表现和杂志品质的室内渲染。优先保证写实性、建筑细节、锐利边缘以及品味优良的极简而非风格化幻想。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "日式极简客厅，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-118/4198bf7f6d12acbdee71e92d6634a3da.png",
+        "mimeType": "image/png",
+        "bytes": 2481523,
+        "sha256": "4198bf7f6d12acbdee71e92d6634a3da1c5fb57e4bfbed3a987461cf5b0275c1"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-118/bcf54f010bc4837a1e74f4e98c523bf1.webp",
+        "mimeType": "image/webp",
+        "bytes": 23200,
+        "sha256": "bcf54f010bc4837a1e74f4e98c523bf1c4e314d775775af914cb90a9c0574762"
+      },
+      "preview": {
+        "key": "published/gpt-image2-118/71d28822cfded4f4ca005ed91822067e.webp",
+        "mimeType": "image/webp",
+        "bytes": 139762,
+        "sha256": "71d28822cfded4f4ca005ed91822067ecfba88542b1d70e64be84cac30656bb1"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 118）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-044",
+  "revision": "5f1a8ab8-3696-41ac-a692-b34c4d16e7d3",
+  "status": "published",
+  "kind": "image",
+  "title": "重庆雨夜 山城雨夜",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:30.855Z",
+  "updatedAt": "2026-09-21T02:56:30.855Z",
+  "prompt": {
+    "text": "做一张 3:4 城市宣传海报，主题是\"山城雨夜·重庆\"。整体像高端城市文旅 campaign poster，不要廉价旅行社风格。画面中心是层叠山城建筑、轻轨穿楼、湿润街道、霓虹倒影、江边雾气和夜色中的坡道。用现代中文排版，加入少量准确标题与副标题：\"山城雨夜\" / \"CHONGQING\" / \"8D 城市 / 江雾 / 火锅 / 轻轨 / 夜景\"。信息密度适中，留白克制，色彩以深蓝、暖橙、湿润霓虹红为主，像一本设计年鉴里的城市品牌海报。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "重庆雨夜 山城雨夜，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-044/581da5f302ad8d29db0350928422896d.png",
+        "mimeType": "image/png",
+        "bytes": 2594155,
+        "sha256": "581da5f302ad8d29db0350928422896d5addd061888031a3fd704299d0412aae"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-044/c84ae9b4422e124af6d5519ccce8ba0a.webp",
+        "mimeType": "image/webp",
+        "bytes": 45690,
+        "sha256": "c84ae9b4422e124af6d5519ccce8ba0ad6fe746a36856ae64c13424ce728abb4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-044/5a95dc14f99dd0a26f501d72235cd503.webp",
+        "mimeType": "image/webp",
+        "bytes": 233386,
+        "sha256": "5a95dc14f99dd0a26f501d72235cd503e7bc82865a7770f1c8473512cc4b9c15"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Unknown",
+    "url": "https://www.xiaohongshu.com/explore/69e5cb85000000001a027aa8",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 44）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

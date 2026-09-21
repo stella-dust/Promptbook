@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-006",
+  "revision": "52a37f9e-2a6f-41c1-8e0d-fca3f4a0a820",
+  "status": "published",
+  "kind": "image",
+  "title": "咖啡馆时尚写真",
+  "category": "character",
+  "tags": [
+    "动漫漫画",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:57:09.855Z",
+  "updatedAt": "2026-09-21T02:57:09.855Z",
+  "prompt": {
+    "text": "Create a tasteful portrait-oriented anime fashion illustration of an adult woman, age 24, with a cute playful expression, looking at the camera in a cozy European cafe at golden hour. She wears a cream blouse, charcoal pleated skirt, tailored cropped jacket, sheer black stockings, loafers, and a small ribbon hair clip; she is seated sideways at a small marble table with latte art, a sketchbook, and warm window light. Composition: three-quarter fashion portrait, elegant legs visible but relaxed and non-explicit, wholesome editorial mood, no nudity, no lingerie, no school uniform, no explicit pose, adult character only. Use polished modern anime rendering, crisp line art, luminous eyes, soft cel shading, subtle fabric texture, gentle blush, background bokeh, and a refined magazine-cover color palette.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "咖啡馆时尚写真，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-006/fadf3d48b4b33e45bf8fe3ad3d1a1307.png",
+        "mimeType": "image/png",
+        "bytes": 2556581,
+        "sha256": "fadf3d48b4b33e45bf8fe3ad3d1a1307fab36114e11dfe0260b12fc67ced4476"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-006/d837e60eca8da1c8c7c749caf5817f7f.webp",
+        "mimeType": "image/webp",
+        "bytes": 35502,
+        "sha256": "d837e60eca8da1c8c7c749caf5817f7fe25d8d853aaa75c8bd594dd56a9ec592"
+      },
+      "preview": {
+        "key": "published/gpt-image2-006/39419eaf8d7b79cd46be7434f6f8fa6e.webp",
+        "mimeType": "image/webp",
+        "bytes": 168676,
+        "sha256": "39419eaf8d7b79cd46be7434f6f8fa6e385143ea95d1eab953ddae4ddf11c524"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 6）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-anime-and-manga.md"
+  }
+}

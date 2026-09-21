@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-129",
+  "revision": "1e00e39b-e82a-4a2a-99be-59d91d0e91e0",
+  "status": "published",
+  "kind": "image",
+  "title": "地质地层剖面图",
+  "category": "design",
+  "tags": [
+    "科学教育",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:01.855Z",
+  "updatedAt": "2026-09-21T02:55:01.855Z",
+  "prompt": {
+    "text": "Produce a detailed geological cross-section poster of layered earth strata cutting through a fictional canyon basin. Use a natural scientific palette of sandstone beige, iron oxide red, shale gray, limestone cream, basalt charcoal, and muted green vegetation above ground. Show clearly differentiated layers, a fault line, an aquifer, fossil-bearing beds, and a volcanic intrusion. Add crisp in-image text: \"Geological Cross-Section\", \"Solterra Basin\", \"Scale 0-500 m\", and labels \"Sandstone\", \"Shale\", \"Limestone\", \"Coal Seam\", \"Aquifer\", and \"Basalt Dike\". Include a vertical scale with \"0 m\", \"100 m\", \"250 m\", and \"500 m\". Add small annotations \"Marine fossils\" and \"Groundwater flow\" with arrows. The composition should be highly legible, educational, and neatly diagrammed, with clean linework, correct label placement, balanced annotation density, and publication-quality scientific illustration clarity.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "地质地层剖面图，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-129/55e9fbd5475d6c7bfedb6cacba17ec52.png",
+        "mimeType": "image/png",
+        "bytes": 5065685,
+        "sha256": "55e9fbd5475d6c7bfedb6cacba17ec529a134fe65d8f8df7929ed8caba21fde2"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-129/bec4c3d065288f09410caa5ab9f3782d.webp",
+        "mimeType": "image/webp",
+        "bytes": 69954,
+        "sha256": "bec4c3d065288f09410caa5ab9f3782def0890d65951a5d96d60cd1f7e96693c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-129/3f56f5e2c929d83c7a4805bf55693757.webp",
+        "mimeType": "image/webp",
+        "bytes": 385944,
+        "sha256": "3f56f5e2c929d83c7a4805bf556937572732fcca140b8186cb106f4f5d18e449"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 129）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-scientific-and-educational.md"
+  }
+}

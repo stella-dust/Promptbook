@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-101",
+  "revision": "212ad5b0-5f34-43de-a15b-1ca1444cbe93",
+  "status": "published",
+  "kind": "image",
+  "title": "棋盘的冬日晚景",
+  "category": "design",
+  "tags": [
+    "图像编辑",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:31.855Z",
+  "updatedAt": "2026-09-21T02:55:31.855Z",
+  "prompt": {
+    "text": "Make it a winter evening with heavy snowfall, snow dusted on the board and pieces, breath vapor in the air, cold blue-grey lighting, chess position still clearly readable. Preserve the original chess-board composition and landscape aspect ratio exactly; keep the board and pieces aligned and readable.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "棋盘的冬日晚景，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-101/3bded1ab82e665402944e90eeed6442f.png",
+        "mimeType": "image/png",
+        "bytes": 2866973,
+        "sha256": "3bded1ab82e665402944e90eeed6442f3ce171c3cc209092f38d65f482f7d7a5"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-101/c3a5ee6217315da6cb84485f99c05d3c.webp",
+        "mimeType": "image/webp",
+        "bytes": 51766,
+        "sha256": "c3a5ee6217315da6cb84485f99c05d3c912420363334916caf8b683ee8d014d4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-101/2e352e1282c43965dd28659845361894.webp",
+        "mimeType": "image/webp",
+        "bytes": 221192,
+        "sha256": "2e352e1282c43965dd28659845361894d27bb5f6ec77e6b19537e207c687174b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "references": [
+    {
+      "role": "image-reference",
+      "asset": {
+        "key": "published/gpt-image2-101/1c47574bb18141492be730ae1b5d3386.png",
+        "mimeType": "image/png",
+        "bytes": 2058174,
+        "sha256": "1c47574bb18141492be730ae1b5d338623c0143994dbbfacaa93bdf083d68147"
+      },
+      "caption": "源图库标记的输入参考图"
+    }
+  ],
+  "source": {
+    "type": "collected",
+    "author": "OpenAI",
+    "url": "https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 101）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-edit-endpoint-showcase.md"
+  }
+}

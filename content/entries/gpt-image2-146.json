@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-146",
+  "revision": "3b0dd4ce-cb50-46b9-97c2-69dc787aa5eb",
+  "status": "published",
+  "kind": "image",
+  "title": "墨西哥主题可爱贴纸",
+  "category": "design",
+  "tags": [
+    "插画风格",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:44.855Z",
+  "updatedAt": "2026-09-21T02:54:44.855Z",
+  "prompt": {
+    "text": "Design a cute kawaii sticker pack featuring famous things from Mexico, including iconic food, landmarks, and traditional objects, all with adorable faces, soft pastel colors, rounded shapes, minimal shading, chibi style, glossy sticker finish, high resolution, arranged as a sticker sheet.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "墨西哥主题可爱贴纸，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-146/1438c705e308932efb65773470649c4f.png",
+        "mimeType": "image/png",
+        "bytes": 1646866,
+        "sha256": "1438c705e308932efb65773470649c4fa33f42b467412533b7b55bcc8e442936"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-146/9a072a4dc6639a7cca04d765319e0186.webp",
+        "mimeType": "image/webp",
+        "bytes": 77328,
+        "sha256": "9a072a4dc6639a7cca04d765319e0186e5c3765f6625e41a0d09f3bfbfb61874"
+      },
+      "preview": {
+        "key": "published/gpt-image2-146/521c9b3c7c47884805d9ecb3f26a0b2a.webp",
+        "mimeType": "image/webp",
+        "bytes": 157498,
+        "sha256": "521c9b3c7c47884805d9ecb3f26a0b2a77375ab93758a77beeafd732e9bbc9e8"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "@aleenaamiir",
+    "url": "https://x.com/aleenaamiir/status/2046875573574877663",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 146）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-more-illustration-styles.md"
+  }
+}

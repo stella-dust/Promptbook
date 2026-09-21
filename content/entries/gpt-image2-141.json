@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-141",
+  "revision": "6cdc51b2-b1f0-4c63-89dd-f029959bdc50",
+  "status": "published",
+  "kind": "image",
+  "title": "社会现实主义：大型铸造厂",
+  "category": "design",
+  "tags": [
+    "绘画艺术",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:49.855Z",
+  "updatedAt": "2026-09-21T02:54:49.855Z",
+  "prompt": {
+    "text": "A grand-scale public mural in the lineage of early 20th-century social realism and Mexican muralism. The scene depicts an industrial foundry where diverse workers are engaged in the heroic labor of forging massive steel gears. The figures are rendered with heavy, rounded forms and powerful muscularity, colored in earthy tones of 'Sienna', 'Slate Grey', and 'Iron Rust'. The composition is dense and rhythmic, filled with the interlocking shapes of machinery, pipes, and human bodies. In the center, a golden glow emanates from a crucible of molten metal, illuminating the faces of the workers with a dramatic 'Fire Orange'. The style is bold and graphic, with strong black outlines and a flattened perspective that emphasizes the collective effort. The mural covers a vast curved wall, suggesting a narrative of progress, unity, and the dignity of the working class.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "社会现实主义：大型铸造厂，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-141/21b6f68a35b7dc6e100460bfff34524c.png",
+        "mimeType": "image/png",
+        "bytes": 4520771,
+        "sha256": "21b6f68a35b7dc6e100460bfff34524c227e834e1b86c28d821bd63cbcf52b54"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-141/d436c8bacf445976c35543557cc6a40a.webp",
+        "mimeType": "image/webp",
+        "bytes": 43706,
+        "sha256": "d436c8bacf445976c35543557cc6a40ad82ef89cc7144d3432b94f1a4f35ee10"
+      },
+      "preview": {
+        "key": "published/gpt-image2-141/c5a92287c271249638b86cc02c4aac54.webp",
+        "mimeType": "image/webp",
+        "bytes": 278082,
+        "sha256": "c5a92287c271249638b86cc02c4aac547e1e6becaae1d6eec8dd3833eb49ed2a"
+      },
+      "width": 2048,
+      "height": 1152,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 141）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fine-art-painting.md"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-122",
+  "revision": "4071424a-a965-467a-8213-1dcbb00067b5",
+  "status": "published",
+  "kind": "image",
+  "title": "哥特式大教堂室内",
+  "category": "space",
+  "tags": [
+    "建筑室内",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:08.855Z",
+  "updatedAt": "2026-09-21T02:55:08.855Z",
+  "prompt": {
+    "text": "Render a majestic Gothic cathedral interior in photorealistic architectural style, viewed down the central nave with towering ribbed vaults, pointed arches, intricate tracery, and colored light from stained glass windows. Use a palette of cool stone gray, deep burgundy, sapphire blue, candle gold, and dusty ambient light. Include realistic worn limestone textures, carved choir stalls, a patterned stone floor, and a distant altar. Add a discreet informational plaque near the foreground with the in-image text \"Nave Height 28.5 m\" and \"Westminster Hall of Light\". The composition should emphasize verticality, symmetry, and sacred atmosphere while remaining architecturally believable. Lighting should mix soft daylight shafts and warm candlelight, with subtle volumetric dust. Prioritize accurate Gothic detailing, strong perspective, material realism, and crisp small text, producing a museum-grade architectural render rather than a fantasy scene.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "哥特式大教堂室内，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-122/12b4d813fefa173be43fd26bc56f3e8a.png",
+        "mimeType": "image/png",
+        "bytes": 15440067,
+        "sha256": "12b4d813fefa173be43fd26bc56f3e8a4da20546b3205680dc262811c199e2d6"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-122/5741dea754be66a1bed93d5bc62778e0.webp",
+        "mimeType": "image/webp",
+        "bytes": 50116,
+        "sha256": "5741dea754be66a1bed93d5bc62778e0d67ce613494d868b8b1c3f646e5e69bf"
+      },
+      "preview": {
+        "key": "published/gpt-image2-122/7de7d69fcefa3b4d2334df6aa5fe3458.webp",
+        "mimeType": "image/webp",
+        "bytes": 335636,
+        "sha256": "7de7d69fcefa3b4d2334df6aa5fe3458f19d71fd8063f2bb52590ff0caeb74c8"
+      },
+      "width": 2160,
+      "height": 3840,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 122）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-architecture-and-interior.md"
+  }
+}

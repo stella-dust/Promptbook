@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-033",
+  "revision": "390b4b60-d1bb-432b-abb0-08c160d778fd",
+  "status": "published",
+  "kind": "image",
+  "title": "中式茶饮上市海报",
+  "category": "design",
+  "tags": [
+    "海报排版",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:56:42.855Z",
+  "updatedAt": "2026-09-21T02:56:42.855Z",
+  "prompt": {
+    "text": "Design a 3:4 vertical poster for a new Chinese trendy tea launch. Use a New Chinese visual style that feels light-luxury and restrained. The palette should be dark green, off-white, and gold, with rice-paper texture, elegant negative space, landscape accents, and modern layout design.\n\nMain subject:\na visually appealing cold-brew tea with tea leaves, citrus, ice cubes, and touches of gold foil.\n\nThe poster must accurately display the following exact Chinese copy:\n\"山川茶事\" / \"山柚观音\" / \"冷泡系列\" / \"新品上市\"\n\"一口清醒，半城入夏\" / \"限定尝鲜价\"\n\"中杯 16 元\" / \"大杯 19 元\"\n\"门店活动\" / \"第二杯半价\" / \"加 3 元升级轻乳版\" / \"每日前 100 名赠限定杯套\"\n\"推荐风味\" / \"观音茶底 / 西柚果香 / 轻乳云顶 / 冰感回甘\"\n\"活动时间 4月20日 至 5月10日\" / \"扫码点单\" / \"SHANCHUAN TEA\"\n\nFine print: \"图片仅供参考，请以门店实际售卖为准\"\n\nMaintain a clear promotional hierarchy while keeping the overall feeling sophisticated rather than cheap or overly e-commerce-like. Pay special attention to small text, numbers, prices, info modules, and Chinese typography aesthetics.",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "中式茶饮上市海报，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-033/366d0c4b7f293f9c60a6549da981186f.png",
+        "mimeType": "image/png",
+        "bytes": 2911155,
+        "sha256": "366d0c4b7f293f9c60a6549da981186faca44d88b993b423fb23a92d2a218102"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-033/f7cd13f9103ded9e1b625621f2aff960.webp",
+        "mimeType": "image/webp",
+        "bytes": 44448,
+        "sha256": "f7cd13f9103ded9e1b625621f2aff9604f3b1f9d8a1d2a71f8717627b363d763"
+      },
+      "preview": {
+        "key": "published/gpt-image2-033/87886eb1667728f0c42946565104e6f3.webp",
+        "mimeType": "image/webp",
+        "bytes": 228734,
+        "sha256": "87886eb1667728f0c42946565104e6f3bd37bacd85c20f483ad1d5f029c03ddf"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 33）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-typography-and-posters.md"
+  }
+}

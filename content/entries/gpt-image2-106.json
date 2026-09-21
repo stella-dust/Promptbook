@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-106",
+  "revision": "1b233e81-e70b-4045-a74d-ec420a20088c",
+  "status": "published",
+  "kind": "image",
+  "title": "Web3 钱包界面概念",
+  "category": "design",
+  "tags": [
+    "界面设计",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:25.855Z",
+  "updatedAt": "2026-09-21T02:55:25.855Z",
+  "prompt": {
+    "text": "Design a premium mobile web3 wallet app mockup for a fictional wallet called NOVA VAULT on a 1179x2556 phone screen, centered on a dark graphite background with faint aurora gradients. Use a refined palette of black, electric cyan, emerald, violet-blue, and soft white. The app should feel modern but credible, with crisp typography, glassmorphism only where useful, and strong financial UI clarity. Include in-image text: \"NOVA VAULT\", \"Portfolio $48,920.14\", \"24h +3.82%\", \"Send\", \"Receive\", \"Swap\", and \"History\". Show token cards labeled \"SOLAR 18.42\", \"LATTICE 244.7\", and \"USDX 12,840.00\" with small sparkline charts. Add a security section reading \"Shield Level 96\" and a network selector labeled \"Mainnet\". Include a recent activity list with \"Swap SOLAR to USDX\", \"Received 240 LATTICE\", and \"Gas 0.0021\". Prioritize crisp labels, exact numbers, clean hierarchy, believable wallet UX, and polished gpt-image-2-friendly UI detail.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Web3 钱包界面概念，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-106/d9ba85a234545ef835a331c0405a3dd6.png",
+        "mimeType": "image/png",
+        "bytes": 1734501,
+        "sha256": "d9ba85a234545ef835a331c0405a3dd65bf47064393f69ee8fda6b33b68b7d84"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-106/ddd967ea1b26aae5eb0aaf302219981c.webp",
+        "mimeType": "image/webp",
+        "bytes": 26032,
+        "sha256": "ddd967ea1b26aae5eb0aaf302219981c7185200060e191d4ed78bbbc6c49f881"
+      },
+      "preview": {
+        "key": "published/gpt-image2-106/b15f4a4292497cde032f797bbed6e13f.webp",
+        "mimeType": "image/webp",
+        "bytes": 92698,
+        "sha256": "b15f4a4292497cde032f797bbed6e13f2243da2560f04746e881fa90d4559601"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 106）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-ui-ux-mockups.md"
+  }
+}

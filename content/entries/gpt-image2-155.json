@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-155",
+  "revision": "a449f928-b601-4507-87c3-b15f4d90111f",
+  "status": "published",
+  "kind": "image",
+  "title": "香氛夜间仪式梳妆台",
+  "category": "product",
+  "tags": [
+    "美妆生活",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:35.855Z",
+  "updatedAt": "2026-09-21T02:54:35.855Z",
+  "prompt": {
+    "text": "制作一张竖版高端美妆与生活方式编辑摄影，主题是精品香氛的夜间仪式。场景：蓝调时刻，一处温暖的大理石梳妆台靠近柔和发光的卧室窗边，摆放两只雕塑感香水瓶、一条丝带、珍珠发夹、一张小手写便签、一杯气泡水，以及几朵带露感的白色花。整体风格应是静奢、女性化、现代、令人向往，但自然克制而不是过度商业棚拍。色彩使用香槟金、暖象牙白、灰玫瑰色、柔和薰衣草阴影和清透玻璃高光。光线：烛光混合冷调夜窗光，大理石上有精致反射，浅景深，真实高级产品摄影。构图：竖版杂志静物，优雅留白，无品牌 logo，无真实人物肖像，无杂乱，除一张小而精致的便签写有 “EVENING RITUAL” 外不出现文字。",
+    "language": "mixed"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "香氛夜间仪式梳妆台，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-155/735587c8ece4f74c041f3b183a702a49.png",
+        "mimeType": "image/png",
+        "bytes": 2199046,
+        "sha256": "735587c8ece4f74c041f3b183a702a497de4cefc139d6ecd9d5ce1258e2cc84a"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-155/c9f795c8beeb3e0b15ba70b0994b3b52.webp",
+        "mimeType": "image/webp",
+        "bytes": 32592,
+        "sha256": "c9f795c8beeb3e0b15ba70b0994b3b523a0404eb9f9016b5932308f25c614b2c"
+      },
+      "preview": {
+        "key": "published/gpt-image2-155/8eeaa118dff43774ee371f7dd782f495.webp",
+        "mimeType": "image/webp",
+        "bytes": 133066,
+        "sha256": "8eeaa118dff43774ee371f7dd782f495aebaa32881845bbde7be26eeba84b773"
+      },
+      "width": 1024,
+      "height": 1536,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-beauty-and-lifestyle.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 155）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-beauty-and-lifestyle.md"
+  }
+}

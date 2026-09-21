@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-132",
+  "revision": "f4dbb198-fae6-4504-b674-676d7558dae7",
+  "status": "published",
+  "kind": "image",
+  "title": "Y2K 回潮：Cyber-Pop 棚拍",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:58.855Z",
+  "updatedAt": "2026-09-21T02:54:58.855Z",
+  "prompt": {
+    "text": "A vibrant Y2K-inspired fashion editorial shot in a studio with a high-gloss white floor and a curved lavender backdrop. The model is styled in a 'Cyber-Pink' velour tracksuit with butterfly motifs, tinted translucent sunglasses, and frosted blue eyeshadow. The lighting is bright and 'bubbly,' using ring lights to create circular catchlights in the eyes and a soft, glowy skin texture reminiscent of early 2000s music videos. The composition is a close-up fish-eye lens shot, distorting the proportions for a playful, energetic effect. Colors are saturated neon greens, hot pinks, and icy blues. Floating around the model are low-poly 3D heart shapes and plastic-textured stars. The text 'GLOSS' is written in a chunky, 3D chrome bubble font across the top. The overall aesthetic is nostalgic, plastic, and hyper-digital.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "Y2K 回潮：Cyber-Pop 棚拍，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-132/3db38693466ac60adf6e1f83acccf6b7.png",
+        "mimeType": "image/png",
+        "bytes": 1880372,
+        "sha256": "3db38693466ac60adf6e1f83acccf6b758c66e9353426cdfd7ccd4d4f570cf3c"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-132/118a3ba5c3829c88abe213e70960a1c2.webp",
+        "mimeType": "image/webp",
+        "bytes": 75616,
+        "sha256": "118a3ba5c3829c88abe213e70960a1c25949eebf9006feba9624d737d2315846"
+      },
+      "preview": {
+        "key": "published/gpt-image2-132/fae0b1f30274cd1e85b375276c7e503f.webp",
+        "mimeType": "image/webp",
+        "bytes": 174732,
+        "sha256": "fae0b1f30274cd1e85b375276c7e503f785d47a8e0443708451d36fdae2aa6c8"
+      },
+      "width": 1024,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 132）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

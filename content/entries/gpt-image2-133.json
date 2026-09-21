@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-133",
+  "revision": "52e6f854-c776-4137-b3da-034f02367015",
+  "status": "published",
+  "kind": "image",
+  "title": "马术庄园复古时尚",
+  "category": "character",
+  "tags": [
+    "时尚大片",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:54:57.855Z",
+  "updatedAt": "2026-09-21T02:54:57.855Z",
+  "prompt": {
+    "text": "Quiet luxury editorial photography set on a sprawling English country estate during the golden hour. A model sits gracefully on a stone wall, dressed in a tailored 'Camel' cashmere coat, a silk neck scarf with a heritage print, and dark brown leather riding boots. In the background, a vintage dark green convertible is parked near a stable of limestone and ivy. The lighting is warm and diffused, casting long, soft shadows across the manicured lawn. The color palette is earthy and sophisticated: forest green, rich tan, cream, and mahogany. The camera is a medium-format Hasselblad, producing a rich, creamy texture and incredibly fine detail in the wool and leather. The mood is one of timeless elegance, inherited wealth, and serene countryside life. There are no modern logos or distracting elements; the focus is on quality and tradition.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "未记录模型",
+    "modelId": null,
+    "modelEvidence": "unknown",
+    "generatedAt": null,
+    "parameters": {}
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "马术庄园复古时尚，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-133/5f0c6122b777ad9922fb619ddd173ec3.png",
+        "mimeType": "image/png",
+        "bytes": 2495957,
+        "sha256": "5f0c6122b777ad9922fb619ddd173ec339ef49691e26ba3b65cd7f2185c0ff2f"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-133/4a1e5af18ca5de0e56c9620e364281ef.webp",
+        "mimeType": "image/webp",
+        "bytes": 47796,
+        "sha256": "4a1e5af18ca5de0e56c9620e364281efa65ccf8f2b9e805e2279007e60a3f4d4"
+      },
+      "preview": {
+        "key": "published/gpt-image2-133/e35b75712bd6388103e251cd1c16492b.webp",
+        "mimeType": "image/webp",
+        "bytes": 180524,
+        "sha256": "e35b75712bd6388103e251cd1c16492bd9d7ff3fa18e8053e6691a651dd08630"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "source": {
+    "type": "collected",
+    "author": "Wuyoscar（整理）",
+    "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 133）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-fashion-editorial.md"
+  }
+}

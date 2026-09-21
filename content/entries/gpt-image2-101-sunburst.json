@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "gpt-image2-101-sunburst",
+  "revision": "8dd9d80c-fe26-4801-b4b6-881ac2128a6e",
+  "status": "published",
+  "kind": "image",
+  "title": "棋盘的冬日晚景 · Sunburst",
+  "category": "design",
+  "tags": [
+    "图像编辑",
+    "外部收藏"
+  ],
+  "createdAt": "2026-09-21T02:55:30.855Z",
+  "updatedAt": "2026-09-21T02:55:30.855Z",
+  "prompt": {
+    "text": "Make it a winter evening with heavy snowfall, snow dusted on the board and pieces, breath vapor in the air, cold blue-grey lighting, chess position still clearly readable. Preserve the original chess-board composition and landscape aspect ratio exactly; keep the board and pieces aligned and readable.",
+    "language": "en"
+  },
+  "generation": {
+    "platform": "",
+    "modelLabel": "gpt-image-2.5-sunburst",
+    "modelId": "gpt-image-2.5-sunburst",
+    "modelEvidence": "platform-displayed",
+    "generatedAt": "2026-09-09T00:00:00Z",
+    "parameters": {
+      "quality": "high",
+      "size": "1536x1024"
+    }
+  },
+  "outputs": [
+    {
+      "id": "result-1",
+      "mediaType": "image",
+      "alt": "棋盘的冬日晚景 · Sunburst，源图库所展示的生成结果",
+      "original": {
+        "key": "published/gpt-image2-101-sunburst/a3acf59803c5524bc60cfa7a0f5efd60.png",
+        "mimeType": "image/png",
+        "bytes": 3098074,
+        "sha256": "a3acf59803c5524bc60cfa7a0f5efd6083acc56c2ce1b3fc1ba5fefc0dca9fae"
+      },
+      "thumbnail": {
+        "key": "published/gpt-image2-101-sunburst/14d3cb6920b8ed3dd3f5d7d7c87a29b6.webp",
+        "mimeType": "image/webp",
+        "bytes": 67912,
+        "sha256": "14d3cb6920b8ed3dd3f5d7d7c87a29b620aca1d452de8e9c6ecb8248e2ed915b"
+      },
+      "preview": {
+        "key": "published/gpt-image2-101-sunburst/ee6c2acec9961e90c52a3b86c1626e6a.webp",
+        "mimeType": "image/webp",
+        "bytes": 292704,
+        "sha256": "ee6c2acec9961e90c52a3b86c1626e6a5f09125a88192f71eab79ce34c545e45"
+      },
+      "width": 1536,
+      "height": 1024,
+      "durationSeconds": null,
+      "postProcessing": "unknown"
+    }
+  ],
+  "coverOutputId": "result-1",
+  "references": [
+    {
+      "role": "image-reference",
+      "asset": {
+        "key": "published/gpt-image2-101-sunburst/1c47574bb18141492be730ae1b5d3386.png",
+        "mimeType": "image/png",
+        "bytes": 2058174,
+        "sha256": "1c47574bb18141492be730ae1b5d338623c0143994dbbfacaa93bdf083d68147"
+      },
+      "caption": "源图库标记的输入参考图"
+    }
+  ],
+  "source": {
+    "type": "collected",
+    "author": "OpenAI",
+    "url": "https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb",
+    "contributor": "wuyoscar/GPT-Image2-Skill"
+  },
+  "rights": {
+    "prompt": "unspecified",
+    "media": "unspecified",
+    "notes": "收录自 GPT-Image2-Skill（上游提交 05cb1130bba29e0fc028220376280a2e934a8041，案例 No. 101）。上游仓库声明 MIT License，并要求保留图库作者和来源标注；部分案例另有第三方作者/来源，原始素材的单独授权未核实。仓库许可全文见本站项目 docs/third-party/GPT-Image2-Skill-LICENSE.txt。源图库：https://github.com/wuyoscar/GPT-Image2-Skill/blob/05cb1130bba29e0fc028220376280a2e934a8041/skills/gpt-image/references/gallery-edit-endpoint-showcase.md"
+  }
+}
